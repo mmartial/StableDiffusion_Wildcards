@@ -1,0 +1,1371 @@
+# ========================================================================
+# JAPAN — EXTENDED WILDCARDS FOR COMFYUI DYNAMIC PROMPTS
+# ========================================================================
+
+gkr_japan:
+
+# ---------------------------------------------------------
+# CHARACTER
+# ---------------------------------------------------------
+
+  archetype:
+    - (wandering ronin:1.2), japanese man, weathered
+    - (disciplined samurai:1.2), japanese man, focused expression
+    - (stealthy ninja:1.2), (shinobi:1.1), masked, dark clothing
+    - (shrine maiden:1.2), (miko:1.1), japanese woman, red and white robes
+    - (armored onna bugeisha:1.2), female warrior, japanese, naginata
+    - (mysterious monk:1.2), robes, serene, (shaved head:1.1)
+    - (temple guardian:1.2), (nio guardian:1.1), japanese man, protective stance
+    - (yokai hunter:1.2), talismans, (determined expression:1.1)
+    - (mountain ascetic:1.2), (yamabushi:1.1), simple robes, wise
+    - (wise onmyoji:1.2), japanese sorcerer, (intricate robes:1.1), (paper talismans:1.1)
+    - (cyber ninja operative:1.2), (futuristic:1.1), neon accents, (cybernetic:1.1)
+    - (street samurai:1.2), modern clothing, (katana:1.1), urban
+    - (modern swordsman:1.2), (kendo:1.1), modern clothes
+    - (pop idol hero:1.2), (j-pop:1.1), japanese woman, (colorful costume:1.1)
+    - (manga protagonist:1.2), (anime style:1.1), (expressive hair:1.1)
+    - (tokusatsu style hero:1.2), (colorful armor:1.1), (heroic pose:1.1)
+    - (mecha pilot:1.2), (pilot suit:1.1), (sci-fi:1.1)
+    - (urban vigilante:1.2), dark clothing, (masked:1.1), tokyo
+    - (magical girl warrior:1.2), (anime style:1.1), (cute magical outfit:1.1)
+    - (wandering storyteller:1.2), (biwa hoshi:1.1), lute, (traveling clothes:1.1)
+    - (cyberpunk tokyo mercenary:1.2), (neon:1.1), (cybernetic implants:1.1)
+    - (post apocalyptic wasteland survivor:1.2), (tattered clothes:1.1), (makeshift weapon:1.1)
+    - (mythical spirit guardian:1.2), (ethereal:1.1), (ancient japanese:1.1)
+
+  archetype_peaceful:
+    - (mysterious monk:1.2), robes, serene, (shaved head:1.1)
+    - (wise onmyoji:1.2), japanese sorcerer, (intricate robes:1.1)
+    - (wandering storyteller:1.2), (biwa hoshi:1.1), lute, (traveling clothes:1.1)
+    - (shrine maiden:1.2), (miko:1.1), japanese woman, red and white robes
+    - (ronin poet:1.2), (travel cloak:1.1), (bamboo flute:1.1)
+    - (tea master:1.2), (serene presence:1.1)
+    - (monastery calligrapher:1.2), (ink stained hands:1.1)
+
+  ethnicity:
+    - (japanese:1.3), east asian
+    - (ryukyuan:1.3), okinawan features, japanese
+    - (ainu:1.3), indigenous japanese, (distinct robes:1.1)
+    - (mixed asian:1.1), east asian features
+    - (fantasy inspired japanese:1.2), (anime style:1.1), east asian
+
+  age:
+    - (young adult:1.1), 20s
+    - (adult:1.1), 30s
+    - (mature:1.1), 40s or 50s
+    - (elderly wise figure:1.2), (wrinkles:1.1), white hair
+    - (ageless spirit form:1.2), (ethereal:1.1), (glowing:1.1)
+
+  build:
+    - (slender build:1.1), (thin:1.1)
+    - (athletic build:1.1), (muscular:1.1)
+    - (graceful build:1.1), (poised:1.1)
+    - (agile build:1.1), (nimble:1.1)
+    - (powerful build:1.1), (strong:1.1)
+    - (tall and poised:1.1), (elegant:1.1)
+    - (compact and stealthy:1.1), (short:1.1)
+    - (armored and imposing:1.2), (large:1.1), (heavy armor:1.1)
+
+  tone:
+    - (pale skin:1.1), (fair skin:1.1)
+    - (peach tinted skin:1.1), (fair skin:1.1), rosy cheeks
+    - (warm tan skin:1.1), (light brown skin:1.1)
+    - (lightly sun touched skin:1.1), (light tan:1.1)
+    - (porcelain smooth skin:1.2), (flawless skin:1.1)
+    - (ghostly pale skin:1.2), (white skin:1.1), (ethereal:1.1)
+    - (warm golden toned skin:1.1), (golden tan:1.1)
+
+# ---------------------------------------------------------
+# APPEARANCE
+# ---------------------------------------------------------
+
+  hair:
+    - (long straight hair:1.1)
+    - (long flowing hair:1.1), (wind blowing hair:1.1)
+    - (traditional pinned hairstyle:1.2), (kanzashi:1.1), japanese
+    - (high ponytail:1.1)
+    - (short bob cut:1.1)
+    - (medium layered cut:1.1)
+    - (spiky anime hair:1.2), (anime style:1.1)
+    - (messy artistic hair:1.1)
+    - (shaved sides with top styling:1.1), (topknot:1.0)
+    - (long braided hair:1.1)
+    - (wind swept hair:1.1), (dynamic:1.1)
+    - (glossy midnight black hair:1.1), (shiny hair:1.1)
+
+  hair_color:
+    - (black hair:1.1)
+    - (dark brown hair:1.1)
+    - (chestnut hair:1.1), (light brown hair:1.1)
+    - (blue black hair:1.2), (reflective:1.1)
+    - (snowy white hair:1.1), (pure white hair:1.1)
+    - (silver hair:1.1)
+    - (red hair:1.1)
+    - (pastel pink hair:1.1), (anime style:1.1)
+    - (ocean blue hair:1.1), (anime style:1.1)
+    - (neon purple hair:1.1), (cyberpunk:1.1)
+    - (jade green hair:1.1), (anime style:1.1)
+    - (gradient anime hair:1.2), (multi-colored hair:1.1)
+
+  eyes:
+    - (brown eyes:1.1)
+    - (dark brown eyes:1.1)
+    - (hazel eyes:1.1)
+    - (green eyes:1.1)
+    - (amber eyes:1.1)
+    - (deep blue eyes:1.1)
+    - (golden anime eyes:1.2), (large:1.1), (expressive:1.1)
+    - (large expressive anime eyes:1.2), (anime style:1.1)
+    - (glowing spirit eyes:1.2), (luminous:1.1), (ethereal:1.1)
+    - (foxlike eyes:1.1), (kitsune:1.1), (slanted eyes:1.1)
+    - (oni style glowing red eyes:1.2), (demonic:1.1), (glowing:1.1)
+
+  expression:
+    - (calm composed expression:1.1), (serene:1.1)
+    - (stoic warrior focus:1.1), (serious:1.1), (determined:1.1)
+    - (intense determination:1.2)
+    - (quiet confidence:1.1), (slight smile:1.1)
+    - (fierce battle cry:1.2), (open mouth:1.1), (yelling:1.1)
+    - (gentle smile:1.1)
+    - (mysterious smirk:1.1)
+    - (serene meditative look:1.1), (closed eyes:1.1)
+    - (heroic dramatic expression:1.2), (determined:1.1)
+    - (anime shocked expression:1.2), (wide eyes:1.1), (surprised:1.1)
+    - (anime power up expression:1.2), (gritted teeth:1.1), (glowing aura:1.1)
+
+# ---------------------------------------------------------
+# CLOTHING
+# ---------------------------------------------------------
+
+  clothing:
+    - (silk kimono:1.2), (elegant patterns:1.1), traditional japanese
+    - (battle kimono:1.2), (reinforced plates:1.1), warrior
+    - (ninja uniform:1.2), (shinobi shozoku:1.1), (hood:1.1), dark
+    - (hakama and haori ensemble:1.2), (traditional japanese:1.1)
+    - (ornate samurai armor:1.3), (o-yoroi:1.1), (kabuto helmet:1.1)
+    - (lacquered battle armor:1.2), (samurai:1.1)
+    - (shrine maiden robes:1.2), (miko:1.1), (red and white:1.1)
+    - (monk robes:1.1), (simple:1.1), (prayer beads:1.1)
+    - (casual yukata:1.1), (summer kimono:1.1)
+    - (modern street fashion:1.1), (tokyo style:1.1)
+    - (school uniform style outfit:1.1), (sailor uniform:1.1)
+    - (cyberpunk jacket:1.2), (neon accents:1.1), (futuristic:1.1)
+    - (futuristic urban armor:1.2), (sci-fi:1.1), (plated:1.1)
+    - (idol stage costume:1.2), (j-pop:1.1), (colorful:1.1)
+    - (anime style magical outfit:1.2), (magical girl:1.1), (frills:1.1)
+
+  textile_patterns:
+    - (seigaiha wave pattern:1.2), blue and white, traditional
+    - (asanoha hemp leaf:1.2), geometric, traditional
+    - (shibori tie-dye:1.2), intricate, indigo
+    - (karakusa vine pattern:1.1), scrolling foliage
+    - (sayagata key fret pattern:1.1), geometric
+    - (yabane arrow feather:1.1), geometric
+    - (kikkou tortoise shell:1.1), hexagonal pattern
+    - (sakura blossom pattern:1.2), pink and white
+    - (ume plum blossom pattern:1.2), red and white
+
+  armor:
+    - (samurai armor:1.3), (engraved plates:1.1), (o-yoroi:1.1)
+    - (light leather armor for stealth:1.2), (fitted:1.1), (ninja:1.1)
+    - (chain armored sleeves:1.1), (kusari:1.1)
+    - (black ninja armor:1.2), (shinobi shozoku:1.1), (stealthy:1.1)
+    - (ceremonial samurai armor:1.2), (ornate:1.1), (kabuto:1.1)
+    - (mecha pilot suit:1.2), (flight suit:1.1), (sci-fi:1.1)
+    - (cyber armor with glowing lines:1.2), (futuristic:1.1), (neon:1.1)
+
+# ---------------------------------------------------------
+# WEAPONS & PROPS
+# ---------------------------------------------------------
+
+  weapons:
+    - (katana:1.2), japanese sword, (held in hand:1.1)
+    - (dual katana:1.2), (daisho:1.1), (two swords:1.1)
+    - (wakizashi:1.1), short sword, (samurai:1.1)
+    - (tanto blade:1.1), (short dagger:1.1)
+    - (kunai throwing knives:1.1), (ninja:1.1)
+    - (shuriken:1.1), (ninja star:1.1)
+    - (yumi longbow:1.2), (japanese bow:1.1), (archer:1.1)
+    - (naginata polearm:1.2), (female warrior:1.1)
+    - (yari spear:1.2), (samurai:1.1)
+    - (tetsubo iron club:1.2), (kanabo:1.1), (oni:1.1)
+    - (chained sickle kusarigama:1.2), (ninja:1.1)
+    - (ancestral spirit blade:1.2), (glowing sword:1.1), (magic:1.1)
+    - (energy katana:1.2), (cyberpunk:1.1), (glowing blade:1.1)
+    - (cybernetic arm blade:1.2), (cyberpunk:1.1), (implant:1.1)
+    - (mecha energy sword:1.2), (giant robot:1.1), (glowing:1.1)
+
+  offhand:
+    - (wooden prayer beads:1.1), (juzu:1.1), (held in hand:1.1)
+    - (ritual scroll:1.1), (open:1.1), (glowing text:1.1)
+    - (spirit ward talisman:1.1), (ofuda:1.1), (paper charm:1.1)
+    - (small lantern:1.1), (chochin:1.1), (glowing:1.1)
+    - (folded fan:1.1), (sensu:1.1)
+    - (calligraphy brush:1.1), (ink:1.1)
+    - (mask of oni:1.2), (oni mask:1.1), demonic
+    - (fox mask:1.2), (kitsune mask:1.1), (anbu mask:1.1)
+    - (umbrella parasol:1.1), (wagasa:1.1), (japanese umbrella:1.1)
+    - (cyber data tablet:1.1), (hologram:1.1), (futuristic:1.1)
+    - (glowing energy orb:1.1), (magic:1.1), (floating:1.1)
+
+  offhand_peaceful:
+    - (wooden prayer beads:1.1), (juzu:1.1)
+    - (ritual scroll:1.1), (open:1.1)
+    - (folded fan:1.1), (sensu:1.1)
+    - (calligraphy brush:1.1), (ink:1.1)
+    - (umbrella parasol:1.1), (wagasa:1.1)
+    - (bamboo flute:1.1), (shakuhachi:1.1)
+    - (tea cup:1.1), (chawan:1.1)
+
+  trinkets:
+    - (jade pendant:1.1), (necklace:1.1)
+    - (fox spirit charm:1.1), (kitsune charm:1.1), (accessory:1.1)
+    - (carved wooden netsuke:1.1), (netsuke:1.1), (belt toggle:1.1)
+    - (omamori protection charm:1.2), (protection charm:1.1), (on belt:1.1)
+    - (lacquered hairpin:1.1), (kanzashi:1.1), (in hair:1.1)
+    - (engraved ring:1.1)
+    - (anime style accessory:1.1), (chibi keychain:1.1)
+    - (neon keychain charm:1.1), (cyberpunk:1.1)
+
+  props_items:
+    - (go board:1.1), (go stones:1.1)
+    - (tea ceremony set:1.2), (chawan:1.1), (chasen whisk:1.1)
+    - (bonsai tree:1.1), (in pot:1.1)
+    - (ikebana arrangement:1.2), (flower arrangement:1.1)
+    - (sake bottle:1.1), (tokkuri:1.1), (sake cup:1.1)
+    - (calligraphy set:1.1), (ink stone:1.1), (paper:1.1)
+    - (shamisen:1.2), (japanese instrument:1.1)
+    - (koto:1.2), (japanese instrument:1.1)
+    - (taiko drum:1.2), (large drum:1.1)
+
+# ---------------------------------------------------------
+# ENVIRONMENT
+# ---------------------------------------------------------
+
+  environment:
+    - (cherry blossom grove:1.2), (sakura:1.1), (pink petals:1.1)
+    - (bamboo forest:1.2), (tall green stalks:1.1), (arashiyama:1.1)
+    - (mountain shrine:1.2), (jinja:1.1), (remote:1.1)
+    - (torii gate path:1.2), (red gates:1.1), (fushimi inari:1.1)
+    - (zen garden:1.2), (raked sand:1.1), (rocks:1.1)
+    - (stone lantern walkway:1.1), (toro:1.1), (glowing:1.1)
+    - (snowy mountain temple:1.2), (snow:1.1), (buddhist temple:1.1)
+    - (rural rice field village:1.1), (rice paddies:1.1), (thatched roofs:1.1)
+    - (feudal castle courtyard:1.2), (japanese castle:1.1), (himeji:1.1)
+    - (shogunate war camp:1.1), (samurai banners:1.1), (tents:1.1)
+    - (bustling modern tokyo street:1.2), (shinjuku:1.1), (crowded:1.1)
+    - (neon lit alleyways:1.2), (cyberpunk tokyo:1.1), (glowing signs:1.1)
+    - (futuristic shibuya crossing:1.2), (shibuya crossing:1.1), (holograms:1.1)
+    - (cyber rooftop view:1.2), (tokyo skyline:1.1), (neon:1.1)
+    - (glowing city skyline:1.1), (tokyo at night:1.1)
+    - (stormy coastline cliffs:1.2), (crashing waves:1.1), (dramatic:1.1)
+    - (autumn maple forest:1.2), (red maple leaves:1.1), (autumn:1.1)
+    - (serene lakeside shrine:1.2), (reflection:1.1), (torii in water:1.1)
+    - (anime fantasy realm:1.2), (magical:1.1), (glowing:1.1)
+    - (yokai haunted forest:1.2), (eerie:1.1), (mist:1.1)
+    - (floating pagoda world:1.2), (fantasy:1.1), (sky:1.1)
+
+  architecture_interior:
+    - (tatami mats:1.2), woven straw floor
+    - (shoji screen:1.2), paper and wood divider, (translucent:1.1)
+    - (fusuma sliding door:1.2), (painted:1.1)
+    - (tokonoma alcove:1.2), (hanging scroll:1.1), (ikebana:1.1)
+    - (irori hearth:1.2), (sunken fireplace:1.1), (glowing coals:1.1)
+    - (wooden engawa porch:1.2), (overlooking garden:1.1)
+    - (kamidana shrine:1.1), (small altar:1.1)
+
+  architecture_exterior:
+    - (irimoya roof:1.2), (hip-and-gable roof:1.1)
+    - (kirizuma roof:1.1), (gable roof:1.1)
+    - (shirasagi castle style:1.2), (white heron castle:1.1), (himeji:1.1)
+    - (kinkaku-ji style:1.3), (golden pavilion:1.2), (reflection in pond:1.1)
+    - (gassho-zukuri farmhouse:1.2), (steep thatched roof:1.1), (shirakawa-go:1.1)
+    - (multi-tiered pagoda:1.2), (five-story:1.1)
+    - (kondo:1.1), (golden hall:1.1), (temple:1.1)
+    - (shoro bell tower:1.1), (temple bell:1.1)
+
+  era:
+    - (feudal japan:1.2), (sengoku period:1.1)
+    - (edo period:1.2), (traditional japan:1.1)
+    - (meiji restoration era:1.2), (western influence:1.1), (19th century:1.1)
+    - (taisho romantic era:1.2), (1920s japan:1.1), (art nouveau:1.1)
+    - (early modern japan:1.1), (showa:1.1)
+    - (modern day tokyo:1.1), (contemporary:1.1)
+    - (cyberpunk tokyo:1.2), (neon:1.1), (futuristic:1.1)
+    - (near future neon city:1.2), (sci-fi:1.1)
+    - (post apocalyptic wasteland:1.2), (ruins:1.1)
+    - (mythical japan of legends:1.2), (fantasy:1.1), (ancient:1.1)
+    - (fantasy inspired hybrid:1.2), (magic:1.1)
+
+  mood:
+    - (serene and peaceful:1.2), (calm:1.1), (tranquil:1.1)
+    - (meditative calm:1.2), (zen:1.1)
+    - (heroic and righteous:1.2), (noble:1.1), (dramatic:1.1)
+    - (fierce and intense:1.2), (action:1.1), (battle:1.1)
+    - (mysterious and magical:1.2), (eerie:1.1), (glowing:1.1)
+    - (dark and foreboding:1.2), (shadows:1.1), (ominous:1.1)
+    - (vibrant and energetic:1.2), (colorful:1.1), (dynamic:1.1)
+    - (elegant and refined:1.2)
+    - (nostalgic and emotional:1.2), (melancholy:1.1)
+    - (playful anime mood:1.2), (fun:1.1), (lighthearted:1.1)
+    - (high tension action drama:1.2), (intense:1.1)
+
+  lighting:
+    - (warm lantern light:1.2), (chochin:1.1), (glowing:1.1)
+    - (soft morning light:1.2), (dawn:1.1), (gentle:1.1)
+    - (glowing sunset light:1.2), (golden hour:1.1)
+    - (moonlit blue tones:1.2), (night:1.1), (moon:1.1)
+    - (neon reflections:1.2), (cyberpunk:1.1), (glowing signs:1.1)
+    - (dramatic backlight:1.2), (silhouette:1.1)
+    - (cinematic rim lighting:1.2), (defined edges:1.1)
+    - (paper lantern glow:1.2), (warm light:1.1)
+    - (firelight illumination:1.1), (flames:1.1), (shadows:1.1)
+    - (magical aura glow:1.2), (luminous:1.1), (ethereal:1.1)
+    - (anime style bright lighting:1.1), (vibrant:1.1), (cell shaded:1.1)
+    - (sakura blossom reflected light:1.2), (pink light:1.1)
+
+  camera:
+    - (portrait waist up:1.1), (medium shot:1.1)
+    - (portrait shoulders up:1.1), (close up:1.1)
+    - (cinematic wide shot:1.2), (epic:1.1), (environmental:1.1)
+    - (dynamic action pose:1.2), (movement:1.1), (motion blur:1.1)
+    - (anime hero pose:1.2), (dramatic pose:1.1)
+    - (low angle epic shot:1.2), (low angle:1.1), (epic:1.1), (worm's eye view:1.1)
+    - (high angle dramatic view:1.2), (high angle:1.1), (bird's eye view:1.1)
+    - (close up emotional frame:1.2), (close up:1.1), (expression:1.1)
+    - (graceful three quarter angle:1.1)
+    - (isometric environmental shot:1.2), (diorama:1.1)
+
+  style:
+    - (traditional japanese painting:1.3), (nihonga:1.2)
+    - (ukiyo e woodblock inspired style:1.3), (ukiyo-e:1.2)
+    - (cinematic realism:1.2), (photorealistic:1.1), (high detail:1.1)
+    - (stylized anime art:1.2), (anime style:1.1), (vibrant:1.1)
+    - (vibrant manga illustration:1.2), (manga cover art:1.1), (colorful:1.1)
+    - (high detail concept art:1.2), (artstation:1.1), (intricate:1.1)
+    - (cyberpunk neon style:1.2), (neon:1.1), (futuristic:1.1)
+    - (feudal fantasy painting:1.2), (fantasy:1.1)
+    - (watercolor inspired aesthetic:1.2), (watercolor:1.1)
+    - (heroic poster illustration:1.2), (dynamic:1.1)
+    - (magical girl anime style:1.2), (shoujo:1.1), (cute:1.1)
+    - (tokusatsu action style:1.2), (power rangers:1.1), (explosions:1.1)
+    - (mecha anime dynamic style:1.2), (gundam:1.1), (dynamic:1.1)
+
+  fx_magic:
+    - (swirling sakura petals:1.2), (pink:1.1), (magic:1.1)
+    - (glowing spiritual aura:1.2), (ki:1.1), (luminous:1.1)
+    - (fox fire flames:1.2), (kitsunebi:1.1), (blue flames:1.1)
+    - (neon particles floating:1.1), (cyberpunk:1.1)
+    - (wind slicing effect:1.1), (motion lines:1.1), (action:1.1)
+    - (lightning infused katana:1.2), (glowing:1.1), (electricity:1.1)
+    - (shadow step mist:1.1), (dark energy:1.1), (teleport:1.1)
+    - (spirit wisps drifting:1.1), (ethereal:1.1), (glowing orbs:1.1)
+    - (water splash energy arc:1.1), (magic:1.1)
+
+  fx_environment:
+    - (falling cherry blossoms:1.2), (sakura fubuki:1.1), (pink petals:1.1)
+    - (drifting snow:1.1), (light snowfall:1.1)
+    - (swirling autumn leaves:1.2), (red and gold leaves:1.1)
+    - (neon holograms:1.2), (cyberpunk:1.1), (glowing:1.1)
+    - (floating embers:1.1), (fire:1.1), (sparks:1.1)
+    - (dust from combat impact:1.1), (debris:1.1)
+    - (glowing butterflies:1.1), (magical:1.1)
+    - (fog rolling through forest:1.2), (mist:1.1)
+
+# -----------------------------------------------------
+# YOKAI
+# -----------------------------------------------------
+
+  yokai:
+    - (kitsune:1.3), (fox spirit:1.2), (multiple tails:1.1)
+    - (tengu:1.3), (winged warrior:1.2), (long nose:1.1)
+    - (oni demon:1.3), (horns:1.1), (club:1.1), (japanese demon:1.1)
+    - (kappa river creature:1.3), (river yokai:1.1), (turtle shell:1.1)
+    - (yuki onna:1.3), (snow spirit:1.2), (ice:1.1), (female:1.1)
+    - (nurikabe:1.2), (wall phantom:1.1), (yokai:1.1)
+    - (rokurokubi:1.2), (long neck spirit:1.1), (female:1.1)
+    - (tanuki:1.3), (shapeshifter:1.1), (raccoon dog:1.1)
+    - (dragon of the eastern sky:1.3), (japanese dragon:1.2), (ryujin:1.1)
+    - (thunder beast raijin style:1.3), (raijin:1.2), (thunder god:1.1), (drums:1.1)
+    - (water dragon guardian:1.3), (mizuchi:1.1), (river dragon:1.1)
+    - (night parade yokai horde:1.3), (hyakki yagyo:1.2), (many yokai:1.1)
+    - (shadow cat spirit:1.2), (bakeneko:1.1), (nekomata:1.1)
+
+  yokai_traits:
+    - (glowing mystical eyes:1.2), (luminous:1.1)
+    - (ethereal flowing hair:1.2), (spirit:1.1)
+    - (long sharp claws:1.1)
+    - (floating ghostly form:1.2), (ethereal:1.1)
+    - (animal ears and tail:1.1), (kemonomimi:1.1)
+    - (burning demonic aura:1.2), (glowing:1.1), (fire:1.1)
+    - (icy mist aura:1.2), (cold:1.1), (glowing:1.1)
+    - (swirling spiritual energy:1.2), (glowing:1.1)
+    - (multiple floating masks:1.1), (noh masks:1.1)
+
+  monster_environment:
+    - (ancient haunted shrine:1.2), (spooky:1.1), (torii:1.1)
+    - (misty bamboo forest:1.2), (fog:1.1), (eerie:1.1)
+    - (moonlit mountain ridge:1.2), (night:1.1), (epic:1.1)
+    - (abandoned village street:1.2), (ruins:1.1), (eerie:1.1)
+    - (storm drenched battlefield:1.2), (rain:1.1), (lightning:1.1)
+    - (glowing spirit realm:1.2), (ethereal:1.1), (magical:1.1)
+    - (fiery underworld caverns:1.2), (hell:1.1), (lava:1.1)
+    - (neon city haunted district:1.2), (cyberpunk:1.1), (ghosts:1.1)
+
+# ---------------------------------------------------------
+# THEMATIC COMBOS (NEW)
+# ---------------------------------------------------------
+
+  thematic_combos:
+    - "(disciplined samurai:1.3), (ornate samurai armor:1.2), (feudal japan era:1.1), standing in (cyberpunk tokyo:1.2), (neon lit alleyways:1.1), (cinematic realism:1.1), (confused expression:1.1)"
+    - "__gkr_japan/yokai__, __gkr_japan/yokai_traits__, on a (bustling modern tokyo street:1.2), (neon reflections:1.1), (high detail concept art:1.1), (scared onlookers:1.1)"
+    - "__gkr_japan/archetype_peaceful__, __gkr_japan/offhand_peaceful__, in a (zen garden:1.2), __gkr_japan/architecture_interior__, (serene and peaceful:1.2), (soft morning light:1.1), (traditional japanese painting:1.2)"
+    - "(stealthy ninja:1.3), (ninja uniform:1.2), (crouching:1.1), on a (temple rooftop:1.1), __gkr_japan/architecture_exterior__, (moonlit blue tones:1.2), (dark and foreboding:1.1), (stylized anime art:1.1)"
+    - "(yokai hunter:1.3), (determined expression:1.1), (spirit ward talisman:1.1), facing an __gkr_japan/yokai__, in a (yokai haunted forest:1.2), (dramatic backlight:1.1), (anime fantasy style:1.1)"
+    - "(mecha pilot:1.2), (pilot suit:1.1), standing next to a __gkr_japan/spotlight_mecha__, on a (cyber rooftop view:1.1), (glowing city skyline:1.1), (mecha anime dynamic style:1.2)"
+
+# ---------------------------------------------------------
+# KIMONO
+# ---------------------------------------------------------
+
+# ---------------------------------------------------------
+# KIMONO COMPONENTS (EXPANDED)
+# ---------------------------------------------------------
+
+  kimono_type:
+    - (elegant furisode kimono:1.3), (long flowing sleeves:1.1), formal
+    - (formal kurotomesode kimono:1.3), (five crests:1.1), married woman
+    - (casual komon kimono:1.2), (all-over repeating pattern:1.1)
+    - (light summer yukata:1.2), (unlined cotton:1.1), casual
+    - (formal houmongi kimono:1.3), (visiting wear:1.1), (pattern on seams:1.1)
+    - (plain color iromuji kimono:1.2), (solid color:1.1), (subtle:1.1)
+    - (antique hikizuri kimono:1.3), (trailing hem:1.1), (geisha style:1.1)
+    - (white shiromuku wedding kimono:1.4), (pure white:1.1), (wedding:1.1)
+    - (heavy uchikake overcoat:1.4), (embroidered:1.1), (wedding:1.1)
+    - (men's montsuki haori hakama:1.3), (formal:1.1), (five crests:1.1)
+    - (men's silk kimono:1.2), (with haori jacket:1.1)
+    - (men's casual jinbei:1.1), (summer wear:1.1), (shorts:1.1)
+    - (modest tsukesage kimono:1.2), (patterns on hem and shoulder:1.1)
+    - (taisho-roman style kimono:1.2), (bold art deco patterns:1.1)
+    - (luxurious kaga yuzen houmongi:1.4), (hand-painted flowers:1.1)
+    - (formal kyo yuzen furisode:1.4), (vibrant kyoto-style painting:1.1)
+    - (heavy chirimen crepe kimono:1.3), (textured silk:1.1)
+    - (slubbed tsumugi silk kimono:1.2), (rustic elegance:1.1)
+    - (translucent ro silk kimono:1.3), (summer formal wear:1.1)
+    - (gauzy sha silk kimono:1.3), (summer lightweight:1.1)
+    - (Okinawan bingata-dyed kimono:1.3), (vibrant stencil patterns:1.1)
+    - (antique tsujigahana kimono:1.4), (rare tie-dye:1.1)
+    - (fine-print edo komon kimono:1.3), (subtle:1.1)
+    - (maiko's formal hikizuri:1.4), (long, trailing:1.1)
+    - (geigi's chic hikizuri:1.4), (elegant, mature:1.1)
+    - (bridal kakeshita kimono:1.3), (worn under uchikake:1.1)
+    - (samurai's hitatare robe:1.2), (formal court wear:1.1)
+    - (noble's kariginu:1.2), (Heian hunting robe:1.1)
+    - (noble's suikan robe:1.2), (Heian court:1.1)
+    - (Shinto priest's white joe:1.2), (ceremonial:1.1)
+    - (Miko's red hakama set:1.2), (shrine maiden:1.1)
+    - (gothic-style modern kimono:1.2), (lace and dark colors:1.1)
+    - (steampunk-style kimono:1.2), (gears and leather:1.1)
+    - (cyber-kimono with neon:1.2), (futuristic:1.1)
+    - (kimono-dress hybrid:1.2), (short skirt:1.1)
+    - (elegant long haori coat:1.2), (worn as a dress:1.1)
+    - (protective michiyuki overcoat:1.2), (travel coat:1.1)
+    - (historical kosode:1.3), (edo period:1.1)
+    - (Ainu-style attus robe:1.3), (geometric applique:1.1)
+    - (luxurious rinzu silk iromuji:1.3), (damask weave:1.1)
+    - (simple wool kimono:1.1), (winter casual:1.1)
+    - (crisp linen asa kimono:1.2), (summer:1.1)
+    - (rare bashofu banana-fiber kimono:1.3), (Okinawan:1.1)
+    - (antique Taisho-roman furisode:1.3), (art deco:1.1)
+    - (vibrant Showa-era party kimono:1.2), (bold prints:1.1)
+    - (Meiji-era houmongi:1.2), (western influence:1.1)
+    - (festival happi coat:1.1), (bold crest:1.1)
+    - (child's shichi-go-san kimono:1.2), (bright and festive:1.1)
+    - (actor's kabuki kimono:1.3), (exaggerated design:1.1)
+    - (Noh theatre costume:1.3), (stiff brocade:1.1)
+    - (dancer's odori kimono:1.2), (bright colors, stage:1.1)
+    - (unlined hitoe kimono:1.2), (spring/autumn:1.1)
+    - (lined awase kimono:1.2), (winter:1.1)
+    - (mourning mofuku kimono:1.3), (pure black silk:1.1)
+    - (formal iro-tomesode:1.3), (colored tomesode:1.1)
+    - (brocade (nishiki) kimono:1.3), (woven pattern:1.1)
+    - (Chayazome-dyed kimono:1.3), (landscape painting:1.1)
+    - (Saga nishiki brocade kimono:1.3), (gold paper threads:1.1)
+    - (modern denim kimono:1.1), (casual:1.1)
+    - (modern lace haori:1.2), (outerwear:1.1)
+    - (Omeshi silk kimono:1.2), (high-quality crepe:1.1)
+    - (Jofu hemp kimono:1.2), (high-grade hemp:1.1)
+    - (artist's yuzen-painted kimono:1.4), (wearable art:1.1)
+    - (gold-leaf brocade kimono:1.3), (surihaku:1.1)
+    - (silver-thread embroidered kimono:1.3), (gin-komon:1.1)
+    - (kimono with fur-lined collar:1.1), (winter:1.1)
+    - (futuristic sci-fi kimono:1.2), (holographic fabric:1.1)
+    - (fantasy-style elven kimono:1.2), (flowing, ethereal:1.1)
+    - (avant-garde deconstructed kimono:1.2), (runway:1.1)
+    - (kimono worn with leather belt:1.1), (modern styling:1.1)
+    - (vintage recycled-silk kimono:1.1), (eco:1.1)
+    - (luxurious silk-velvet kimono:1.2), (winter:1.1)
+    - (saihitsu yuzen kimono:1.4), (fine-brush painting:1.1)
+    - (katabira:1.2), (unlined hemp summer robe:1.1)
+    - (yabira:1.2), (warrior's field clothing:1.1)
+    - (jifu-ori kimono:1.2), (Okinawan rayon:1.1)
+    - (sarasa kimono:1.2), (Javanese-inspired calico:1.1)
+    - (Tozan-ori kimono:1.2), (mountain-climbing weave:1.1)
+    - (shioze silk kimono:1.3), (lightweight crepe:1.1)
+    - (habutae silk kimono:1.3), (smooth, light:1.1)
+    - (kinsha silk kimono:1.3), (fine crepe:1.1)
+    - (meisen kimono:1.3), (bold ikat-dyed silk:1.1)
+    - (asa-shibori yukata:1.3), (hemp tie-dye:1.1)
+    - (formal irotomesode with three crests:1.3), (semi-formal:1.1)
+    - (formal irotomesode with one crest:1.3), (highly versatile:1.1)
+    - (iromuji for tea ceremony:1.3), (chakai:1.1), (single crest:1.1)
+    - (houmongi for formal tea gathering:1.3), (chaji:1.1)
+    - (Noh theatre lead actor's (shite) kariginu:1.4), (heavy brocade:1.1)
+    - (Noh theatre supporting actor's (waki) robe:1.3), (somber colors:1.1)
+    - (Kyogen performer's kataginu vest:1.2), (hemp:1.1), (comical:1.1)
+    - (Imperial court (sokutai) ceremonial robe:1.5), (ancient:1.1), (emperor:1.1)
+    - (Imperial court (junihitoe) 12-layer robe:1.5), (empress:1.1), (Heian:1.1)
+    - (Shinto priest's (kannushi) white kariginu:1.2), (ceremonial:1.1)
+    - (Shinto priest's (kannushi) formal igi robe:1.2), (black:1.1)
+    - (Buddhist monk's (koromo) black robe:1.2), (simple:1.1), (austere:1.1)
+    - (Buddhist monk's (kesa) outer vestment:1.3), (patchwork brocade:1.1)
+    - (Sumo referee's (gyoji) hitatare-style robe:1.3), (silk:1.1)
+    - (Oiran's (courtesan) heavy uchikake:1.4), (gaudy:1.1), (layered:1.1)
+    - (Geisha's formal kurotomesode:1.3), (geigi:1.1), (mature elegance:1.1)
+    - (Meiji-era noble's rokumeikan dress-kimono:1.3), (western-hybrid:1.1)
+    - (warrior's (yoroi hitatare) under-armor:1.2), (large sleeves:1.1)
+    - (warrior's (jimbaori) sleeveless armor surcoat:1.3), (wool:1.1)
+    - (luxurious kinsha crepe furisode:1.3), (lightweight silk:1.1)
+    - (habutae silk (smooth) iromuji:1.3), (feather-light:1.1)
+    - (heavy silk (rinzu) damask kimono:1.3), (woven patterns:1.1)
+    - (Oshima tsumugi (mud-dyed) silk:1.4), (dark:1.1), (crisp:1.1)
+    - (Yuki tsumugi (pongee) silk:1.4), (fluffy:1.1), (hand-spun:1.1)
+    - (Shiozawa tsumugi (fine crepe) silk:1.4), (crisp:1.1), (summer:1.1)
+    - (Ushikubi tsumugi (raw silk) kimono:1.3), (two silkworms:1.1)
+    - (modern designer (sheer lace) kimono:1.2), (avant-garde:1.1)
+    - (modern designer (velvet) kimono:1.2), (winter fashion:1.1)
+    - (modern kimono with leather accents:1.2), (punk-style:1.1)
+    - (avant-garde (metallic thread) kimono:1.3), (runway fashion:1.1)
+
+  kimono_color:
+    - (deep indigo blue:1.2), (ai-zome:1.1)
+    - (vibrant crimson red:1.2), (vermilion:1.1)
+    - (soft sakura pink:1.2), (pale pink:1.1)
+    - (pure snow white:1.2)
+    - (jet black silk:1.2), (kuro:1.1)
+    - (royal purple:1.2), (murasaki:1.1)
+    - (pale lilac:1.1), (light purple:1.1)
+    - (emerald green:1.2), (matcha green:1.1)
+    - (golden yellow:1.2), (yamabuki:1.1)
+    - (cream and gold:1.2), (ivory:1.1)
+    - (earthy brown tones:1.1), (tea color:1.1)
+    - (pale blue:1.1), (sky blue:1.1)
+    - (faded rose pink:1.1)
+    - (deep coral:1.1)
+    - (rich burgundy:1.2)
+    - (bright poppy red:1.1)
+    - (lapis lazuli blue:1.2)
+    - (midnight blue:1.2)
+    - (cerulean blue:1.1)
+    - (ice blue:1.1)
+    - (powder blue:1.1)
+    - (moss green:1.1)
+    - (jade green:1.2)
+    - (deep olive green:1.1)
+    - (mint green:1.1)
+    - (teal green:1.1)
+    - (wisteria purple:1.2)
+    - (deep eggplant:1.2)
+    - (amethyst purple:1.1)
+    - (mauve:1.1)
+    - (periwinkle blue:1.1)
+    - (bright marigold:1.1)
+    - (pale butter yellow:1.1)
+    - (burnt orange:1.2)
+    - (bright tangerine:1.1)
+    - (soft peach:1.1)
+    - (chocolate brown:1.1)
+    - (sandy beige:1.1)
+    - (ivory white:1.2)
+    - (warm taupe:1.1)
+    - (rich copper:1.1)
+    - (metallic bronze:1.1)
+    - (charcoal grey:1.1)
+    - (silver grey:1.1)
+    - (pearl white:1.2)
+    - (mother-of-pearl sheen:1.3)
+    - (metallic gold thread:1.3)
+    - (metallic silver thread:1.3)
+    - (platinum silver:1.2)
+    - (ombre fade:1.2), (light to dark)
+    - (pastel rainbow gradient:1.2)
+    - (sunset gradient:1.2), (orange, purple, pink)
+    - (ocean gradient:1.2), (blue, teal, white)
+    - (black and gold:1.3)
+    - (red and gold:1.3)
+    - (white and gold:1.3)
+    - (blue and silver:1.3)
+    - (white and silver:1.3)
+    - (black and red:1.3)
+    - (purple and gold:1.3)
+    - (green and gold:1.3)
+    - (color-shifting shot-silk:1.2)
+    - (iridescent peacock blue:1.2)
+    - (deep forest green:1.1)
+    - (fawn brown:1.1)
+    - (russet brown:1.1)
+    - (ash grey:1.1)
+    - (stone grey:1.1)
+    - (undyed natural silk:1.1)
+    - (hemp beige:1.1)
+    - (deep navy blue:1.1)
+    - (robin's egg blue:1.1)
+    - (pistachio green:1.1)
+    - (seafoam green:1.1)
+    - (salmon pink:1.1)
+    - (magenta:1.1)
+    - (fuchsia:1.1)
+    - (gunmetal grey:1.2)
+    - (obsidian black:1.2)
+    - (champagne gold:1.2)
+    - (rose gold:1.2)
+    - (platinum:1.2)
+
+  kimono_pattern:
+    - (seigaiha wave pattern:1.2), (blue and white:1.1), traditional
+    - (asanoha hemp leaf pattern:1.2), (geometric:1.1), traditional
+    - (shibori tie-dye effect:1.2), (intricate:1.1), (indigo:1.1)
+    - (karakusa vine pattern:1.1), (scrolling foliage:1.1)
+    - (sayagata key fret pattern:1.1), (geometric:1.1)
+    - (yabane arrow feather pattern:1.1), (geometric:1.1), (maroon:1.1)
+    - (kikkou tortoise shell pattern:1.1), (hexagonal:1.1)
+    - (sakura blossom pattern:1.3), (pink and white:1.1), (floral:1.1)
+    - (ume plum blossom pattern:1.2), (red and white:1.1), (floral:1.1)
+    - (hand-painted yuzen pattern:1.3), (landscape scene:1.1), (floral:1.1)
+    - (subtle rinzu damask pattern:1.2), (silk-on-silk:1.1), (geometric:1.1)
+    - (noshi pattern:1.1), (good fortune ribbons:1.1)
+    - (tatewaku rising steam pattern:1.1), (vertical curves:1.1)
+    - (chrysanthemum pattern:1.2), (kiku:1.1), (floral:1.1)
+    - (crane pattern:1.3), (tsuru:1.1), (birds:1.1), (longevity:1.1)
+    - (pine and bamboo pattern:1.2), (matsu:1.1), (take:1.1)
+    - (bold art nouveau floral pattern:1.2), (taisho-roman:1.1)
+    - (peony (botan) pattern:1.2)
+    - (iris (shobu) pattern:1.2)
+    - (wisteria (fuji) pattern:1.3)
+    - (hydrangea (ajisai) pattern:1.1)
+    - (camellia (tsubaki) pattern:1.2)
+    - (lotus (hasu) pattern:1.2)
+    - (ginkgo leaf (icho) pattern:1.1)
+    - (kikyo (bellflower) pattern:1.1)
+    - (bamboo (take) pattern:1.1)
+    - (pine tree (matsu) pattern:1.2)
+    - (maple leaf (momiji) pattern:1.2)
+    - (three friends of winter pattern:1.2), (pine, bamboo, plum)
+    - (mountain landscape (sansui) pattern:1.2)
+    - (running water (ryusui) pattern:1.2)
+    - (stylized cloud (kumo) pattern:1.1)
+    - (snow crystal (yukiwa) pattern:1.2)
+    - (mist (kasumi) pattern:1.1)
+    - (phoenix (hou-ou) pattern:1.3)
+    - (dragon (ryu) pattern:1.3)
+    - (butterfly (cho) pattern:1.2)
+    - (koi fish (nishikigoi) pattern:1.2)
+    - (swallow (tsubame) pattern:1.1)
+    - (rabbit (usagi) pattern:1.1)
+    - (plover (chidori) pattern:1.1)
+    - (mandarin duck (oshidori) pattern:1.2)
+    - (shippo (seven treasures) pattern:1.2)
+    - (uroko (fish scales) pattern:1.1)
+    - (tachiwaki (rising steam) pattern:1.1)
+    - (hishi (diamond) pattern:1.1)
+    - (ichimatsu (checkered) pattern:1.1)
+    - (kanoko (fawn spots) pattern:1.2)
+    - (striped (shima) pattern:1.1)
+    - (lattice (koushi) pattern:1.1)
+    - (fan (sensu) pattern:1.1)
+    - (hand drum (tsuzumi) pattern:1.1)
+    - (imperial cart (gosho-guruma) pattern:1.2)
+    - (books and scrolls pattern:1.1)
+    - (temari ball pattern:1.1)
+    - (treasure (takara-zukushi) pattern:1.2)
+    - (gold leaf (surihaku) pattern:1.3)
+    - (gold embroidery (kin-komon) pattern:1.3)
+    - (Tsujigahana (flower) pattern:1.4)
+    - (Chayazome (landscape) pattern:1.3)
+    - (Okinawan bingata stencil pattern:1.3)
+    - (Edo komon (fine dot) pattern:1.2)
+    - (katazome (stencil paste) pattern:1.2)
+    - (bold art deco pattern:1.2), (Taisho)
+    - (modern abstract pattern:1.1)
+    - (polka dot pattern:1.1)
+    - (full-scene yuzen painting:1.4)
+    - (bamboo leaves (sasa) pattern:1.1)
+    - (paulownia (kiri) pattern:1.1)
+    - (chrysanthemum and water pattern:1.2)
+    - (family crest (kamon) pattern:1.2)
+    - (peacock (kujaku) pattern:1.3)
+    - (spider web (kiku-no-ha) pattern:1.1)
+    - (water rings (rikyu) pattern:1.1)
+    - (lion-dog (shishi) pattern:1.2)
+    - (bridge (hashi) pattern:1.1)
+    - (thatched hut (an) pattern:1.1)
+    - (geometric abstract meisen pattern:1.2)
+    - (silver thread embroidery:1.3)
+    - (hand-painted ink (sumi-e) pattern:1.3)
+    - (bat (komori) pattern:1.1), (good luck)
+    - (netsuke and inro pattern:1.1)
+    - (court fan (hi-ogi) pattern:1.1)
+    - (flower cart (hana-guruma) pattern:1.2)
+    - (overlapping circles (wa-tsunagi) pattern:1.1)
+    - (gourd (hyotan) pattern:1.1)
+    - (ancient ship (ofune) pattern:1.1)
+
+  kimono_obi:
+    - (wide fukuro obi:1.2), (formal:1.1), (intricate brocade:1.1)
+    - (heavy maru obi:1.3), (most formal:1.1), (gold thread:1.1)
+    - (long darari obi:1.3), (maiko style:1.1), (trailing:1.1)
+    - (simpler nagoya obi:1.2), (casual formal:1.1), (tied in otaiko knot:1.1)
+    - (casual hanhaba obi:1.2), (narrow:1.1), (yukata:1.1), (ribbon knot:1.1)
+    - (men's kaku obi:1.2), (stiff:1.1), (simple pattern:1.1)
+    - (obiage sash:1.1), (silk:1.1), (peeking above obi:1.1)
+    - (luxurious gold brocade fukuro obi:1.3)
+    - (formal silver brocade fukuro obi:1.3)
+    - (obi with phoenix embroidery:1.3)
+    - (obi with dragon embroidery:1.3)
+    - (obi with crane and turtle pattern:1.2)
+    - (obi with shippo geometric pattern:1.1)
+    - (obi with seigaiha wave pattern:1.2)
+    - (obi with chrysanthemum pattern:1.2)
+    - (obi with peony pattern:1.2)
+    - (obi with plum blossom pattern:1.1)
+    - (obi with wisteria pattern:1.1)
+    - (obi with butterfly pattern:1.1)
+    - (obi with landscape painting:1.3)
+    - (Tsuzure-ori (tapestry) obi:1.4), (most formal)
+    - (Nishijin-ori (brocade) obi:1.3), (Kyoto)
+    - (Hakata-ori (striped) obi:1.2), (Fukuoka)
+    - (Shibori-dyed obi:1.2)
+    - (hand-painted Yuzen obi:1.3)
+    - (antique gold-thread maru obi:1.4)
+    - (black and gold obi:1.2)
+    - (red and gold obi:1.2)
+    - (white and gold obi:1.2)
+    - (purple and silver obi:1.2)
+    - (modern abstract design obi:1.1)
+    - (obi with contrasting color lining:1.1)
+    - (obi with tassels:1.1)
+    - (obi with mother-of-pearl inlay:1.4)
+    - (obi with lacquer inlay:1.3)
+    - (obi tied in a fukura suzume knot:1.2), (sparrow)
+    - (obi tied in a bunko knot:1.2), (box)
+    - (obi tied in a kai-no-kuchi knot:1.1), (men's)
+    - (obi tied in a tateya knot:1.2), (standing arrow)
+    - (obi tied in a darari musubi:1.3), (maiko)
+    - (obi tied in a nijuudaiko knot:1.1), (formal otaiko)
+    - (Saga nishiki obi:1.3), (gold paper)
+    - (Chuya obi:1.2), (reversible, two-toned)
+    - (Hanhaba obi with modern print:1.1)
+    - (Kaku obi with hakata stripes:1.1)
+    - (obi with peacock feather pattern:1.3)
+    - (obi with imperial cart pattern:1.2)
+    - (obi with tsuzumi drum pattern:1.1)
+    - (obi with kikkou pattern:1.1)
+    - (obi with karakusa vine pattern:1.1)
+    - (obi with gold leaf accents:1.2)
+    - (obi with silver leaf accents:1.2)
+    - (obi with bold geometric pattern:1.1)
+    - (obi with minimalist design:1.1)
+    - (obi made of tsumugi silk:1.1)
+    - (obi made of chirimen crepe:1.1)
+    - (obi made of rinzu silk:1.1)
+    - (obi with art deco design:1.2), (Taisho)
+    - (obi with bold stripes:1.1)
+    - (obi with checkered (ichimatsu) pattern:1.1)
+    - (obi with kanoko fawn spots:1.1)
+    - (obi with hand-stitched sashiko:1.2)
+    - (obi with washi paper threads:1.3)
+    - (obi with velvet applique:1.1)
+    - (obi with pearl decorations:1.2)
+    - (obi with crystal beading:1.2)
+    - (obi in a deep crimson color:1.1)
+    - (obi in a midnight blue color:1.1)
+    - (obi in an emerald green color:1.1)
+    - (obi in a royal purple color:1.1)
+    - (obi in a pure white brocade:1.2)
+    - (obi in a jet black brocade:1.2)
+    - (obi with tassels on the end:1.1)
+    - (obi with fringe:1.1)
+    - (obi with embroidered family crest:1.2)
+    - (obi featuring sumi-e ink painting:1.3)
+    - (obi with holographic threads:1.2), (modern)
+
+  kimono_accessory:
+    - (ornate kanzashi hairpin:1.2), (in hair:1.1), (dangling flowers:1.1)
+    - (simple kogai hairpin:1.1), (in hair:1.1)
+    - (folded silk fan:1.1), (sensu:1.1), (held in hand:1.1)
+    - (traditional paper parasol:1.1), (wagasa:1.1)
+    - (white tabi socks:1.1), (with geta sandals:1.1)
+    - (wooden geta sandals:1.1), (clogs:1.1)
+    - (formal zori sandals:1.1), (brocade:1.1)
+    - (small kinchaku pouch:1.1), (drawstring bag:1.1)
+    - (obidome brooch:1.2), (on obijime cord:1.1), (jade:1.1)
+    - (dangling bira-bira kanzashi:1.2), (hair)
+    - (silk flower tsumami kanzashi:1.3), (hair)
+    - (jade tama kanzashi:1.2), (ball hairpin)
+    - (lacquered kushi (comb) in hair:1.2)
+    - (crane-themed kanzashi:1.2)
+    - (butterfly-themed kanzashi:1.2)
+    - (silver kogai hairpin:1.1)
+    - (elegant tortoiseshell comb:1.2)
+    - (maiko's hana-kanzashi:1.4), (flower hairpiece)
+    - (bridal tsunokakushi (headdress):1.3)
+    - (bridal wataboshi (hood):1.3)
+    - (shibori-dyed obiage sash:1.2)
+    - (rinzu silk obiage sash:1.1)
+    - (obiage tied in a neat bow:1.1)
+    - (braided silk obijime cord:1.1)
+    - (flat obijime cord:1.1)
+    - (obijime with tassels:1.1)
+    - (jade obidome brooch:1.3)
+    - (pearl obidome brooch:1.2)
+    - (coral obidome brooch:1.2)
+    - (diamond obidome brooch:1.3)
+    - (netsuke (ivory toggle):1.1)
+    - (netsuke (wooden toggle):1.1)
+    - (black lacquer geta:1.1)
+    - (unfinished paulownia geta:1.1)
+    - (geta with red silk hanao straps:1.1)
+    - (maiko's tall okobo geta:1.3)
+    - (high-heel zori sandals:1.1), (modern)
+    - (zori with brocade straps:1.1)
+    - (straw (tatami) zori:1.1)
+    - (white tabi socks:1.1)
+    - (black tabi socks:1.1), (men)
+    - (patterned tabi socks:1.1), (modern)
+    - (lace tabi socks:1.1), (modern)
+    - (silk folding fan (sensu):1.1)
+    - (painted paper fan (uchiwa):1.1)
+    - (red paper parasol (wagasa):1.1)
+    - (purple paper parasol (wagasa):1.1)
+    - (bamboo parasol (higasa):1.1)
+    - (silk kinchaku (drawstring) bag:1.1)
+    - (brocade kinchaku bag:1.1)
+    - (bamboo-woven (kago) bag:1.1)
+    - (hakoseko (purse) in obi:1.2)
+    - (inro (medicine) box on belt:1.2)
+    - (fur shawl:1.1), (for furisode)
+    - (silk shawl with embroidery:1.1)
+    - (lace shawl:1.1), (modern)
+    - (layered date-eri collar:1.1), (red)
+    - (layered date-eri collar:1.1), (gold)
+    - (embroidered han-eri (collar):1.2)
+    - (shibori han-eri (collar):1.2)
+    - (haori-himo (jacket ties):1.1), (braided)
+    - (haori-himo with pearl:1.1)
+    - (long silk gloves:1.1), (Taisho style)
+    - (short lace gloves:1.1), (Taisho style)
+    - (small brocade handbag:1.1), (western mix)
+    - (ceremonial kaiken dagger:1.2), (bridal)
+    - (fusa (tassels) on kanzashi:1.1)
+    - (bachi-gata kanzashi:1.2), (fan shape)
+    - (chinkin (gold inlay) comb:1.2)
+    - (makie (lacquer) hair comb:1.2)
+    - (obi-ita (board) to keep obi flat:1.0)
+    - (obi-makura (pillow) for knot:1.0)
+    - (koshihimo (tying sash):1.0)
+    - (silver smoking kiseru:1.1), (oiran)
+    - (silk eye mask:1.1), (modern)
+    - (leather belt over kimono:1.1), (modern)
+    - (western-style hat with kimono:1.1)
+    - (furoshiki (carrying cloth):1.1)
+    - (men's (sensu) fan tucked in obi:1.1)
+
+# ---------------------------------------------------------
+# RANDOM & COMBOS
+# ---------------------------------------------------------
+
+  hero_combo_full:
+    - "__gkr_japan/archetype__, __gkr_japan/era__, __gkr_japan/ethnicity__, __gkr_japan/age__, __gkr_japan/build__, __gkr_japan/tone__, __gkr_japan/hair__, __gkr_japan/hair_color__, __gkr_japan/eyes__, __gkr_japan/expression__, __gkr_japan/clothing__, __gkr_japan/armor__, __gkr_japan/weapons__, __gkr_japan/offhand__, __gkr_japan/trinkets__, __gkr_japan/environment__, __gkr_japan/mood__, __gkr_japan/lighting__, __gkr_japan/camera__, __gkr_japan/style__, __gkr_japan/fx_magic__, __gkr_japan/fx_environment__"
+
+  hero_combo_lite:
+    - "__gkr_japan/archetype__, __gkr_japan/weapons__, in a __gkr_japan/environment__, __gkr_japan/mood__, __gkr_japan/style__, __gkr_japan/camera__"
+
+  ninja_combo:
+    - "(stealthy ninja:1.2), __gkr_japan/era__, __gkr_japan/build__, __gkr_japan/tone__, __gkr_japan/hair__, __gkr_japan/eyes__, (ninja uniform with hood:1.2), (light leather armor:1.1), (kunai throwing knives:1.1), (shuriken:1.1), __gkr_japan/offhand__, __gkr_japan/environment__, (fierce and intense mood:1.1), (moonlit blue tones:1.2), (dynamic action pose:1.2), (stylized anime art:1.2), __gkr_japan/fx_magic__, __gkr_japan/fx_environment__"
+
+  samurai_combo:
+    - "(disciplined samurai:1.2), __gkr_japan/era__, __gkr_japan/age__, __gkr_japan/build__, __gkr_japan/tone__, __gkr_japan/hair__, __gkr_japan/eyes__, (ornate samurai armor:1.3), (katana:1.2), __gkr_japan/offhand__, (feudal castle courtyard:1.2), (noble and composed mood:1.1), (warm lantern light:1.1), (low angle epic shot:1.2), (cinematic realism:1.2)"
+
+  yokai_combo:
+    - "__gkr_japan/yokai__, __gkr_japan/yokai_traits__, __gkr_japan/monster_environment__, (mysterious and magical mood:1.2), (glowing magical aura:1.2), (dramatic backlight:1.2), (anime fantasy style:1.1), __gkr_japan/fx_environment__"
+
+  anime_combo:
+    - "(manga protagonist:1.2), __gkr_japan/era__, __gkr_japan/hair_color__, __gkr_japan/eyes__, (anime style magical outfit:1.2), (energy katana:1.2), (glowing anime effects:1.1), (neon city skyline:1.1), (vibrant and energetic mood:1.2), (anime style bright lighting:1.1), (anime hero pose:1.2)"
+
+  cyber_combo:
+    - "(cyber ninja operative:1.3), (cyberpunk tokyo:1.2), __gkr_japan/hair__, (neon purple hair:1.1), (glowing cyber eyes:1.2), (cyberpunk jacket with neon accents:1.2), (energy katana:1.2), (data tablet:1.1), (neon lit alleyways:1.2), (dramatic and intense mood:1.1), (neon reflections:1.2), (dynamic action pose:1.2), (cyberpunk neon style:1.2), __gkr_japan/fx_magic__, __gkr_japan/fx_environment__"
+
+  scene_combo:
+    - "__gkr_japan/environment__, __gkr_japan/lighting__, __gkr_japan/mood__, __gkr_japan/fx_environment__, elegant three quarter angle, high detail concept art"
+
+  random_kimono:
+    - "__gkr_japan/kimono_type__, __gkr_japan/kimono_color__, with a __gkr_japan/kimono_pattern__, wearing a __gkr_japan/kimono_obi__, and __gkr_japan/kimono_accessory__"
+
+  random:
+    - "__gkr_japan/hero_combo_lite__"
+    - "__gkr_japan/ninja_combo__"
+    - "__gkr_japan/samurai_combo__"
+    - "__gkr_japan/yokai_combo__"
+    - "__gkr_japan/anime_combo__"
+    - "__gkr_japan/cyber_combo__"
+    - "__gkr_japan/scene_combo__"
+    - "__gkr_japan/thematic_combos__"
+    - "__gkr_japan/random_kimono__"
+
+  random_character:
+    - "__gkr_japan/archetype__, __gkr_japan/era__, __gkr_japan/ethnicity__, __gkr_japan/age__, __gkr_japan/build__, __gkr_japan/tone__, __gkr_japan/hair__, __gkr_japan/hair_color__, __gkr_japan/eyes__, __gkr_japan/expression__, __gkr_japan/clothing__, __gkr_japan/armor__, __gkr_japan/weapons__, __gkr_japan/offhand__, __gkr_japan/trinkets__"
+  
+  random_backgrounds:
+    - "__gkr_japan/environment__, __gkr_japan/mood__, __gkr_japan/lighting__, __gkr_japan/fx_environment__"
+
+# ---------------------------------------------------------
+# SPOTLIGHT (Original, Unchanged)
+# ---------------------------------------------------------
+
+  spotlight_characters:
+    - cinematic portrait of a (wandering ronin:1.3), (weathered kimono:1.2), (scarred face:1.1), hand resting on worn katana hilt, (moody lighting:1.1), high detail concept art
+    - beautiful painting of a (young shrine maiden:1.3), (miko:1.1), flowing white and red robes, (soft expression:1.1), holding fluttering (paper charms:1.1), (sakura petals drifting:1.1), artstation
+    - (masked shinobi:1.3), (ninja:1.1), (crouching in shadows:1.1), poised with a (glowing kunai:1.2), (dark wrapped gear:1.1), (moonlit rooftop:1.1), dark fantasy art
+    - (epic portrait of a samurai lord:1.3), (ornate lamellar armor:1.2), (sweeping kabuto helm:1.2), (stern gaze:1.1), cinematic, (dramatic lighting:1.1), masterpiece
+    - (kitsune spirit woman:1.3), (ethereal figure:1.1), (nine luminous tails:1.2) swirling gently, faint fox ears, (mystical glowing aura:1.1), fantasy art
+    - (powerful onmyoji sorcerer:1.3), (intricate robes:1.1), casting a spell, (glowing spell papers:1.2) floating, (yin-yang sigils:1.1), magical, high detail illustration
+    - (armored spearfighter:1.3), (ashigaru:1.1), (lacquered jingasa hat:1.1), (steady disciplined posture:1.1), holding yari, (battlefield background:1.1), realistic
+    - (geisha warrior:1.3), (painted mask:1.1), (elegant battle kimono:1.1), (concealed blades in sleeves:1.2), (dynamic pose:1.1), fantasy illustration
+    - (tengu swordsman:1.3), (red skin:1.1), (long nose:1.1), (feathered wings half unfurled:1.2), perched on a cliff, (moody sky:1.1), mythical creature art
+    - (armored ashigaru foot soldier:1.2), gripping (yari spear:1.1), (dirt and sweat:1.1), (battle ready stance:1.1), (cinematic battle scene:1.1), high detail
+    - (ronin poet:1.2), (travel cloak:1.1), playing a (bamboo flute:1.1), (calm introspective gaze:1.1), (sitting by a river:1.1), peaceful, watercolor style
+    - (determined yokai hunter:1.3), covered in (talismans:1.1), holding a (glowing short blade:1.1), (confident stance:1.1), (haunted forest:1.1), anime style
+    - (white-haired sword saint:1.3), (kensei:1.1), (minimal robes:1.1), (serene expression:1.1), (unmatched poise:1.1), (meditating in dojo:1.1), masterpiece
+    - (ninja illusionist:1.2), (swirling shadows:1.1) masking features, (glowing eyes:1.1), (stealth pose:1.1), dark, concept art
+    - (young priestess:1.2), holding a (sacred mirror talisman:1.2), (hopeful determined gaze:1.1), (shrine background:1.1), (glowing aura:1.1), anime illustration
+    - (snow spirit maiden:1.3), (yuki onna:1.1), (icy breath:1.1), (pale blue kimono:1.1), (drifting through snow:1.1), (ethereal glow:1.1), fantasy art
+    - (demon samurai:1.3), (cracked horned mask:1.2), (flame-bright eyes:1.2), (obsidian armor:1.1), (volcanic background:1.1), epic, dark fantasy
+    - (wandering monk:1.2), (prayer beads:1.1), (shaved head:1.1), (radiating quiet strength:1.1), (mountain path:1.1), (serene:1.1), realistic painting
+    - (street performer fighter:1.2), (spinning a metal ring:1.1), (colorful kimono sleeves:1.1), (dynamic action pose:1.1), (tokyo street festival:1.1)
+    - (kitsune trickster:1.3), (human guise:1.1), (mischievous smile:1.1), (subtle glowing tail:1.1), (in a village market:1.1), vibrant anime art
+    - (mountain ascetic:1.2), (yamabushi:1.1), (rope belt:1.1), (wooden staff:1.1), (wind chapped skin:1.1), (on a mountain peak:1.1), (cinematic wide shot:1.1)
+    - (healer herbalist:1.2), (satchel of rare plants:1.1), (warm reassuring smile:1.1), (in a quiet forest:1.1), (soft lighting:1.1), gentle illustration
+    - (shadow shinobi:1.3), (perched above rooftops:1.2), (eyes glinting in moonlight:1.1), (feudal tokyo skyline:1.1), (stealth:1.1), concept art
+    - (samurai archer:1.2), drawing an (elegant yumi bow:1.2), (calm breath control:1.1), (focused expression:1.1), (battlefield:1.1), dynamic, illustration
+    - (storm mage:1.2), (channeling lightning:1.2) with a (ceremonial staff:1.1), (glowing runes:1.1), (dramatic storm clouds:1.2), epic fantasy
+    - (oni-blooded warrior:1.3), (faint horns:1.1), (crimson markings:1.1), (holding a tetsubo:1.1), (intense expression:1.1), high detail character art
+    - (shrine guardian:1.2), (heavy wooden staff:1.1), (white fur collar:1.1), (fierce protective stance:1.1), (in front of torii gate:1.1), fantasy art
+    - (peasant hero:1.2), (rolled sleeves:1.1), (rope belt:1.1), (fierce determination:1.1), (holding a kama:1.1), (burning village:1.1), cinematic
+    - (celestial maiden:1.3), (tennyo:1.1), (descending from sky:1.1), (trailing ribbons:1.1), (ethereal glow:1.1), (sea of clouds:1.1), divine, illustration
+    - (grizzled veteran samurai:1.3), (tattered armor:1.1), (stoic expression:1.1), (many scars:1.1), (battle-worn:1.1), cinematic portrait
+    - (masked noh dancer:1.2), (noh mask:1.1), (eerie spiritual presence:1.1), (on a dark stage:1.1), (dramatic spotlight:1.1), mysterious
+    - (forest yokai child spirit:1.2), (kodama:1.1), (bark-patterned skin:1.1), (glowing eyes:1.1), (peeking from ancient tree:1.1), magical, cute
+    - (wandering merchant duelist:1.2), (hidden blade inside parasol:1.2), (smirking:1.1), (edo period street:1.1), concept art
+    - (ghostly swordswoman:1.3), (yurei:1.1), (translucent kimono:1.1), (drifting hair:1.1), (haunting a battlefield:1.1), (moonlit:1.1), ethereal
+    - (retired warrior monk:1.2), (sweeping temple steps:1.1), (peaceful smile:1.1), (autumn leaves:1.1), (serene:1.1), realistic painting
+    - (armored cavalry samurai:1.3), on a (horse in full regalia:1.2), (charging:1.1), (banners flying:1.1), (dynamic action shot:1.1), cinematic
+    - (river spirit woman:1.3), (nure-onna:1.1), (flowing water woven through hair:1.2), (serpentine body:1.1), (emerging from misty river:1.1), dark fantasy
+    - (naginata priestess:1.3), (long braided hair:1.1), (graceful stance:1.1), (holding a naginata:1.1), (temple courtyard:1.1), fantasy illustration
+    - (kitsune samurai hybrid:1.3), (foxlike eyes:1.1), (rune etched armor:1.2), (glowing fox-fire:1.1), (nine tails:1.1), epic fantasy character art
+    - (village defender:1.2), (simple spear:1.1), (fearless expression:1.1), (protecting villagers:1.1), (rainy night:1.1), cinematic
+    - (mountain warrior:1.2), (fur lined armor:1.1), (heavy tetsubo club:1.2), (yelling:1.1), (snowy mountain pass:1.1), dynamic, concept art
+    - (masked bandit leader:1.2), (patchwork armor:1.1), (daring grin:1.1), (in a forest hideout:1.1), (fantasy art:1.1)
+    - (ninja courier:1.2), (racing through trees:1.1), (scroll tube strapped to back:1.1), (motion blur:1.1), (dynamic:1.1), anime style
+    - (palace guard:1.2), (red lacquered armor:1.2), (unbreakable posture:1.1), (standing at attention:1.1), (palace gate:1.1), high detail
+    - (child prodigy archer:1.2), (hair in high knot:1.1), (intense gaze:1.1), (drawing a bow:1.1), (target practice:1.1), anime
+    - (sake brewer:1.2), (barrel on back:1.1), (joyful robust laugh:1.1), (at a festival:1.1), (vibrant:1.1), illustration
+    - (ghost hunter:1.2), (charm stitched coat:1.1), (calm precision:1.1), (holding ofuda:1.1), (in a haunted house:1.1), (eerie lighting:1.1)
+    - (shōgun heir:1.3), (ceremonial armor:1.2), (poised noble stance:1.1), (in a throne room:1.1), (regal:1.1), realistic painting
+    - (samurai strategist:1.2), (fan in hand:1.1), (calculating eyes:1.1), (in front of a map:1.1), (war tent:1.1), cinematic
+    - (festival dancer:1.2), (bathed in lantern glow:1.1), (ribbons swirling:1.1), (energetic pose:1.1), (night festival:1.1), vibrant, illustration
+    - (village blacksmith:1.2), (hammer:1.1), (soot stained face:1.1), (at the forge:1.1), (glowing metal:1.1), realistic, warm light
+    - (crimson oni warrior:1.3), (towering figure:1.1), (iron club:1.1), (burning eyes:1.1), (demonic aura:1.1), (battlefield:1.1), epic fantasy art
+    - (palace musician:1.2), (playing a koto:1.1), (serene composure:1.1), (in a peaceful garden:1.1), (elegant:1.1), traditional painting style
+    - (torch bearing shrine guardian:1.2), (fierce protective aura:1.1), (illuminating path:1.1), (night:1.1), (stone steps:1.1), moody, concept art
+    - (wind adept:1.2), (flowing robes:1.1), (swirling leaves around feet:1.1), (casting wind magic:1.1), (dynamic pose:1.1), fantasy illustration
+    - (tattooed yakuza-style swordsman:1.3), (full body tattoo:1.2), (irezumi:1.1), (holding katana:1.1), (dark alley:1.1), (dangerous:1.1)
+    - (seamstress mage:1.2), (weaving protective charms:1.1), (glowing thread:1.1), (focused expression:1.1), (fantasy art:1.1)
+    - (blind swordsman:1.3), (zatoichi style:1.1), (white eyes:1.1), (calm confidence:1.1), (hand on sword cane:1.1), (rainy street:1.1), cinematic
+    - (snow wanderer:1.2), (wrapped in thick furs:1.1), (frost cracked lips:1.1), (blizzard:1.1), (survival:1.1), realistic, moody
+    - (imperial messenger:1.2), (riding horse at full gallop:1.1), (urgent scroll:1.1), (dust trail:1.1), (dynamic:1.1), illustration
+    - (fisherwoman warrior:1.2), (armed with harpoon:1.1), (nets:1.1), (on a boat:1.1), (stormy sea:1.1), concept art
+    - (masked fox shrine dancer:1.3), (kitsune mask:1.1), (otherworldly elegance:1.1), (dancing with fans:1.1), (torii gates:1.1), (glowing:1.1)
+    - (battle nun:1.2), (prayer staff:1.1), (bound in red cloth:1.1), (serene but fierce:1.1), (temple ruins:1.1), fantasy art
+    - (spear-dancer warrior:1.2), (spinning naginata:1.2), (fluid arcs:1.1), (graceful and deadly:1.1), (dynamic pose:1.1), illustration
+    - (mountain hermit:1.2), (animal companions:1.1), (earthbound wisdom:1.1), (cave dwelling:1.1), (serene:1.1), fantasy painting
+    - (sea spirit samurai:1.3), (shimmering scale patterned armor:1.2), (trident:1.1), (underwater:1.1), (glowing:1.1), epic fantasy
+    - (lantern keeper:1.2), (warm glow:1.1), (gentle eyes:1.1), (lighting a path:1.1), (night village:1.1), peaceful, illustration
+    - (forest monk:1.2), (moss tinted robes:1.1), (wooden prayer beads:1.1), (meditating:1.1), (ancient forest:1.1), tranquil
+    - (benevolent yokai fox child:1.2), (kitsune:1.1), (festival attire:1.1), (glowing:1.1), (friendly:1.1), cute, anime style
+    - (heavy armored breaker:1.2), (wielding oversized hammer:1.2), (shattering rocks:1.1), (powerful stance:1.1), fantasy concept art
+    - (calligraphy mage:1.2), (painting symbols:1.1) in the air, (kanji float and glow:1.1), (magic:1.1), fantasy illustration
+    - (masked vigilante:1.2), (layered dark kimono:1.1), (twin swords:1.1), (on a tokyo rooftop:1.1), (dark:1.1), (mysterious:1.1), anime
+    - (bridge guardian spirit:1.2), (ceremonial robes:1.1), (glowing staff:1.1), (blocking passage:1.1), (misty bridge:1.1), fantasy
+    - (armored wolf rider:1.3), (snarling mount:1.1), (spear:1.1), (racing through forest:1.1), (dynamic:1.1), epic fantasy art
+    - (ancient samurai spirit:1.3), (yurei:1.1), (cracked armor:1.1), (faded colors:1.1), (glowing blue aura:1.1), (haunting:1.1), dark fantasy
+    - (tea master:1.2), (serene presence:1.1), (hidden martial prowess:1.1), (in a tea garden:1.1), (calm:1.1), realistic painting
+    - (grave tender:1.2), (lantern staff:1.1), (soft reverent gaze:1.1), (cemetery at night:1.1), (peaceful:1.1), (misty:1.1)
+    - (village protector mother:1.2), (holding farming tool as weapon:1.2), (fierce expression:1.1), (defending child:1.1), cinematic
+    - (celestial fox warrior:1.3), (kitsune:1.1), (shimmering tails:1.1), (celestial armor:1.1), (glowing bow:1.1), epic, divine
+    - (smiling farmer hero:1.2), (straw hat:1.1), (boundless kindness:1.1), (in a rice paddy:1.1), (sunny day:1.1), ghibli style
+    - (forest oni child:1.2), (small horns:1.1), (oversized club:1.1), (curious expression:1.1), (playing:1.1), cute, fantasy
+    - (storm priestess:1.2), (dancing:1.1), (swirling sakura petals:1.1), (summoning storm:1.1), (dramatic:1.1), magical, illustration
+    - (samurai executioner:1.2), (solemn expression:1.1), (blackened armor:1.1), (holding nodachi:1.1), (moody:1.1), dark
+    - (drifting swordswoman:1.2), (travel cloak:1.1), (haunted eyes:1.1), (on a lonely road:1.1), (melancholy:1.1), concept art
+    - (monastery calligrapher:1.2), (ink stained hands:1.1), (floating brush:1.1), (painting magical kanji:1.1), (serene:1.1), fantasy
+    - (giant oni general:1.3), (towering:1.1), (jagged armor:1.1), (massive kanabo:1.1), (leading an army:1.1), epic battle, fantasy
+    - (lantern spirit child:1.2), (yokai:1.1), (glowing softly:1.1), (floating:1.1), (friendly:1.1), (night street:1.1), cute
+    - (serpent yokai guardian:1.2), (nure-onna:1.1), (jade markings:1.1), (coiled around a shrine:1.1), (protective:1.1), mythical
+    - (battle bard:1.2), (shamisen strapped to back:1.2), (singing:1.1), (inspiring allies:1.1), (dynamic:1.1), fantasy illustration
+    - (young samurai apprentice:1.2), (eager bright eyes:1.1), (wooden sword:1.1), (in a dojo:1.1), (training:1.1), anime
+    - (ancient onmyoji master:1.3), (silken robes:1.1), (quiet power:1.1), (long white beard:1.1), (surrounded by talismans:1.1), wise
+    - (wandering exorcist:1.2), (bell staff:1.1), (protective charms:1.1), (facing a shadow:1.1), (intense:1.1), dark fantasy anime
+    - (sakura warrior:1.2), (pink petal patterns on armor:1.2), (katana:1.1), (under a cherry blossom tree:1.1), elegant, fantasy
+    - (raging berserker:1.2), (dressed in wolf pelts:1.1), (war paint:1.1), (dual axes:1.1), (battle cry:1.1), dynamic action
+    - (azuchi era noble warrior:1.2), (ornate crest helmet:1.2), (colorful armor:1.1), (regal pose:1.1), historical illustration
+    - (fox masked assassin:1.3), (kitsune mask:1.1), (layered black kimono:1.1), (dual tanto:1.1), (stealth:1.1), (moonlit roof:1.1)
+
+  spotlight_backgrounds:
+    - (ancient torii gate:1.3), standing alone, (misty mountain path:1.2), (eerie:1.1), high detail concept art, (cinematic:1.1)
+    - (bamboo forest:1.3), (shafts of light:1.1) piercing the (tall stalks:1.1), (serene:1.1), (Arashiyama style:1.1), photorealistic
+    - (traditional village street:1.2), (lined with paper lanterns:1.2) glowing at (dusk:1.1), (moody:1.1), (cinematic:1.1), digital painting
+    - (Shinto shrine courtyard:1.2), (dusted with fallen sakura petals:1.2), (peaceful:1.1), (spring morning:1.1), (soft light:1.1), illustration
+    - (stormy coastline:1.2), (jagged rocks:1.1), (roaring waves:1.1) crashing, (dramatic sky:1.1), (epic:1.1), masterpiece painting
+    - (quiet tea house garden:1.2), (koi pond:1.1), (stepping stones:1.1), (raked sand:1.1), (zen:1.1), (peaceful:1.1), high detail
+    - (golden rice fields:1.2), (shining with evening light:1.2), (rural village:1.1), (nostalgic:1.1), (Ghibli inspired:1.1), landscape painting
+    - (busy festival street:1.2), (glowing with colorful lanterns:1.2), (matsuri:1.1), (crowds:1.1), (vibrant:1.1), (night:1.1), anime style
+    - (snowy mountain temple:1.3), (carved into cliffs:1.1), (heavy snow:1.1), (isolated:1.1), (peaceful but harsh:1.1), (epic landscape:1.1), concept art
+    - (red maple forest:1.3), (blazing with fiery autumn color:1.2), (dappled sunlight:1.1), (path covered in leaves:1.1), (vibrant:1.1), photorealistic
+    - (moonlit bridge:1.2), (gently flowing river:1.1), (reflections on water:1.1), (night:1.1), (serene:1.1), (mysterious:1.1), digital painting
+    - (ancient stone stairway:1.2), (ascending into mist:1.2), (moss covered stones:1.1), (mysterious:1.1), (eerie:1.1), fantasy concept art
+    - (samurai castle:1.3), (himeji style:1.1), (looming above wide moat:1.1), (majestic:1.1), (sunny day:1.1), (cinematic wide shot:1.1), photorealistic
+    - (village shrine:1.2), (surrounded by lantern lit trees:1.2), (night:1.1), (magical atmosphere:1.1), (glowing:1.1), illustration
+    - (abandoned battlefield:1.2), (overgrown with tall grass:1.1), (broken banners:1.1), (tattered armor:1.1), (melancholy:1.1), (moody lighting:1.1)
+    - (torii gates:1.3), (stretching endlessly up a hillside:1.2), (fushimi inari style:1.1), (dappled light:1.1), (vibrant red:1.1), cinematic
+    - (bamboo grove:1.2), (drifting fog:1.1), (faint glimmers:1.1) of light, (mysterious:1.1), (eerie:1.1), high detail, concept art
+    - (storm lit temple rooftop:1.2), (overlooking valleys:1.1), (lightning:1.1) flashing, (dramatic:1.1), (epic:1.1), (cinematic:1.1)
+    - (quiet coastal village:1.2), (fishing boats bobbing:1.1), (calm sea:1.1), (morning light:1.1), (peaceful:1.1), watercolor illustration
+    - (mountain hot spring:1.2), (onsen:1.1), (hidden by steam and rocks:1.1), (snowy background:1.1), (serene:1.1), (relaxing:1.1)
+    - (shrine trail:1.2), (lined with moss covered statues:1.2), (jizo:1.1), (ancient trees:1.1), (peaceful:1.1), (dappled light:1.1)
+    - (forest glade:1.2), (illuminated by swirling fireflies:1.2), (night:1.1), (magical:1.1), (glowing:1.1), (enchanting:1.1), fantasy art
+    - (five story pagoda:1.2), (standing tall against sunrise sky:1.2), (majestic silhouette:1.1), (vibrant orange sky:1.1), (epic:1.1), landscape
+    - (winding village road:1.2), (beneath heavy snowfall:1.2), (thatched roofs:1.1), (warm glowing windows:1.1), (cozy:1.1), (night:1.1)
+    - (ancient stone bridge:1.2), (arched over forest river:1.1), (mossy:1.1), (clear water:1.1), (serene:1.1), high detail, photorealistic
+    - (deep forest shrine:1.2), (half reclaimed by nature:1.1), (moss:1.1), (vines:1.1), (ancient:1.1), (mysterious:1.1), concept art
+    - (torii gate floating above water:1.3), (itsukushima shrine style:1.1), (high tide:1.1), (reflection in water:1.1), (sunset:1.1), majestic
+    - (lantern lit street market:1.2), (yatai:1.1), (vendors:1.1), (steam rising from food:1.1), (vibrant:1.1), (night:1.1), anime style
+    - (plum orchard:1.2), (blooming in early spring light:1.1), (pink and white blossoms:1.1), (soft light:1.1), (peaceful:1.1), illustration
+    - (mountain pass:1.2), (beneath towering cliffs:1.1), (clouds:1.1) below, (epic view:1.1), (cinematic wide shot:1.1), fantasy landscape
+    - (temple library:1.2), (filled with scrolls:1.1), (incense smoke:1.1), (sunbeams:1.1), (dust particles:1.1), (peaceful:1.1), (scholarly:1.1)
+    - (storm drenched battlefield:1.2), (littered with broken banners:1.1), (heavy rain:1.1), (lightning:1.1), (mud:1.1), (dramatic:1.1), (epic:1.1)
+    - (quiet riverbank:1.2), (willows swaying softly:1.1), (calm water:1.1), (afternoon light:1.1), (serene:1.1), realistic painting
+    - (sacred waterfall:1.2), (cascading into crystal pool:1.1), (shrine nearby:1.1), (misty:1.1), (divine:1.1), (magical:1.1), fantasy art
+    - (foggy graveyard:1.2), (weathered stone markers:1.1), (eerie:1.1), (moonlight:1.1), (crows:1.1), (spooky:1.1), dark fantasy
+    - (distant rice terraces:1.2), (carved into hillsides:1.1), (reflections in water:1.1), (morning mist:1.1), (serene landscape:1.1)
+    - (summit shrine:1.2), (bathed in bright sunrise gold:1.2), (sea of clouds:1.1), (epic view:1.1), (majestic:1.1), cinematic
+    - (yokai haunted forest:1.3), (glowing with eerie lights:1.2), (spooky:1.1), (twisted trees:1.1), (mist:1.1), (glowing eyes in dark:1.1)
+    - (wide open plain:1.2), (distant silhouette of castle:1.1), (tall grass:1.1), (windy:1.1), (cinematic establishing shot:1.1)
+    - (tea field rows:1.2), (stretching over rolling hills:1.1), (pickers at work:1.1), (sunny day:1.1), (vibrant green:1.1), landscape
+    - (nighttime village:1.2), (glowing with candlelight windows:1.1), (thatched roofs:1.1), (peaceful:1.1), (starry night:1.1), illustration
+    - (temple gate:1.2), (sanmon:1.1), (framed by tall cedar trees:1.1), (imposing:1.1), (dappled light:1.1), high detail
+    - (moonlit lake:1.2), (reflecting silhouettes of mountains:1.2), (perfectly still water:1.1), (serene:1.1), (night:1.1), (mystical:1.1)
+    - (coastal cliffs:1.2), (battered by ocean winds:1.1), (crashing waves:1.1), (dramatic:1.1), (stormy:1.1), landscape painting
+    - (shrine at forest edge:1.2), (surrounded by drifting sakura:1.2), (pink petals:1.1), (spring:1.1), (peaceful:1.1), anime background
+    - (marketplace:1.2), (under strings of glowing lanterns:1.2), (bustling:1.1), (vendors:1.1), (night:1.1), (vibrant:1.1), illustration
+    - (fog rolling across:1.2), (mossy stone garden:1.2), (zen garden:1.1), (eerie:1.1), (calm:1.1), (mysterious:1.1), moody
+    - (riverside festival:1.2), (fireworks bursting overhead:1.2), (hanabi:1.1), (reflections in water:1.1), (vibrant:1.1), (joyful:1.1)
+    - (ancient cave shrine:1.2), (lit by flickering candles:1.1), (statues carved in stone:1.1), (mysterious:1.1), (glowing:1.1), fantasy
+    - (bamboo bridge:1.2), (over shallow clear stream:1.1), (simple:1.1), (rural:1.1), (peaceful:1.1), realistic
+    - (sea of clouds:1.2), (below mountain summit shrine:1.2), (sunrise:1.1), (epic view:1.1), (divine:1.1), (majestic:1.1), cinematic
+    - (windswept highland plateau:1.2), (dotted with old stones:1.1), (tall grass:1.1), (dramatic clouds:1.1), (cinematic wide shot:1.1)
+    - (nighttime city of traditional wooden houses:1.2), (kyoto gion style:1.1), (lanterns glowing:1.1), (empty street:1.1), (moody:1.1)
+    - (quiet temple bell tower:1.2), (view of valley:1.1) below, (sunset:1.1), (serene:1.1), (peaceful:1.1), illustration
+    - (overgrown castle ruins:1.2), (blanketed in moss:1.1), (reclaimed by nature:1.1), (sunbeams:1.1), (mysterious:1.1), concept art
+    - (lantern lit torii tunnel:1.3), (stretching endlessly:1.1), (glowing red and orange:1.1), (night:1.1), (magical:1.1), (Fushimi Inari:1.1)
+    - (rain soaked street:1.2), (reflecting neon and lantern shine:1.2), (Tokyo:1.1), (cyberpunk:1.1), (moody:1.1), (cinematic:1.1)
+    - (sacred mountain forest:1.2), (towering ancient trees:1.1), (kodama:1.1) spirits, (misty:1.1), (magical:1.1), (Ghibli inspired:1.1)
+    - (lake island shrine:1.2), (reachable only by small boat:1.1), (reflection in water:1.1), (serene:1.1), (isolated:1.1), fantasy
+    - (forest gorge:1.2), (waterfall mist:1.1), (drifting upward:1.1), (lush greenery:1.1), (dramatic:1.1), landscape painting
+    - (rural village bridge:1.2), (glowing in soft twilight:1.2), (river:1.1), (peaceful:1.1), (nostalgic:1.1), illustration
+    - (deep mountain gorge:1.2), (narrow winding path:1.1), (rushing river below:1.1), (dramatic:1.1), (epic landscape:1.1)
+    - (stone lantern garden:1.2), (lit softly at dusk:1.2), (mossy stones:1.1), (peaceful:1.1), (serene:1.1), high detail
+    - (sunset shining through:1.2), (red torii corridor:1.2), (dramatic shadows:1.1), (vibrant:1.1), (cinematic:1.1)
+    - (storm clouds gathering:1.2), (over samurai fortress:1.2), (ominous:1.1), (dramatic lighting:1.1), (windy:1.1), (epic:1.1)
+    - (firefly meadow:1.2), (glowing:1.1), (humid summer night:1.1), (magical:1.1), (thousands of fireflies:1.1), (dreamlike:1.1)
+    - (abandoned temple:1.2), (reclaimed by wisteria vines:1.2), (purple flowers:1.1), (sunbeams:1.1), (beautiful decay:1.1), concept art
+    - (snow dusted bamboo grove:1.2), (under pale moon:1.1), (night:1.1), (eerie:1.1), (quiet:1.1), (monochrome tones:1.1)
+    - (stepped rice terraces:1.2), (shimmering after rain:1.1), (reflections:1.1), (green:1.1), (rural landscape:1.1), beautiful
+    - (traditional rooftop view:1.2), (over bustling streets:1.1), (edo period:1.1), (sunset:1.1), (cinematic establishing shot:1.1)
+    - (rocky coastline shrine:1.2), (battered by wind and spray:1.1), (ocean waves:1.1), (isolated:1.1), (dramatic:1.1)
+    - (peach orchard:1.2), (blooming with soft pastel tones:1.1), (spring:1.1), (gentle breeze:1.1), (dreamy:1.1), illustration
+    - (temple courtyard:1.2), (echoing with rhythmic drums:1.2), (taiko:1.1), (festival:1.1), (energetic:1.1), (vibrant:1.1)
+    - (lantern boat festival:1.2), (drifting down river:1.1), (toro nagashi:1.1), (night:1.1), (hundreds of lights:1.1), (beautiful:1.1)
+    - (old wooden dojo:1.2), (bathed in morning light:1.1), (sunbeams:1.1), (dust particles:1.1), (peaceful:1.1), (serene:1.1)
+    - (arashiyama-like bamboo path:1.3), (stretching into fog:1.1), (tall green stalks:1.1), (serene:1.1), (mysterious:1.1), photorealistic
+    - (rice paddies:1.2), (glowing green:1.1), (under overcast sky:1.1), (rural japan:1.1), (peaceful:1.1), (moody:1.1)
+    - (ancient torii:1.2), (half consumed by moss and roots:1.2), (in a deep forest:1.1), (forgotten:1.1), (mysterious:1.1), concept art
+    - (mountain ridge path:1.2), (overlooking layered clouds:1.1), (epic view:1.1), (sunrise:1.1), (cinematic:1.1), (majestic:1.1)
+    - (village shrine during snowfall:1.2), (candles flickering:1.1), (heavy snow:1.1), (peaceful:1.1), (night:1.1), (cozy:1.1)
+    - (flame lit festival street:1.2), (matsuri:1.1), (filled with music:1.1), (energetic:1.1), (vibrant:1.1), (night:1.1), (dynamic:1.1)
+    - (windy cliffside temple:1.2), (facing stormy ocean:1.1), (dramatic:1.1), (epic:1.1), (crashing waves:1.1), landscape painting
+    - (torii gate:1.2), (silhouetted by full moon:1.2), (mysterious:1.1), (night sky:1.1), (minimalist:1.1), (eerie:1.1)
+    - (quiet forest path:1.2), (winding between tall cedars:1.1), (sunbeams:1.1), (peaceful:1.1), (serene:1.1), realistic
+    - (water garden:1.2), (stone lanterns:1.1), (koi:1.1) swimming, (reflections:1.1), (zen:1.1), (peaceful:1.1), high detail
+    - (mountains:1.2), (glowing with early sunrise fire:1.2), (mist in valleys:1.1), (epic landscape:1.1), (majestic:1.1), painting
+    - (plaza leading to:1.1), (grand multi-tiered pagoda:1.2), (vibrant red:1.1), (sunny day:1.1), (majestic:1.1), architectural shot
+    - (abandoned river dock:1.2), (creaking wooden planks:1.1), (foggy morning:1.1), (eerie:1.1), (moody:1.1), realistic
+    - (valley blanketed in:1.1), (summer sunset haze:1.2), (purple and orange sky:1.1), (dreamy:1.1), (nostalgic:1.1), landscape
+    - (forest shrine:1.2), (guarded by fox statues:1.2), (kitsune:1.1), (mossy:1.1), (ancient:1.1), (mysterious:1.1), fantasy
+    - (bridge overlooking:1.1), (illuminated cherry trees:1.2), (sakura at night:1.1), (reflections in water:1.1), (magical:1.1)
+
+  spotlight_yokai:
+    - (kitsune spirit:1.3), (nine shimmering tails:1.2), (glowing ember eyes:1.2), (foxfire:1.1), (ethereal:1.1), fantasy art, masterpiece
+    - (tengu swordsman:1.3), (perched on mountain peak:1.2), (red skin:1.1), (crow wings:1.1), (long nose:1.1), (holding katana:1.1), (stormy sky:1.1)
+    - (yuki-onna ghost:1.3), (drifting through snowstorm:1.2), (under pale moon:1.1), (ice magic:1.1), (ethereal beauty:1.1), (haunting:1.1), dark fantasy
+    - (oni brute:1.3), (horned:1.1), (tiger skin loincloth:1.1), (burning kanabo club:1.2), (demonic energy:1.1), (lava background:1.1), epic
+    - (tanuki trickster:1.3), (leaf hat:1.1), (casting playful illusions:1.1), (sake bottle:1.1), (glowing belly:1.1), (in a forest:1.1), whimsical
+    - (nure-onna serpent woman:1.3), (emerging from misty river:1.2), (snake body:1.1), (long wet hair:1.1), (forked tongue:1.1), (eerie:1.1)
+    - (gashadokuro giant skeleton:1.3), (towering over silent village:1.2), (glowing red eyes:1.1), (moonlit night:1.1), (horror:1.1), (epic scale:1.1)
+    - (karakasa umbrella monster:1.3), (hopping through rain-soaked alley:1.2), (one eye:1.1), (long tongue:1.1), (playful but creepy:1.1)
+    - (rokurokubi woman:1.3), (elongated neck:1.2), (weaving through lantern light:1.1), (beautiful face:1.1), (eerie:1.1), (traditional room:1.1)
+    - (bakeneko cat spirit:1.3), (forked tail:1.1), (glowing paws:1.1), (walking on two legs:1.1), (shadowy form:1.1), (supernatural:1.1), dark
+    - (jorogumo spider witch:1.3), (spinning silk threads:1.1), (in forest temple:1.1), (beautiful woman upper body:1.1), (giant spider lower body:1.2)
+    - (kappa:1.3), (lurking beneath mossy riverbank:1.2), (clutching cucumber:1.1), (water dish on head:1.1), (green skin:1.1), mythical creature
+    - (yamabiko:1.2), (echo spirit:1.1), (invisible:1.1), (sound waves visible:1.1), (shouting in mountains:1.1), abstract, fantasy
+    - (hitodama:1.2), (floating blue fire orbs:1.2), (drifting through graveyard:1.1), (eerie glow:1.1), (ghostly:1.1), (night:1.1), atmospheric
+    - (noppera-bo:1.3), (faceless figure:1.2), (walking calmly through night street:1.1), (kimono:1.1), (eerie:1.1), (horror:1.1)
+    - (ubume ghost mother:1.3), (holding spectral infant:1.2), (tattered robes:1.1), (rainy night:1.1), (sad expression:1.1), (haunting:1.1)
+    - (tsukumogami:1.3), (animated objects:1.2), (kasa, sandal, lantern:1.1), (marching under moonlight:1.1), (playful:1.1), (eerie:1.1), fantasy
+    - (inu gami:1.2), (dog guardian:1.1), (formed from loyal spirit:1.1), (glowing ethereal form:1.1), (protecting shrine:1.1), (divine:1.1)
+    - (kodama:1.2), (forest spirit:1.1), (blooming where it steps:1.1), (small white figure:1.1), (glowing:1.1), (ancient forest:1.1), (Ghibli inspired:1.1)
+    - (nurarihyon:1.3), (elegant old spirit:1.2), (slipping into human homes:1.1), (gourd-shaped head:1.1), (leader of yokai:1.1), (mysterious:1.1)
+    - (oni samurai:1.3), (cracked mask:1.1), (flaming blade:1.2), (demonic armor:1.1), (glowing red eyes:1.1), (epic fantasy:1.1)
+    - (ame-onna:1.2), (rain woman:1.1), (hovering:1.1), (dripping hair:1.1), (sad:1.1), (perpetual rain:1.1), (moody:1.1), atmospheric
+    - (raiju:1.3), (lightning beast:1.2), (bounding between rooftops:1.1), (wolf or weasel form:1.1), (crackling with electricity:1.1), (stormy night:1.1)
+    - (satori:1.2), (mind-reading mountain creature:1.2), (ape-like:1.1), (wise eyes:1.1), (in a mountain cave:1.1), (mysterious:1.1)
+    - (hakutaku:1.3), (wise multi-eyed beast:1.2), (glowing with knowledge:1.1), (lion-like body:1.1), (horns:1.1), (divine:1.1), (mythical:1.1)
+    - (yurei bride:1.3), (drifting:1.1), (torn white kimono:1.1), (long black hair:1.1), (no feet:1.1), (vengeful:1.1), (haunting:1.1), horror
+    - (shinigami:1.3), (shadow figure:1.2), (approaching silently:1.1), (holding a scythe:1.1), (eerie:1.1), (death god:1.1), dark, concept art
+    - (umibōzu:1.3), (massive sea spirit:1.2), (emerging from waves:1.1), (giant dark shadow:1.1), (glowing eyes:1.1), (stormy sea:1.1), (epic scale:1.1)
+    - (jubokko:1.2), (vampiric tree:1.1), (dripping scarlet sap:1.1), (branches like arms:1.1), (on a battlefield:1.1), (horror:1.1), dark fantasy
+    - (tsuchigumo:1.3), (earth-spider demon:1.2), (towering in canyon:1.1), (multiple red eyes:1.1), (hairy:1.1), (monstrous:1.1), epic
+    - (futakuchi-onna:1.3), (woman with hungry second mouth:1.2) on back of head, (long hair:1.1) feeding it, (eating:1.1), (eerie:1.1)
+    - (yamauba:1.2), (mountain witch:1.1), (tangled hair:1.1), (tattered clothes:1.1), (in a mountain hut:1.1), (sinister:1.1), folklore
+    - (kamaitachi:1.3), (weasel spirits:1.2), (slicing wind with claws:1.1), (moving in a blur:1.1), (dynamic action:1.1), (dust devils:1.1)
+    - (onryo:1.3), (vengeful spirit:1.2), (long black hair dragging on ground:1.1), (crawling:1.1), (white kimono:1.1), (horror:1.1), (eerie:1.1)
+    - (kitsune shrine guardian:1.3), (manifesting from torii flames:1.2), (white fox form:1.1), (divine aura:1.1), (protective stance:1.1)
+    - (goryo:1.2), (noble ghost:1.1), (radiating blue vengeance:1.1), (court robes:1.1), (haunting a palace:1.1), (eerie:1.1), (powerful:1.1)
+    - (okuri-inu:1.2), (wolf spirit:1.1), (stalking travelers:1.1) in the dark, (glowing eyes:1.1), (shadowy forest:1.1), (protective or malevolent:1.1)
+    - (nurikabe:1.2), (invisible wall spirit:1.1), (blocking path:1.1), (giant shadowy form:1.1), (eerie:1.1), (eyes in the dark:1.1), abstract
+    - (tofu-kozo:1.2), (small yokai:1.1), (rain hat:1.1), (offering cursed tofu:1.1), (child-like:1.1), (eerie smile:1.1), (rainy night:1.1)
+    - (aka manto:1.3), (red-cloaked restroom phantom:1.2), (masked:1.1), (holding red and blue paper:1.1), (horror:1.1), (eerie:1.1)
+    - (ju-on:1.3), (cursed entity:1.2), (crawling through shadow-flooded room:1.1), (black hair:1.1), (croaking sound:1.1), (intense horror:1.1)
+    - (hone-onna:1.3), (skeleton woman:1.2), (disguised as beauty:1.1), (luring men:1.1), (eerie:1.1), (horror:1.1), (lantern:1.1)
+    - (sunakake-baba:1.2), (sand-throwing old woman spirit:1.2), (casting sand:1.1), (in a forest:1.1), (eerie:1.1), (mischievous:1.1)
+    - (mizuchi:1.2), (river dragon:1.1), (coiling beneath surface:1.1), (glowing scales:1.1), (guardian:1.1), (powerful:1.1), fantasy
+    - (tesso:1.2), (iron-rat swarm spirit:1.2), (consuming metal:1.1), (hundreds of rats:1.1), (eerie:1.1), (dark fantasy:1.1)
+    - (shan shan dōroku:1.2), (phantom drums:1.1), (echoing in shrine:1.1), (no visible source:1.1), (eerie:1.1), (atmospheric:1.1), abstract
+    - (invisible yokai:1.2), (leaving wet footprints:1.1), (across tatami:1.1), (eerie:1.1), (mysterious:1.1), (minimalist horror:1.1)
+    - (tall red oni:1.3), (laughing atop broken gate:1.2), (kanabo:1.1), (intimidating:1.1), (moonlight:1.1), (epic:1.1)
+    - (moonlit fox maiden:1.3), (kitsune:1.1), (dancing with floating lanterns:1.2), (ethereal kimono:1.1), (glowing tails:1.1), (magical:1.1)
+    - (kirin-footed celestial yokai:1.3), (kirin:1.1), (standing in stillness:1.1), (glowing scales:1.1), (divine aura:1.1), (majestic:1.1)
+    - (nuribotoke:1.2), (corpse-faced spirit:1.1), (staring with glowing eyes:1.2), (dark:1.1), (eerie:1.1), (horror:1.1)
+    - (yobuko:1.2), (forest echo:1.1), (stirring wind gusts:1.1), (personified as child:1.1), (calling out:1.1), (mysterious:1.1)
+    - (hyakki-yagyō:1.3), (parade of one hundred demons:1.2), (marching:1.1), (many yokai:1.1), (oni, tengu, kitsune:1.1), (night:1.1), (epic:1.1)
+    - (tsuchinoko:1.2), (snake cryptid:1.1), (wide, mischievous grin:1.1), (short fat body:1.1), (in tall grass:1.1), (cute:1.1), (mysterious:1.1)
+    - (amefurikozo:1.2), (rain-bringing sprite:1.1), (perched on roof:1.1), (holding umbrella:1.1), (child-like:1.1), (rainy:1.1)
+    - (nekomata musician:1.3), (playing haunting shamisen:1.2), (forked tail:1.1), (cat spirit:1.1), (moonlight:1.1), (eerie:1.1)
+    - (night-bird yokai:1.2), (singing eerie melodies:1.1), (above rice fields:1.1), (glowing eyes:1.1), (night:1.1), (spooky:1.1)
+    - (tiger-striped oni:1.3), (wielding giant axe:1.2), (roaring:1.1), (battle pose:1.1), (demonic:1.1), (powerful:1.1), fantasy art
+    - (shu-tengu:1.3), (high-ranking avian demon:1.2), (ornate robes:1.1), (glowing staff:1.1), (wise expression:1.1), (powerful:1.1)
+    - (ghost child:1.2), (yurei:1.1), (peeking behind shrine pillar:1.1), (eerie:1.1), (sad:1.1), (glowing pale:1.1), (spooky:1.1)
+    - (yurei drifting:1.2), (through ruined bathhouse:1.2), (long black hair:1.1), (eerie:1.1), (fog:1.1), (horror:1.1)
+    - (floating lantern yokai:1.2), (chōchin-obake:1.1), (glowing with trapped spirit:1.1), (one eye:1.1), (long tongue:1.1), (eerie:1.1)
+    - (fox priest:1.3), (kitsune:1.1), (fire sigils circling tail tips:1.2), (shinto robes:1.1), (wise:1.1), (magical:1.1), fantasy
+    - (oni jester:1.2), (bells made from skull fragments:1.1), (eerie grin:1.1), (colorful but dark:1.1), (juggling fire:1.1), dark fantasy
+    - (storm kappa:1.2), (riding turbulent waves:1.1), (glowing water dish:1.1), (powerful:1.1), (dramatic:1.1), fantasy
+    - (yama spirit:1.2), (cloaked in living moss:1.1), (glowing eyes:1.1), (ancient forest:1.1), (guardian:1.1), (elemental:1.1)
+    - (smoke yokai:1.2), (enma:1.1), (emerging from incense burner:1.1), (swirling shadow form:1.1), (eerie:1.1), (abstract:1.1)
+    - (multi-tailed kitsune:1.3), (forming constellation patterns:1.2), (celestial:1.1), (glowing:1.1), (divine:1.1), (night sky:1.1)
+    - (silent faceless monk:1.2), (noppera-bo:1.1), (walking across endless bridge:1.1), (mist:1.1), (eerie:1.1), (surreal horror:1.1)
+    - (spirit of abandoned doll:1.3), (blinking under candlelight:1.2), (cracked porcelain:1.1), (eerie:1.1), (horror:1.1), (haunted:1.1)
+    - (shadow yokai:1.2), (crawling across walls like ink:1.2), (amorphous:1.1), (dark:1.1), (eerie:1.1), (abstract horror:1.1)
+    - (forest fox spirit:1.3), (kitsune:1.1), (shifting between forms:1.1), (human and fox:1.1), (magical:1.1), (glowing:1.1), fantasy
+    - (rain dragon:1.2), (weaving mist trails:1.1), (along rooftops:1.1), (ethereal:1.1), (glowing scales:1.1), (storm:1.1), fantasy
+    - (ghost samurai:1.3), (yurei:1.1), (kneeling by broken sword:1.1), (cracked armor:1.1), (ethereal:1.1), (sad:1.1), (haunting:1.1)
+    - (spectral deer:1.2), (guiding traveler:1.1), (through forest fog:1.1), (glowing antlers:1.1), (magical:1.1), (ethereal:1.1)
+    - (oni berserker:1.3), (dripping molten aura:1.2), (roaring:1.1), (dual clubs:1.1), (intense rage:1.1), (epic fantasy:1.1)
+    - (masked shrine spirit:1.2), (stepping from painted scroll:1.2), (noh mask:1.1), (ethereal kimono:1.1), (magical:1.1), (glowing:1.1)
+    - (paper doll shikigami:1.2), (fluttering in formation:1.1), (glowing with magic:1.1), (summoned by onmyoji:1.1), (fantasy:1.1)
+    - (ancient tengu general:1.3), (spreading black wings:1.2), (ornate armor:1.1), (long nose:1.1), (epic pose:1.1), (stormy sky:1.1)
+    - (bamboo grove yokai:1.2), (whispering:1.1), (through hollow stalks:1.1), (eerie faces in bamboo:1.1), (spooky:1.1), (atmospheric:1.1)
+    - (oni queen:1.3), (crescent horn crown:1.2), (regal demonic robes:1.1), (on a throne of bones:1.1), (powerful:1.1), (dark fantasy:1.1)
+    - (snow fox spirit:1.3), (kitsune:1.1), (walking across frozen lake:1.1), (white fur:1.1), (glowing blue eyes:1.1), (ethereal:1.1), (winter:1.1)
+    - (lantern ghost:1.2), (floating above abandoned path:1.1), (eerie glow:1.1), (chochin-obake:1.1), (night:1.1), (spooky:1.1)
+    - (tsukumogami tea kettle:1.3), (puffing steam like face:1.2), (small arms and legs:1.1), (hopping:1.1), (whimsical:1.1), (eerie:1.1)
+    - (yokai merchant:1.2), (suitcase of cursed wares:1.1), (mysterious grin:1.1), (in a dark alley:1.1), (eerie:1.1), (glowing items:1.1)
+    - (weeping spirit:1.2), (yurei:1.1), (hovering near old torii gate:1.1), (sad:1.1), (long black hair:1.1), (eerie:1.1), (rainy night:1.1)
+    - (cherry-blossom phantom:1.2), (sakura:1.1), (dissolving into petals:1.2), (ethereal figure:1.1), (beautiful:1.1), (haunting:1.1)
+    - (oni warlord:1.3), (surrounded by swirling cinders:1.2), (massive armor:1.1), (glowing eyes:1.1), (epic:1.1), (powerful:1.1), fantasy
+    - (mountain spirit:1.2), (towering:1.1), (glowing runes:1.1) on stone body, (elemental:1.1), (guardian:1.1), (epic scale:1.1)
+    - (shrine fox guardian:1.3), (kitsune:1.1), (cloaked in divine flame:1.2), (white fox:1.1), (protective stance:1.1), (magical:1.1)
+    - (ancient river spirit:1.2), (coiling through reeds:1.1), (dragon-like:1.1), (water form:1.1), (glowing:1.1), (elemental:1.1)
+    - (forest witch yokai:1.2), (yamauba:1.1), (stirring cauldron smoke:1.1), (sinister smile:1.1), (deep in woods:1.1), (dark folklore:1.1)
+    - (storm oni:1.3), (crackling with thunder:1.2), (riding storm clouds:1.1), (taiko drums:1.1), (epic:1.1), (Raijin inspired:1.1)
+    - (spirit traveler:1.2), (walking barefoot on air:1.1), (ethereal robes:1.1), (glowing:1.1), (serene:1.1), (fantasy:1.1)
+    - (lunar kitsune:1.3), (glowing like silver fire:1.2), (nine tails:1.1), (under the full moon:1.1), (celestial:1.1), (divine:1.1), (magical:1.1)
+
+  spotlight_mecha:
+    - (sleek white aerial mecha:1.3), (wing thrusters:1.1), (plasma rifle:1.1), (flying:1.1), (sci-fi:1.1), (dynamic pose:1.1), mecha anime style
+    - (samurai-inspired mecha:1.3), (horned helmet:1.1), (energy katana:1.2), (glowing red mono-eye:1.1), (feudal armor plates:1.1), (epic:1.1)
+    - (heavy artillery mech:1.3), (rotating missile pods:1.2), (massive cannons:1.1), (standing in a crater:1.1), (military:1.1), high detail
+    - (transformable flight frame:1.2), (glowing vector fins:1.1), (mid-transformation:1.1), (sleek:1.1), (sci-fi:1.1), (dynamic:1.1), (Gundam style:1.1)
+    - (massive biped mech:1.3), (stomping through neon streets:1.2), (cyberpunk city:1.1), (reflections:1.1), (kaiju-sized:1.1), (epic scale:1.1)
+    - (kaiju-hunter mech:1.3), (gripping oversized shock spear:1.2), (battle-damaged armor:1.1), (facing monster:1.1), (cinematic:1.1)
+    - (stealth black frame:1.3), (angular armor:1.1), (optical camo:1.1) shimmering, (glowing red sensors:1.1), (ninja-like:1.1), (dark:1.1)
+    - (classic super-robot:1.3), (mazinger style:1.1), (chest-mounted energy core:1.1), (heroic pose:1.1), (vibrant colors:1.1), (retro anime:1.1)
+    - (industrial exo-mech:1.2), (hydraulic limbs:1.1), (hazard striping:1.1), (carrying cargo:1.1), (utilitarian design:1.1), realistic
+    - (railgun sniper mech:1.3), (kneeling on ruined rooftop:1.2), (long barrel rifle:1.1), (aiming:1.1), (scope glint:1.1), (sci-fi:1.1)
+    - (feudal-style mecha archer:1.3), (launching energy arrows:1.2), (yumi bow:1.1), (samurai-like:1.1), (dynamic:1.1), fantasy mech
+    - (heavy shield unit:1.2), (blocking incoming explosions:1.1), (energy shield:1.1), (massive tower shield:1.1), (defensive stance:1.1)
+    - (quad-leg scout mech:1.2), (sprinting across battlefield:1.1), (agile:1.1), (spider-like:1.1), (sensors:1.1), (sci-fi:1.1)
+    - (titan-class mech:1.3), (towering:1.1) over a city, (casting huge shadow:1.1), (epic scale:1.1), (massive:1.1), (cinematic:1.1)
+    - (samurai mecha duel:1.3), (on bridge under moonlight:1.2), (sparks flying:1.1), (energy katanas clashed:1.1), (epic battle:1.1)
+    - (submersible mech:1.2), (glowing aqua thrusters:1.1), (underwater:1.1), (exploring trench:1.1), (deep sea:1.1), (sci-fi:1.1)
+    - (transformable tank-mode mech:1.2), (tracked legs:1.1), (heavy cannons:1.1), (armored:1.1), (military:1.1), (sci-fi:1.1)
+    - (mecha monk:1.2), (floating halo ring:1.1), (prayer seals:1.1) on armor, (glowing palms:1.1), (peaceful pose:1.1), (fantasy mech:1.1)
+    - (neon racer mech:1.2), (sliding along magnetic rails:1.1), (cyberpunk:1.1), (high speed:1.1), (motion blur:1.1), (vibrant:1.1)
+    - (battleframe with chainsaw blade arm:1.3), (revving:1.1), (splattered:1.1), (aggressive stance:1.1), (brutal:1.1), (sci-fi:1.1)
+    - (hover-mech:1.2), (antigravity emitters:1.1) glowing, (gliding over water:1.1), (sleek design:1.1), (sci-fi:1.1)
+    - (retro anime-style giant robot:1.3), (punching through clouds:1.2), (heroic:1.1), (bright colors:1.1), (dynamic:1.1), (70s anime:1.1)
+    - (drone-controlled mecha swarm unit:1.2), (many small mechs:1.1), (swarming:1.1), (sci-fi:1.1), (concept art:1.1)
+    - (fox-themed mecha:1.3), (kitsune:1.1), (tail thruster pack:1.2), (glowing eyes:1.1), (agile:1.1), (white and red armor:1.1), fantasy mech
+    - (siege walker:1.2), (ground-pounding shock actuators:1.1), (heavy armor:1.1), (massive:1.1), (destroying city:1.1), epic
+    - (aerial combat mech:1.2), (firing micro-missile storm:1.2), (dodging:1.1), (sky battle:1.1), (dynamic:1.1), mecha anime
+    - (urban defender mech:1.2), (shielding civilians from debris:1.1), (protective stance:1.1), (heroic:1.1), (city battle:1.1)
+    - (tactical exosuit:1.2), (glowing blade wings:1.1), (sleek armor:1.1), (soldier inside:1.1), (sci-fi:1.1), concept art
+    - (rail-lance mech:1.2), (piercing armor:1.1), (charge pose:1.1), (high speed impact:1.1), (dynamic:1.1), (sci-fi:1.1)
+    - (volcano-armored mech:1.3), (dripping molten vents:1.2), (glowing cracks:1.1), (lava background:1.1), (epic:1.1), (powerful:1.1)
+    - (flower-themed mecha:1.2), (petal-shaped drones:1.1) floating, (elegant design:1.1), (glowing core:1.1), (fantasy mech:1.1)
+    - (guardian temple mech:1.3), (carved like ancient statue:1.2), (mossy stone armor:1.1), (glowing eyes:1.1), (awakening:1.1), fantasy
+    - (plasma-whip agile mech:1.2), (leaping over battlefield:1.1), (crackling whip:1.1), (dynamic pose:1.1), (sci-fi:1.1)
+    - (heavy repair mech:1.2), (welding through smoke:1.1), (industrial:1.1), (sparks flying:1.1), (utilitarian:1.1), concept art
+    - (tiger-patterned combat frame:1.3), (roaring with energy:1.1), (claw-like hands:1.1), (aggressive stance:1.1), (sci-fi:1.1)
+    - (giant maritime mech:1.2), (walking along coastline:1.1), (battleship-sized:1.1), (water splashing:1.1), (epic scale:1.1)
+    - (meteor-strike mech:1.3), (descending from orbit:1.2), (burning atmosphere entry:1.1), (epic:1.1), (cinematic:1.1)
+    - (energy halberd mech:1.2), (sweeping wide arc:1.1), (glowing blade:1.1), (dynamic pose:1.1), (mecha anime:1.1)
+    - (mecha ninja:1.3), (sprinting along wall:1.1), (silent boosters:1.1), (holding energy shuriken:1.1), (stealth:1.1), (cyberpunk:1.1)
+    - (crane-legged industrial mech:1.2), (hauling containers:1.1), (port background:1.1), (utilitarian:1.1), (realistic:1.1)
+    - (glowing hologram-projecting decoy mech:1.2), (flickering:1.1), (transparent:1.1), (sci-fi tactics:1.1), (concept art:1.1)
+    - (four-arm martial arts mech:1.3), (striking rapid combos:1.2), (glowing fists:1.1), (dynamic pose:1.1), (sci-fi:1.1)
+    - (ancient-style shrine mech:1.3), (hovering charms:1.1), (torii-gate shoulders:1.1), (glowing:1.1), (fantasy mech:1.1)
+    - (shockwave-generator mech:1.2), (stomping ground:1.1), (cracks forming:1.1), (powerful:1.1), (epic:1.1)
+    - (zero-gravity combat mech:1.2), (spinning midair:1.1), (thrusters firing:1.1), (space battle:1.1), (sci-fi:1.1)
+    - (mecha dragon:1.3), (segmented metallic body:1.2), (breathing plasma fire:1.1), (flying:1.1), (epic fantasy mech:1.1)
+    - (high-mobility frame:1.2), (sliding beneath laser fire:1.1), (glowing thrusters:1.1), (dynamic action:1.1), (mecha anime:1.1)
+    - (crystal-armored mech:1.3), (reflecting beams:1.1), (glowing crystalline armor:1.1), (magical:1.1), (fantasy mech:1.1)
+    - (dune-runner mech:1.2), (racing across desert:1.1), (sand kicking up:1.1), (high speed:1.1), (sci-fi:1.1)
+    - (naval artillery walker:1.2), (firing massive cannons:1.1), (battleship guns:1.1), (in the ocean:1.1), (epic scale:1.1)
+    - (sky guardian mech:1.3), (bird-wing thrusters:1.2), (angelic:1.1), (floating above clouds:1.1), (divine:1.1), fantasy mech
+    - (terraformer mech:1.2), (planting seismic rods:1.1), (industrial:1.1), (creating landscape:1.1), (sci-fi:1.1), concept art
+    - (steampunk-inspired steam-vent mech:1.2), (brass and copper:1.1), (gears:1.1), (vents:1.1), (steampunk:1.1)
+    - (hyper-samurai frame:1.3), (slicing air in arc:1.1), (glowing katana trail:1.1), (dynamic pose:1.1), (sleek armor:1.1), mecha anime
+    - (anti-kaiju battleframe:1.3), (gripping energy harpoon:1.2), (massive scale:1.1), (battle-damaged:1.1), (city ruins:1.1), epic
+    - (mecha sage:1.2), (floating armory drones:1.1), (glowing eyes:1.1), (wise pose:1.1), (sci-fi:1.1), (fantasy:1.1)
+    - (storm-themed mech:1.3), (summoning lightning coil:1.2), (glowing:1.1), (storm clouds:1.1), (epic:1.1), (Raijin inspired:1.1)
+    - (crab-leg heavy mech:1.2), (crossing shallow ocean:1.1), (multi-legged:1.1), (heavy cannons:1.1), (sci-fi:1.1)
+    - (urban shadow mech:1.2), (climbing skyscraper:1.1), (stealth:1.1), (night:1.1), (cyberpunk city:1.1), (glowing sensors:1.1)
+    - (forest-ranger mech:1.2), (camo leaf plating:1.1), (in a jungle:1.1), (scouting:1.1), (sci-fi:1.1), concept art
+    - (sandstorm mech:1.2), (cloaked in shifting particles:1.1), (glowing eyes in storm:1.1), (desert:1.1), (eerie:1.1), (sci-fi:1.1)
+    - (superheavy titan:1.3), (covered in glowing runes:1.2), (massive shield:1.1), (god-like:1.1), (epic scale:1.1), fantasy mech
+    - (jet-transformed aerial fortress mecha:1.3), (massive:1.1), (flying:1.1), (countless guns:1.1), (sci-fi:1.1), (Macross style:1.1)
+    - (katana-mech:1.3), (facing off on abandoned highway:1.2), (showdown:1.1), (tense:1.1), (cinematic:1.1), mecha anime
+    - (scythe-arm agricultural battle mech:1.2), (repurposed:1.1), (rustic:1.1), (giant scythe:1.1), (sci-fi:1.1), concept art
+    - (retro heroic robot:1.3), (posing against sunrise:1.2), (vibrant colors:1.1), (classic anime:1.1), (heroic:1.1)
+    - (AI-piloted mech:1.2), (projecting battle holograms:1.1), (sleek:1.1), (no cockpit:1.1), (futuristic:1.1), (sci-fi:1.1)
+    - (orbital knight mech:1.3), (drawing blazing blade:1.2), (in orbit above earth:1.1), (celestial:1.1), (epic:1.1), (sci-fi:1.1)
+    - (compact scout mech:1.2), (hopping between rooftops:1.1), (agile:1.1), (small:1.1), (cyberpunk city:1.1), (sci-fi:1.1)
+    - (volcanic shield mech:1.3), (blocking meteoric debris:1.2), (molten shield:1.1), (epic defense:1.1), (dramatic:1.1)
+    - (deep-sea mech:1.2), (bio-luminescent windows:1.1), (exploring shipwreck:1.1), (dark water:1.1), (eerie:1.1), (sci-fi:1.1)
+    - (star-samurai mecha:1.3), (celestial motifs:1.2), (constellation patterns:1.1), (glowing energy:1.1), (fantasy mech:1.1)
+    - (high-thrust brawler mech:1.2), (smashing concrete:1.1), (powerful fists:1.1), (dynamic action:1.1), (sci-fi:1.1)
+    - (mega-cannon artillery mech:1.3), (bracing for recoil:1.2), (massive gun:1.1), (firing:1.1), (epic:1.1), (sci-fi:1.1)
+    - (transformable hover-bike mecha:1.2), (mid-shift:1.1), (sleek:1.1), (high speed:1.1), (sci-fi:1.1), (anime style:1.1)
+    - (naginata-wielding mecha warrior:1.3), (graceful pose:1.1), (energy naginata:1.1), (female-frame mech:1.1), (elegant:1.1)
+    - (storm-rider mech:1.2), (surfing lightning rails:1.1), (dynamic:1.1), (crackling energy:1.1), (epic:1.1), (sci-fi:1.1)
+    - (lunar exploration mech:1.2), (amid crater dust:1.1), (on the moon:1.1), (earth in sky:1.1), (sci-fi:1.1), (realistic:1.1)
+    - (katana duel:1.3), (between two high-mobility frames:1.2), (sparks:1.1), (blurs of motion:1.1), (epic battle:1.1), mecha anime
+    - (guardian fox mecha:1.3), (kitsune:1.1), (glowing at temple gate:1.2), (nine energy tails:1.1), (divine:1.1), (fantasy mech:1.1)
+    - (winged mech:1.2), (spiraling above cherry blossoms:1.2), (sakura petals:1.1), (angelic wings:1.1), (beautiful:1.1), (fantasy mech:1.1)
+    - (armored missile-deck mech:1.2), (unleashing barrage:1.1), (smoke trails:1.1), (explosions:1.1), (military:1.1), (sci-fi:1.1)
+    - (forearm-shielded brawler mech:1.2), (charging forward:1.1), (heavy armor:1.1), (powerful:1.1), (sci-fi:1.1)
+    - (energy-sculptor mech:1.2), (forming hard-light blade:1.1), (glowing energy:1.1), (magical:1.1), (fantasy mech:1.1)
+    - (seismic titan mech:1.3), (pounding earth:1.1), (shockwaves:1.1), (massive:1.1), (epic:1.1), (sci-fi:1.1)
+    - (two-pilot twin-frame mecha:1.3), (merged in sync:1.1), (glowing energy:1.1), (two pilots visible:1.1), (anime style:1.1)
+    - (rising sun mecha:1.2), (glowing beneath skyline:1.1), (red sun motif:1.1), (heroic pose:1.1), (epic:1.1), (mecha anime:1.1)
+    - (mecha with calligraphy-emblazoned armor:1.3), (glowing kanji:1.1), (powerful stance:1.1), (magical:1.1), (fantasy mech:1.1)
+    - (ancient shrine golem-mech:1.3), (awakening under moon:1.2), (stone and wood:1.1), (glowing runes:1.1), (magical:1.1), (fantasy:1.1)
+
+  spotlight_kimono:
+    - elegant portrait of a woman in a (formal furisode kimono:1.3), (intricate sakura blossom embroidery:1.2), (long flowing sleeves:1.1), soft pink and gold, in a spring garden, beautiful painting
+    - cinematic detail shot of a (kurotomesode kimono:1.3), (five-crested:1.1), (hand-painted yuzen pattern:1.2) of bamboo and cranes at the hem, (fukuro obi:1.1), photorealistic
+    - masterpiece illustration of a geisha wearing an (elegant hikizuri kimono:1.3), (trailing hem:1.1), (bold pine and plum blossom pattern:1.2), (darari obi:1.1), kyoto night street, lantern light
+    - stylized art of a man in a (formal montsuki haori hakama:1.3), (black silk:1.1), (five family crests:1.2), (striped sendaihira hakama:1.1), in a dojo, strong pose, concept art
+    - beautiful shot of a woman in a (summer yukata:1.2), (indigo blue:1.1), (white seigaiha wave pattern:1.2), simple hanhaba obi, (at a summer festival:1.1), (glowing lanterns:1.1), anime style
+    - photorealistic closeup of a (silk kimono fabric:1.3), (shibori tie-dye technique:1.2), intricate (asanoha hemp leaf pattern:1.1), deep indigo and white, high detail texture
+    - a woman in a (vibrant taisho-roman kimono:1.3), (art nouveau floral designs:1.2), (bold stripes:1.1), (western-style boots:1.1), (modern tokyo street:1.1), fashion photography
+    - masterpiece painting of a (court noblewoman:1.2) in a (jūnihitoe:1.4), (twelve-layer robe:1.2), (intricate color combinations:1.1), (Heian period:1.1), elegant, high detail
+    - elegant woman in an (iromuji kimono:1.3), (solid pale lilac color:1.2), (subtle rinzu damask pattern:1.1), (formal nagoya obi:1.1), (attending a tea ceremony:1.1), serene, realistic
+    - dynamic shot of a dancer in a (komon kimono:1.2), (fine repeating karakusa vine pattern:1.2), (bright red silk:1.1), (swirling sleeves:1.1), (festival stage:1.1), vibrant
+    - cinematic portrait of a bride in a (shiromuku wedding kimono:1.4), (pure white silk:1.2), (woven crane motifs:1.1), (takedabishi pattern:1.1), (serene expression:1.1), masterpiece
+    - detailed illustration of a (yabane arrow feather pattern:1.3) kimono, (popular in Meiji era:1.1), (maroon and white:1.1), (worn with hakama:1.1), (student:1.1), retro anime style
+    - a man wearing a (casual samue:1.2), (simple cotton fabric:1.1), (monk:1.1), (sweeping a zen garden:1.1), (raked sand:1.1), (peaceful morning light:1.1), realistic
+    - close-up on a (luxurious maru obi:1.3), (heavy gold brocade:1.2), (kikkou tortoise shell pattern:1.1) with (chrysanthemums:1.1), (traditional wedding:1.1), high detail
+    - elegant woman in a (houmongi kimono:1.3), (pale blue silk:1.1), (continuous pattern across seams:1.2) of (river and cherry blossoms:1.1), (visiting a shrine:1.1), beautiful
+    - portrait of a kabuki actor in an (exaggerated stage kimono:1.3), (bold primary colors:1.1), (large geometric patterns:1.2), (dramatic pose:1.1), (ukiyo-e style:1.1)
+    - a woman in a (vintage meisen kimono:1.3), (bold ikat dyeing:1.2), (abstract geometric design:1.1), (1920s japan:1.1), (art deco influence:1.1), stylized illustration
+    - (child at shichi-go-san festival:1.2), wearing a (brightly colored kimono:1.3), (ume plum blossom pattern:1.2), (holding a chitose ame bag:1.1), (joyful:1.1), photorealistic
+    - cinematic shot of a (tsukesage kimono:1.2), (light green:1.1), (modest patterns:1.1) of (maple leaves at the shoulder and hem:1.2), (elegant dinner party:1.1), realistic
+    - masterpiece artwork of a (celestial maiden:1.1) in a (hagoromo:1.3), (ethereal feather robe:1.2), (glowing silk:1.1), (translucent:1.1), (floating in the sky:1.1), fantasy art
+    - a man in a (jinbei:1.2), (comfortable summer wear:1.1), (simple stripes:1.1), (relaxing on an engawa porch:1.1), (evening:1.1), (ghibli style:1.1)
+    - photorealistic detail of (yuzen dyeing:1.3), (hand-painted landscape scene:1.2) on a (tomesode kimono:1.1), (flowing water:1.1), (miniature bridge:1.1), (gold leaf accents:1.1)
+    - elegant woman in a (komon kimono:1.2) with (sayagata key fret pattern:1.3), (subtle and repeating:1.1), (maroon color:1.1), (shopping in Ginza:1.1), traditional painting
+    - portrait of an (onna bugeisha:1.1) wearing a (battle kimono:1.2) under (light armor:1.1), (sleeves tied back:1.1), (intense expression:1.1), (dynamic:1.1), concept art
+    - a woman in a (modern kimono dress:1.2), (short skirt:1.1), (traditional sakura pattern:1.2) on (cyberpunk fabric:1.1), (neon tokyo:1.1), fashion shot
+    - (back view of a maiko:1.2), (darari obi:1.3) almost touching the ground, (intricate embroidery:1.1), (family crest on neck:1.1), (gion district:1.1), photorealistic
+    - beautiful portrait of a woman in an (antique furisode:1.3), (faded silk:1.1), (hand-embroidered cranes:1.2), (gold thread:1.1), (nostalgic mood:1.1), cinematic lighting
+    - (kimono fabric:1.3) with (kaga-yuzen:1.2) design, (realistic flowers and birds:1.1), (shading from outside to inside:1.1), (artistic masterpiece:1.1), high detail
+    - a man in a (dark silk kimono:1.2) and (haori jacket:1.1), (subtle pine needle pattern:1.1), (onmyoji:1.1), (mysterious:1.1), (lantern light:1.1), anime style
+    - woman in a (yukata:1.1) after a bath, (simple floral print:1.1), (at a traditional ryokan:1.1), (looking at garden:1.1), (serene:1.1), (soft lighting:1.1)
+    - (shibori kimono:1.3) detail shot, (countless tiny textured bumps:1.2), (deep red and white pattern:1.1), (silk crepe chirimen:1.1), (macro photography:1.1)
+    - (edo komon:1.3) kimono, (extremely fine repeating pattern:1.2), (looks like solid color from afar:1.1), (shark skin pattern:1.1), (elegant and subtle:1.1), realistic
+    - a woman in a (houmongi:1.2) with (breathtaking painted scene:1.3) of (Mount Fuji at sunset:1.2), (gold clouds:1.1), (formal event:1.1), masterpiece painting
+    - (fukuro obi:1.3) tied in a (fukura suzume knot:1.2), (sparrow knot:1.1), (gold and orange brocade:1.1), (back view of furisode:1.1), high detail
+    - (kimono sleeves:1.2) (tamoto:1.1) detail, (long furisode sleeves:1.1), (weighted silk:1.1), (chrysanthemum pattern:1.2) against (black silk:1.1), elegant
+    - a woman in a (uchikake:1.4), (heavy silk wedding overcoat:1.2), (bright red:1.1), (heavily embroidered:1.1) with (phoenixes:1.2), (majestic:1.1), photorealistic
+    - (karakusa vine pattern:1.3) on a (furoshiki cloth:1.1), (green and white:1.1), (traditional repeating design:1.1), flat lay, high detail
+    - (close up on a kimono collar:1.2), (layered collars:1.1) (kasane-eri:1.1), (red silk under white embroidery:1.1), (geisha:1.1), high detail
+    - (seigaiha wave pattern:1.3) on a (man's haori jacket:1.1), (blue and white:1.1), (dynamic and stylized:1.1), (cinematic shot:1.t)
+    - (tomesode kimono:1.2) with (noshi pattern:1.3), (bundles of dried abalone strips:1.1), (symbol of good fortune:1.1), (elegant design:1.1), illustration
+    - (asanoha hemp leaf pattern:1.3) kimono, (geometric:1.1), (red and white:1.1), (child's kimono:1.1), (symbol of growth:1.1), cute, bright
+    - (kikkou tortoise shell pattern:1.3) on (samurai armor:1.1) (hitatare:1.1), (hexagonal pattern:1.1), (symbol of longevity:1.1), (metallic thread:1.1)
+    - (yukata for a man:1.2), (dark blue:1.1), (simple geometric pattern:1.1), (kaku obi:1.1), (watching fireworks:1.1), (summer night:1.1), realistic
+    - (shioze silk kimono:1.3), (lightweight:1.1), (pale pink iromuji:1.1), (rinzu damask:1.1), (understated elegance:1.2), (tea master:1.1), serene
+    - (woman in a (modern kimono:1.2) with (bold poppy flower print:1.3), (art nouveau:1.1), (bright colors:1.1), (harajuku street:1.1), fashion photography
+    - (hand-painted (ume plum blossom pattern:1.3) on a (nagoya obi:1.1), (artistic:1.1), (white silk:1.1), (subtle beauty:1.1), high detail
+    - (kimono with (tatewaku pattern:1.3), (rising steam:1.1), (elegant vertical curves:1.1), (often with other motifs:1.1), (Heian period:1.1), traditional art
+    - (vintage furisode:1.3) with (yuzen painting of butterflies:1.2) and (peonies:1.1), (gold leaf details:1.1), (showa era:1.1), (gorgeous:1.1), masterpiece
+    - (samurai in a (silk hitatare:1.2) under armor, (large sleeves:1.1), (family crest:1.1), (formal court wear:1.1), (sengoku period:1.1), historical painting
+    - (woman admiring a (kimono on a rack:1.2), (tomesode:1.1), (breathtaking landscape painting:1.3) on the hem, (yuzen:1.1), (art gallery:1.1)
+
+# ---------------------------------------------------------
+# NEGATIVE PROMPT
+# ---------------------------------------------------------
+
+  negative_prompt:
+    - "(worst quality:1.4), (low quality:1.4), (normal quality:1.4), lowres, normal resolution, (blurry:1.2), (cropped:1.1), (watermark:1.3), (signature:1.3), (username:1.3), (artist name:1.3), text, error, extra digit, fewer digits, (jpeg artifacts:1.2), (ugly:1.1), (deformed:1.2), (disfigured:1.2), (poorly drawn:1.2), (bad anatomy:1.3), (extra limbs:1.3), (missing limbs:1.3), (fused fingers:1.2), (too many fingers:1.2), (long neck:1.2), (mutilated:1.1), out of frame, duplicate"
