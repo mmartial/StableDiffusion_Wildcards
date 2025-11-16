@@ -2,7 +2,7 @@
   "id": "80a402e7-bd3d-47ee-a719-94f0ad41b1bb",
   "revision": 0,
   "last_node_id": 254,
-  "last_link_id": 559,
+  "last_link_id": 562,
   "nodes": [
     {
       "id": 210,
@@ -651,7 +651,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        704000200986326,
+        131199352912,
         "randomize",
         25,
         1,
@@ -950,24 +950,14 @@
       "widgets_values": [
         [
           {
-            "name": "A1",
+            "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_hzbfc_00017_.png&type=temp&subfolder=&rand=0.6950082728166008"
+            "url": "/api/view?filename=rgthree.compare._temp_hzbfc_00021_.png&type=temp&subfolder=&rand=0.30921729890002303"
           },
           {
-            "name": "A2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_hzbfc_00018_.png&type=temp&subfolder=&rand=0.031780648265571365"
-          },
-          {
-            "name": "B1",
+            "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_hzbfc_00019_.png&type=temp&subfolder=&rand=0.24597166718581454"
-          },
-          {
-            "name": "B2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_hzbfc_00020_.png&type=temp&subfolder=&rand=0.30883527466375715"
+            "url": "/api/view?filename=rgthree.compare._temp_hzbfc_00022_.png&type=temp&subfolder=&rand=0.9863407981809985"
           }
         ]
       ]
@@ -1360,6 +1350,15 @@
           "link": 546
         },
         {
+          "name": "positive",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "positive"
+          },
+          "link": 562
+        },
+        {
           "name": "seed_value",
           "shape": 7,
           "type": "INT",
@@ -1546,6 +1545,15 @@
           "link": 557
         },
         {
+          "name": "positive",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "positive"
+          },
+          "link": 560
+        },
+        {
           "name": "seed_value",
           "shape": 7,
           "type": "INT",
@@ -1698,6 +1706,15 @@
             "name": "modelname"
           },
           "link": 545
+        },
+        {
+          "name": "positive",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "positive"
+          },
+          "link": 561
         },
         {
           "name": "seed_value",
@@ -1957,7 +1974,10 @@
           "slot_index": 3,
           "links": [
             457,
-            536
+            536,
+            560,
+            561,
+            562
           ]
         }
       ],
@@ -1969,11 +1989,11 @@
       },
       "widgets_values": [
         "__gkr_japan/spotlight_kimono__\n\na woman in the sun by a shrine, the sun rays brilliant and creating a haze around her body, she holds a traditional umbrella and is smiling at the camera\n",
-        "a woman in a (uchikake:1.4), (heavy silk wedding overcoat:1.2), (bright red:1.1), (heavily embroidered:1.1) with (phoenixes:1.2), (majestic:1.1), photorealistic\n\na woman in the sun by a shrine, the sun rays brilliant and creating a haze around her body, she holds a traditional umbrella and is smiling at the camera\n",
+        "(seigaiha wave pattern:1.3) on a (man's haori jacket:1.1), (blue and white:1.1), (dynamic and stylized:1.1), (cinematic shot:1.t)\n\na woman in the sun by a shrine, the sun rays brilliant and creating a haze around her body, she holds a traditional umbrella and is smiling at the camera\n",
         "populate",
         "Select the LoRA to add to the text",
         "Select the Wildcard to add to the text",
-        268866028108216,
+        1042862103055600,
         "randomize"
       ],
       "color": "#232",
@@ -2346,7 +2366,7 @@
       228,
       0,
       247,
-      2,
+      3,
       "INT"
     ],
     [
@@ -2354,7 +2374,7 @@
       228,
       0,
       248,
-      2,
+      3,
       "INT"
     ],
     [
@@ -2426,7 +2446,7 @@
       228,
       0,
       253,
-      2,
+      3,
       "INT"
     ],
     [
@@ -2436,6 +2456,30 @@
       254,
       0,
       "IMAGE"
+    ],
+    [
+      560,
+      152,
+      3,
+      253,
+      2,
+      "STRING"
+    ],
+    [
+      561,
+      152,
+      3,
+      247,
+      2,
+      "STRING"
+    ],
+    [
+      562,
+      152,
+      3,
+      248,
+      2,
+      "STRING"
     ]
   ],
   "groups": [
@@ -2520,8 +2564,8 @@
     "ds": {
       "scale": 0.9646149645000015,
       "offset": [
-        605.6121182456168,
-        291.79093829070877
+        623.2357303868729,
+        143.54525969072807
       ]
     },
     "info": {
