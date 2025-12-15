@@ -11,7 +11,7 @@ Every workflow has the ability to use Ollama to convert SDXL-ready prompts into 
 
 If Ollama is not available, simply bypass the group and populate the prompt manually.
 
-Ollama might use VRAM that might be needed for the Image generations. Running Ollama on a separate machine might be a good option to release VRAM usage.
+Ollama might use VRAM that might be needed for the Image generations. Running Ollama on a separate machine might be a good option to release VRAM usage. Setting `keep alive` to `0` will unload the model immediately after the request finishes.
 
 When using Ollama, we recommend the use of an instruction tuned model (the default in the workflow is `gpt-oss:20b`). Make sure to adapt the server URL (default is `http://ollama.internal:11434`) and the model name (default is `gpt-oss:20b`) to match your setup; clicking `Reconnect` will allow you to test the connection and list the available models.
 
