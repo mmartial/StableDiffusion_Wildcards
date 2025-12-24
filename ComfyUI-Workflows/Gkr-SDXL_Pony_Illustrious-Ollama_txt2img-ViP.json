@@ -52,7 +52,7 @@
         294
       ],
       "flags": {},
-      "order": 7,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -181,47 +181,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 159,
-      "type": "ShowText|pysssss",
-      "pos": [
-        -1950,
-        340
-      ],
-      "size": [
-        710,
-        650
-      ],
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "STRING",
-          "link": 307
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "shape": 6,
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "title": "Concatenated result: Pre + Ollama",
-      "properties": {
-        "cnr_id": "comfyui-custom-scripts",
-        "ver": "1.2.5",
-        "Node name for S&R": "ShowText|pysssss"
-      },
-      "widgets_values": [
-        "majestic composition, absurdres, 8k, masterpiece,\n\n<lora:Illustrious/Akemi Takada_IL:2.0>, takada akemi,  1 girl, blue_kimono, holding_sword, long_hair, black_hair, hair_flower, .   "
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 194,
       "type": "ImpactWildcardProcessor",
       "pos": [
@@ -256,7 +215,7 @@
         "bad quality, worst quality, worst detail, sketch,censor,\nworst quality, low quality, displeasing, text, watermark,\nbad anatomy, artist name, signature,\n\n",
         "bad quality, worst quality, worst detail, sketch,censor,\nworst quality, low quality, displeasing, text, watermark,\nbad anatomy, artist name, signature,\n\n",
         "populate",
-        649782497845116,
+        734970524443226,
         "randomize",
         "Select Wildcard 🟢 Full Cache"
       ],
@@ -392,7 +351,7 @@
         26
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -1137,47 +1096,6 @@
       ]
     },
     {
-      "id": 160,
-      "type": "ImpactWildcardProcessor",
-      "pos": [
-        -3840,
-        290
-      ],
-      "size": [
-        730,
-        420
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "processed text",
-          "type": "STRING",
-          "links": [
-            310
-          ]
-        }
-      ],
-      "title": "ImpactWildcardProcessor (use to expand text or wildcards using Ollama)",
-      "properties": {
-        "cnr_id": "comfyui-impact-pack",
-        "ver": "8.25.1",
-        "Node name for S&R": "ImpactWildcardProcessor"
-      },
-      "widgets_values": [
-        "a fantastical scene with snow, animals and no human showing the beauty of nature in winter",
-        "a fantastical scene with snow, animals and no human showing the beauty of nature in winter",
-        "populate",
-        833734726519163,
-        "randomize",
-        "Select Wildcard 🟢 Full Cache"
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
       "id": 363,
       "type": "Reroute",
       "pos": [
@@ -1285,154 +1203,6 @@
       }
     },
     {
-      "id": 206,
-      "type": "79e952fc-d4ad-4367-8502-a8215ef9fe5e",
-      "pos": [
-        540,
-        340
-      ],
-      "size": [
-        420,
-        280
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "SAM_model_name",
-          "name": "model_name",
-          "type": "COMBO",
-          "widget": {
-            "name": "model_name"
-          },
-          "link": null
-        },
-        {
-          "label": "image",
-          "name": "anything",
-          "type": "*",
-          "link": 621
-        },
-        {
-          "label": "Ultralytics Faces detector",
-          "name": "model_name_1",
-          "type": "COMBO",
-          "widget": {
-            "name": "model_name_1"
-          },
-          "link": null
-        },
-        {
-          "label": "Ultralytics Eyes detector",
-          "name": "model_name_2",
-          "type": "COMBO",
-          "widget": {
-            "name": "model_name_2"
-          },
-          "link": null
-        },
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 819
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 823
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 825
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 827
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 821
-        },
-        {
-          "name": "steps",
-          "type": "INT",
-          "widget": {
-            "name": "steps"
-          },
-          "link": 874
-        },
-        {
-          "name": "sampler_name",
-          "type": "COMBO",
-          "widget": {
-            "name": "sampler_name"
-          },
-          "link": 883
-        },
-        {
-          "name": "scheduler",
-          "type": "COMBO",
-          "widget": {
-            "name": "scheduler"
-          },
-          "link": 884
-        }
-      ],
-      "outputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "links": [
-            828,
-            860,
-            877
-          ]
-        }
-      ],
-      "properties": {
-        "proxyWidgets": [
-          [
-            "-1",
-            "model_name"
-          ],
-          [
-            "-1",
-            "model_name_1"
-          ],
-          [
-            "-1",
-            "model_name_2"
-          ],
-          [
-            "-1",
-            "steps"
-          ],
-          [
-            "-1",
-            "sampler_name"
-          ],
-          [
-            "-1",
-            "scheduler"
-          ]
-        ],
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1"
-      },
-      "widgets_values": [
-        "sam_vit_b_01ec64.pth",
-        "bbox/face_yolov8m.pt",
-        "bbox/Eyeful_v2-Paired.pt",
-        8,
-        "euler",
-        "simple"
-      ]
-    },
-    {
       "id": 381,
       "type": "Seed (rgthree)",
       "pos": [
@@ -1444,7 +1214,7 @@
         130
       ],
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1475,367 +1245,6 @@
       ],
       "color": "#223",
       "bgcolor": "#335"
-    },
-    {
-      "id": 173,
-      "type": "ImpactWildcardEncode",
-      "pos": [
-        -2710,
-        330
-      ],
-      "size": [
-        730,
-        510
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 453
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 454
-        }
-      ],
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "links": [
-            818
-          ]
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "links": [
-            820
-          ]
-        },
-        {
-          "name": "conditioning",
-          "type": "CONDITIONING",
-          "links": [
-            890
-          ]
-        },
-        {
-          "name": "populated_text",
-          "type": "STRING",
-          "links": [
-            342
-          ]
-        }
-      ],
-      "title": "ImpactWildcardEncode (not passed to Ollama -- use to load your Loras)",
-      "properties": {
-        "cnr_id": "comfyui-impact-pack",
-        "ver": "8.28.0",
-        "Node name for S&R": "ImpactWildcardEncode"
-      },
-      "widgets_values": [
-        "majestic composition, absurdres, 8k, masterpiece,\n\n<lora:Illustrious/Akemi Takada_IL:2.0>, takada akemi,  1 girl, blue_kimono, holding_sword, long_hair, black_hair, hair_flower, ",
-        "majestic composition, absurdres, 8k, masterpiece,\n\n<lora:Illustrious/Akemi Takada_IL:2.0>, takada akemi,  1 girl, blue_kimono, holding_sword, long_hair, black_hair, hair_flower, ",
-        "populate",
-        "Select the LoRA to add to the text",
-        "Select Wildcard 🟢 Full Cache",
-        895842568926589,
-        "randomize"
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 192,
-      "type": "1bf7fa61-430f-4e4b-81c0-87cffedef833",
-      "pos": [
-        -1210,
-        340
-      ],
-      "size": [
-        600,
-        726
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "STEPS",
-          "name": "int",
-          "type": "INT",
-          "widget": {
-            "name": "int"
-          },
-          "link": null
-        },
-        {
-          "label": "CFG",
-          "name": "cfg",
-          "type": "FLOAT",
-          "widget": {
-            "name": "cfg"
-          },
-          "link": null
-        },
-        {
-          "label": "clip_skip",
-          "name": "Number",
-          "type": "STRING",
-          "widget": {
-            "name": "Number"
-          },
-          "link": null
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "widget": {
-            "name": "seed"
-          },
-          "link": 892
-        },
-        {
-          "label": "positive_prompt",
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 371
-        },
-        {
-          "label": "negative_prompt",
-          "name": "text_1",
-          "type": "STRING",
-          "widget": {
-            "name": "text_1"
-          },
-          "link": 370
-        },
-        {
-          "label": "Post Lora CLIP",
-          "name": "clip",
-          "type": "CLIP",
-          "link": 889
-        },
-        {
-          "label": "Post Lora model",
-          "name": "model",
-          "type": "MODEL",
-          "link": 885
-        },
-        {
-          "label": "Post Lora Conditioning",
-          "name": "",
-          "type": "*",
-          "link": 890
-        }
-      ],
-      "outputs": [
-        {
-          "label": "KSampler IMAGE",
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            372
-          ]
-        },
-        {
-          "label": "Selected MODEL",
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            453
-          ]
-        },
-        {
-          "name": "model_name",
-          "type": "STRING",
-          "links": [
-            782
-          ]
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            826
-          ]
-        },
-        {
-          "label": "width",
-          "name": "INT",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "label": "height",
-          "name": "INT_1",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "label": "IMAGE LATENT",
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": null
-        },
-        {
-          "label": "STEPS",
-          "name": "INT_2",
-          "type": "INT",
-          "links": [
-            794
-          ]
-        },
-        {
-          "label": "CFG",
-          "name": "value",
-          "type": "FLOAT",
-          "links": [
-            798
-          ]
-        },
-        {
-          "name": "sampler_name",
-          "type": "STRING",
-          "links": [
-            785
-          ]
-        },
-        {
-          "name": "scheduler_name",
-          "type": "STRING",
-          "links": [
-            790
-          ]
-        },
-        {
-          "label": "clip_skip",
-          "name": "INT_3",
-          "type": "INT",
-          "links": [
-            802
-          ]
-        },
-        {
-          "label": "Model CLIP",
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            454
-          ]
-        },
-        {
-          "label": "Combined Positive CONDITIONING",
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            891
-          ]
-        },
-        {
-          "label": "Negative CONDITIONING",
-          "name": "CONDITIONING_1",
-          "type": "CONDITIONING",
-          "links": [
-            824
-          ]
-        },
-        {
-          "name": "sampler",
-          "type": "COMBO",
-          "links": [
-            881
-          ]
-        },
-        {
-          "name": "scheduler",
-          "type": "COMBO",
-          "links": [
-            882
-          ]
-        }
-      ],
-      "properties": {
-        "proxyWidgets": [
-          [
-            "-1",
-            "ckpt_name"
-          ],
-          [
-            "-1",
-            "vae_name"
-          ],
-          [
-            "-1",
-            "resolution"
-          ],
-          [
-            "-1",
-            "batch_size"
-          ],
-          [
-            "-1",
-            "int"
-          ],
-          [
-            "-1",
-            "cfg"
-          ],
-          [
-            "-1",
-            "sampler_name"
-          ],
-          [
-            "-1",
-            "scheduler"
-          ],
-          [
-            "-1",
-            "Number"
-          ],
-          [
-            "-1",
-            "seed"
-          ],
-          [
-            "-1",
-            "text"
-          ],
-          [
-            "-1",
-            "text_1"
-          ],
-          [
-            "-1",
-            "denoise"
-          ]
-        ],
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1"
-      },
-      "widgets_values": [
-        "Illustrious/illustrijGEN_1.safetensors",
-        "SDXL/sdxl_vae.safetensors",
-        "1216x832",
-        4,
-        25,
-        4,
-        "dpmpp_2m_sde_gpu",
-        "karras",
-        "-2",
-        193358757655087,
-        "",
-        "",
-        1
-      ]
     },
     {
       "id": 355,
@@ -2004,174 +1413,6 @@
       "color": "#141414",
       "bgcolor": "#000000",
       "shape": 4
-    },
-    {
-      "id": 325,
-      "type": "048afb5c-bdbe-4d5c-ae6e-3e5ef2077986",
-      "pos": [
-        -370,
-        790
-      ],
-      "size": [
-        210,
-        426
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 19,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 704
-        },
-        {
-          "name": "steps",
-          "type": "INT",
-          "widget": {
-            "name": "steps"
-          },
-          "link": 795
-        },
-        {
-          "name": "cfg",
-          "type": "FLOAT",
-          "widget": {
-            "name": "cfg"
-          },
-          "link": 799
-        },
-        {
-          "name": "modelname",
-          "type": "STRING",
-          "widget": {
-            "name": "modelname"
-          },
-          "link": 783
-        },
-        {
-          "name": "sampler_name",
-          "type": "STRING",
-          "widget": {
-            "name": "sampler_name"
-          },
-          "link": 786
-        },
-        {
-          "name": "scheduler_name",
-          "type": "STRING",
-          "widget": {
-            "name": "scheduler_name"
-          },
-          "link": 791
-        },
-        {
-          "name": "positive",
-          "type": "STRING",
-          "widget": {
-            "name": "positive"
-          },
-          "link": 811
-        },
-        {
-          "name": "negative",
-          "type": "STRING",
-          "widget": {
-            "name": "negative"
-          },
-          "link": 815
-        },
-        {
-          "name": "seed_value",
-          "type": "INT",
-          "widget": {
-            "name": "seed_value"
-          },
-          "link": 807
-        },
-        {
-          "name": "clip_skip",
-          "type": "INT",
-          "widget": {
-            "name": "clip_skip"
-          },
-          "link": 803
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "proxyWidgets": [
-          [
-            "-1",
-            "filename"
-          ],
-          [
-            "-1",
-            "path"
-          ],
-          [
-            "-1",
-            "extension"
-          ],
-          [
-            "-1",
-            "modelname"
-          ],
-          [
-            "-1",
-            "sampler_name"
-          ],
-          [
-            "-1",
-            "scheduler_name"
-          ],
-          [
-            "-1",
-            "steps"
-          ],
-          [
-            "-1",
-            "cfg"
-          ],
-          [
-            "-1",
-            "clip_skip"
-          ],
-          [
-            "-1",
-            "seed_value"
-          ],
-          [
-            "-1",
-            "positive"
-          ],
-          [
-            "-1",
-            "negative"
-          ]
-        ],
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1"
-      },
-      "widgets_values": [
-        "%time_S1_%basemodelname_%seed",
-        "%date",
-        "png",
-        "",
-        "",
-        "0",
-        20,
-        7,
-        0,
-        0,
-        "unknown",
-        "unknown"
-      ],
-      "color": "#141414",
-      "bgcolor": "#000000",
-      "shape": 1
     },
     {
       "id": 342,
@@ -2606,80 +1847,26 @@
         [
           {
             "name": "A1",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00031_.png&type=temp&subfolder=&rand=0.9482732455805257"
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00039_.png&type=temp&subfolder=&rand=0.3516947591654829"
           },
           {
             "name": "A2",
-            "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00032_.png&type=temp&subfolder=&rand=0.680933988358232"
-          },
-          {
-            "name": "A3",
             "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00033_.png&type=temp&subfolder=&rand=0.20854135149414488"
-          },
-          {
-            "name": "A4",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00034_.png&type=temp&subfolder=&rand=0.2113782539623873"
+            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00040_.png&type=temp&subfolder=&rand=0.8274455699638649"
           },
           {
             "name": "B1",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00035_.png&type=temp&subfolder=&rand=0.7720189185889167"
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00041_.png&type=temp&subfolder=&rand=0.06890369003962427"
           },
           {
             "name": "B2",
-            "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00036_.png&type=temp&subfolder=&rand=0.6324109569091334"
-          },
-          {
-            "name": "B3",
             "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00037_.png&type=temp&subfolder=&rand=0.03627826421301106"
-          },
-          {
-            "name": "B4",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00038_.png&type=temp&subfolder=&rand=0.7267567425439724"
+            "url": "/api/view?filename=rgthree.compare._temp_mzovk_00042_.png&type=temp&subfolder=&rand=0.7040753507608545"
           }
         ]
       ]
-    },
-    {
-      "id": 154,
-      "type": "Fast Groups Bypasser (rgthree)",
-      "pos": [
-        -2760,
-        -210
-      ],
-      "size": [
-        800,
-        370
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "properties": {
-        "matchColors": "",
-        "matchTitle": "",
-        "showNav": true,
-        "showAllGraphs": true,
-        "sort": "alphanumeric",
-        "customSortAlphabet": "",
-        "toggleRestriction": "default"
-      },
-      "color": "#322",
-      "bgcolor": "#533"
     },
     {
       "id": 158,
@@ -2806,6 +1993,799 @@
         "showOutputText": false,
         "horizontal": false
       }
+    },
+    {
+      "id": 159,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -1950,
+        340
+      ],
+      "size": [
+        710,
+        650
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 307
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Concatenated result: Pre + Ollama",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "majestic composition, absurdres, 8k, masterpiece,\n.   A human star monk mystic stands tall, his simple robes flowing like quiet mist.  \nHis serene expression radiates calm, the intricate textures of his skin catching the flickering neon light.  \nHe wanders through a bustling orbital station market, surrounded by curious aliens of many shapes and colors.  \nNeon signs in exotic languages flash overhead, bathing the scene in a kaleidoscope of electric blues and magentas.  \nThe air hums with the clatter of trade, as merchants hawk star‑spice and holo‑art.  \nThe monk’s presence feels otherworldly, a tranquil anchor amid the cosmic bustle.  \nRendered in vivid sci‑fi illustration, the image highlights crisp detail, dynamic lighting, and a vibrant, immersive atmosphere."
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 173,
+      "type": "ImpactWildcardEncode",
+      "pos": [
+        -2710,
+        330
+      ],
+      "size": [
+        730,
+        510
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 453
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 454
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            818
+          ]
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "links": [
+            820
+          ]
+        },
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "links": [
+            890
+          ]
+        },
+        {
+          "name": "populated_text",
+          "type": "STRING",
+          "links": [
+            342
+          ]
+        }
+      ],
+      "title": "ImpactWildcardEncode (not passed to Ollama -- use to load your Loras)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "8.28.0",
+        "Node name for S&R": "ImpactWildcardEncode"
+      },
+      "widgets_values": [
+        "majestic composition, absurdres, 8k, masterpiece,\n",
+        "majestic composition, absurdres, 8k, masterpiece,\n",
+        "populate",
+        "Select the LoRA to add to the text",
+        "Select Wildcard 🟢 Full Cache",
+        900021988387479,
+        "randomize"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 154,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        -2760,
+        -210
+      ],
+      "size": [
+        800,
+        370
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "showAllGraphs": true,
+        "sort": "alphanumeric",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default"
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 160,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        -3840,
+        290
+      ],
+      "size": [
+        730,
+        420
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "links": [
+            310
+          ]
+        }
+      ],
+      "title": "ImpactWildcardProcessor (use to expand text or wildcards using Ollama)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "8.25.1",
+        "Node name for S&R": "ImpactWildcardProcessor"
+      },
+      "widgets_values": [
+        "__gkr_scifi/random__",
+        "(star monk mystic:1.2), (simple robes:1.1), (serene expression:1.1), human, (detailed skin textures:1.1), in (bustling orbital station market:1.2), (aliens:1.1), (neon signs:1.1)",
+        "populate",
+        36005482492847,
+        "randomize",
+        "Select Wildcard 🟢 Full Cache"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 192,
+      "type": "1bf7fa61-430f-4e4b-81c0-87cffedef833",
+      "pos": [
+        -1210,
+        340
+      ],
+      "size": [
+        600,
+        726
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "STEPS",
+          "name": "int",
+          "type": "INT",
+          "widget": {
+            "name": "int"
+          },
+          "link": null
+        },
+        {
+          "label": "CFG",
+          "name": "cfg",
+          "type": "FLOAT",
+          "widget": {
+            "name": "cfg"
+          },
+          "link": null
+        },
+        {
+          "label": "clip_skip",
+          "name": "Number",
+          "type": "STRING",
+          "widget": {
+            "name": "Number"
+          },
+          "link": null
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": 892
+        },
+        {
+          "label": "positive_prompt",
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 371
+        },
+        {
+          "label": "negative_prompt",
+          "name": "text_1",
+          "type": "STRING",
+          "widget": {
+            "name": "text_1"
+          },
+          "link": 370
+        },
+        {
+          "label": "Post Lora CLIP",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 889
+        },
+        {
+          "label": "Post Lora model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 885
+        },
+        {
+          "label": "Post Lora Conditioning",
+          "name": "",
+          "type": "*",
+          "link": 890
+        }
+      ],
+      "outputs": [
+        {
+          "label": "KSampler IMAGE",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            372
+          ]
+        },
+        {
+          "label": "Selected MODEL",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            453
+          ]
+        },
+        {
+          "name": "model_name",
+          "type": "STRING",
+          "links": [
+            782
+          ]
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            826
+          ]
+        },
+        {
+          "label": "width",
+          "name": "INT",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "label": "height",
+          "name": "INT_1",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "label": "IMAGE LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": null
+        },
+        {
+          "label": "STEPS",
+          "name": "INT_2",
+          "type": "INT",
+          "links": [
+            794
+          ]
+        },
+        {
+          "label": "CFG",
+          "name": "value",
+          "type": "FLOAT",
+          "links": [
+            798
+          ]
+        },
+        {
+          "name": "sampler_name",
+          "type": "STRING",
+          "links": [
+            785
+          ]
+        },
+        {
+          "name": "scheduler_name",
+          "type": "STRING",
+          "links": [
+            790
+          ]
+        },
+        {
+          "label": "clip_skip",
+          "name": "INT_3",
+          "type": "INT",
+          "links": [
+            802
+          ]
+        },
+        {
+          "label": "Model CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            454
+          ]
+        },
+        {
+          "label": "Combined Positive CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            891
+          ]
+        },
+        {
+          "label": "Negative CONDITIONING",
+          "name": "CONDITIONING_1",
+          "type": "CONDITIONING",
+          "links": [
+            824
+          ]
+        },
+        {
+          "name": "sampler",
+          "type": "COMBO",
+          "links": [
+            881
+          ]
+        },
+        {
+          "name": "scheduler",
+          "type": "COMBO",
+          "links": [
+            882
+          ]
+        }
+      ],
+      "properties": {
+        "proxyWidgets": [
+          [
+            "-1",
+            "ckpt_name"
+          ],
+          [
+            "-1",
+            "vae_name"
+          ],
+          [
+            "-1",
+            "resolution"
+          ],
+          [
+            "-1",
+            "batch_size"
+          ],
+          [
+            "-1",
+            "int"
+          ],
+          [
+            "-1",
+            "cfg"
+          ],
+          [
+            "-1",
+            "sampler_name"
+          ],
+          [
+            "-1",
+            "scheduler"
+          ],
+          [
+            "-1",
+            "Number"
+          ],
+          [
+            "-1",
+            "seed"
+          ],
+          [
+            "-1",
+            "text"
+          ],
+          [
+            "-1",
+            "text_1"
+          ],
+          [
+            "-1",
+            "denoise"
+          ]
+        ],
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1"
+      },
+      "widgets_values": [
+        "Illustrious/illustrijGEN_1.safetensors",
+        "SDXL/sdxl_vae.safetensors",
+        "1216x832",
+        2,
+        25,
+        4,
+        "dpmpp_2m_sde_gpu",
+        "karras",
+        "-2",
+        193358757655087,
+        "",
+        "",
+        1
+      ]
+    },
+    {
+      "id": 325,
+      "type": "048afb5c-bdbe-4d5c-ae6e-3e5ef2077986",
+      "pos": [
+        -370,
+        790
+      ],
+      "size": [
+        210,
+        426
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 704
+        },
+        {
+          "name": "steps",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "link": 795
+        },
+        {
+          "name": "cfg",
+          "type": "FLOAT",
+          "widget": {
+            "name": "cfg"
+          },
+          "link": 799
+        },
+        {
+          "name": "modelname",
+          "type": "STRING",
+          "widget": {
+            "name": "modelname"
+          },
+          "link": 783
+        },
+        {
+          "name": "sampler_name",
+          "type": "STRING",
+          "widget": {
+            "name": "sampler_name"
+          },
+          "link": 786
+        },
+        {
+          "name": "scheduler_name",
+          "type": "STRING",
+          "widget": {
+            "name": "scheduler_name"
+          },
+          "link": 791
+        },
+        {
+          "name": "positive",
+          "type": "STRING",
+          "widget": {
+            "name": "positive"
+          },
+          "link": 811
+        },
+        {
+          "name": "negative",
+          "type": "STRING",
+          "widget": {
+            "name": "negative"
+          },
+          "link": 815
+        },
+        {
+          "name": "seed_value",
+          "type": "INT",
+          "widget": {
+            "name": "seed_value"
+          },
+          "link": 807
+        },
+        {
+          "name": "clip_skip",
+          "type": "INT",
+          "widget": {
+            "name": "clip_skip"
+          },
+          "link": 803
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "proxyWidgets": [
+          [
+            "-1",
+            "filename"
+          ],
+          [
+            "-1",
+            "path"
+          ],
+          [
+            "-1",
+            "extension"
+          ],
+          [
+            "-1",
+            "modelname"
+          ],
+          [
+            "-1",
+            "sampler_name"
+          ],
+          [
+            "-1",
+            "scheduler_name"
+          ],
+          [
+            "-1",
+            "steps"
+          ],
+          [
+            "-1",
+            "cfg"
+          ],
+          [
+            "-1",
+            "clip_skip"
+          ],
+          [
+            "-1",
+            "seed_value"
+          ],
+          [
+            "-1",
+            "positive"
+          ],
+          [
+            "-1",
+            "negative"
+          ]
+        ],
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1"
+      },
+      "widgets_values": [
+        "%time_S1_%basemodelname_%seed",
+        "%date",
+        "png",
+        "",
+        "",
+        "0",
+        20,
+        7,
+        0,
+        0,
+        "unknown",
+        "unknown"
+      ],
+      "color": "#141414",
+      "bgcolor": "#000000",
+      "shape": 1
+    },
+    {
+      "id": 206,
+      "type": "79e952fc-d4ad-4367-8502-a8215ef9fe5e",
+      "pos": [
+        540,
+        340
+      ],
+      "size": [
+        420,
+        280
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "SAM_model_name",
+          "name": "model_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "model_name"
+          },
+          "link": null
+        },
+        {
+          "label": "image",
+          "name": "anything",
+          "type": "*",
+          "link": 621
+        },
+        {
+          "label": "Ultralytics Faces detector",
+          "name": "model_name_1",
+          "type": "COMBO",
+          "widget": {
+            "name": "model_name_1"
+          },
+          "link": null
+        },
+        {
+          "label": "Ultralytics Eyes detector",
+          "name": "model_name_2",
+          "type": "COMBO",
+          "widget": {
+            "name": "model_name_2"
+          },
+          "link": null
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 819
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 823
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 825
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 827
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 821
+        },
+        {
+          "name": "steps",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "link": 874
+        },
+        {
+          "name": "sampler_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "sampler_name"
+          },
+          "link": 883
+        },
+        {
+          "name": "scheduler",
+          "type": "COMBO",
+          "widget": {
+            "name": "scheduler"
+          },
+          "link": 884
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            828,
+            860,
+            877
+          ]
+        }
+      ],
+      "properties": {
+        "proxyWidgets": [
+          [
+            "-1",
+            "model_name"
+          ],
+          [
+            "-1",
+            "model_name_1"
+          ],
+          [
+            "-1",
+            "model_name_2"
+          ],
+          [
+            "-1",
+            "steps"
+          ],
+          [
+            "-1",
+            "sampler_name"
+          ],
+          [
+            "-1",
+            "scheduler"
+          ]
+        ],
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1"
+      },
+      "widgets_values": [
+        "sam_vit_b_01ec64.pth",
+        "bbox/face_yolov8m.pt",
+        "bbox/Eyeful_v2-Paired.pt",
+        8,
+        "euler",
+        "simple"
+      ]
     },
     {
       "id": 220,
@@ -4593,7 +4573,7 @@
             "widgets_values": [
               832,
               1216,
-              4
+              2
             ],
             "color": "#223",
             "bgcolor": "#335"
@@ -6199,7 +6179,7 @@
               384,
               false,
               1024,
-              358913277991584,
+              81388913235791,
               "randomize",
               10,
               1,
@@ -6377,7 +6357,7 @@
               384,
               false,
               1024,
-              430720732265151,
+              124221091555366,
               "randomize",
               10,
               1,
@@ -6763,7 +6743,7 @@
               }
             },
             "widgets_values": [
-              572429515471215,
+              781763108344891,
               "randomize",
               8,
               1,
@@ -7115,8 +7095,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 16,
-          "lastNodeId": 219,
-          "lastLinkId": 447,
+          "lastNodeId": 220,
+          "lastLinkId": 449,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -7172,7 +7152,7 @@
             "name": "model_1",
             "type": "COMBO",
             "linkIds": [
-              443
+              449
             ],
             "label": "SeedVR2 VAE model",
             "pos": [
@@ -7286,89 +7266,6 @@
               0.01,
               0.2,
               4
-            ]
-          },
-          {
-            "id": 219,
-            "type": "SeedVR2LoadVAEModel",
-            "pos": [
-              2170,
-              2530
-            ],
-            "size": [
-              330,
-              300
-            ],
-            "flags": {},
-            "order": 7,
-            "mode": 0,
-            "inputs": [
-              {
-                "localized_name": "torch_compile_args",
-                "name": "torch_compile_args",
-                "shape": 7,
-                "type": "TORCH_COMPILE_ARGS",
-                "link": null
-              },
-              {
-                "localized_name": "model",
-                "name": "model",
-                "type": "COMBO",
-                "widget": {
-                  "name": "model"
-                },
-                "link": 443
-              },
-              {
-                "localized_name": "device",
-                "name": "device",
-                "type": "COMBO",
-                "widget": {
-                  "name": "device"
-                },
-                "link": 444
-              }
-            ],
-            "outputs": [
-              {
-                "localized_name": "SEEDVR2_VAE",
-                "name": "SEEDVR2_VAE",
-                "type": "SEEDVR2_VAE",
-                "links": [
-                  437
-                ]
-              }
-            ],
-            "title": "🧬  SeedVR2 Load VAE Model",
-            "properties": {
-              "cnr_id": "seedvr2_videoupscaler",
-              "ver": "2.5.14",
-              "Node name for S&R": "SeedVR2LoadVAEModel",
-              "enableTabs": false,
-              "tabWidth": 65,
-              "tabXOffset": 10,
-              "hasSecondTab": false,
-              "secondTabText": "Send Back",
-              "secondTabOffset": 80,
-              "secondTabWidth": 65,
-              "ue_properties": {
-                "widget_ue_connectable": {},
-                "input_ue_unconnectable": {},
-                "version": "7.5.1"
-              }
-            },
-            "widgets_values": [
-              "ema_vae_fp16.safetensors",
-              "cuda:0",
-              true,
-              1024,
-              128,
-              true,
-              1024,
-              128,
-              "false",
-              "cpu",
-              false
             ]
           },
           {
@@ -7576,7 +7473,7 @@
                 "localized_name": "vae",
                 "name": "vae",
                 "type": "SEEDVR2_VAE",
-                "link": 437
+                "link": 448
               },
               {
                 "localized_name": "resolution",
@@ -7635,7 +7532,7 @@
               }
             },
             "widgets_values": [
-              2543599779,
+              3526487962,
               "randomize",
               4096,
               5400,
@@ -7704,6 +7601,80 @@
             ]
           },
           {
+            "id": 220,
+            "type": "SeedVR2LoadVAEModel",
+            "pos": [
+              2170,
+              2550
+            ],
+            "size": [
+              330,
+              300
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "torch_compile_args",
+                "name": "torch_compile_args",
+                "shape": 7,
+                "type": "TORCH_COMPILE_ARGS",
+                "link": null
+              },
+              {
+                "localized_name": "model",
+                "name": "model",
+                "type": "COMBO",
+                "widget": {
+                  "name": "model"
+                },
+                "link": 449
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "SEEDVR2_VAE",
+                "name": "SEEDVR2_VAE",
+                "type": "SEEDVR2_VAE",
+                "links": [
+                  448
+                ]
+              }
+            ],
+            "title": "🧬  SeedVR2 Load VAE Model",
+            "properties": {
+              "cnr_id": "seedvr2_videoupscaler",
+              "ver": "2.5.14",
+              "Node name for S&R": "SeedVR2LoadVAEModel",
+              "enableTabs": false,
+              "tabWidth": 65,
+              "tabXOffset": 10,
+              "hasSecondTab": false,
+              "secondTabText": "Send Back",
+              "secondTabOffset": 80,
+              "secondTabWidth": 65,
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.5.1"
+              }
+            },
+            "widgets_values": [
+              "ema_vae_fp16.safetensors",
+              "cuda:0",
+              true,
+              1024,
+              128,
+              true,
+              1024,
+              128,
+              "false",
+              "cpu",
+              false
+            ]
+          },
+          {
             "id": 216,
             "type": "ImageScaleBy",
             "pos": [
@@ -7716,7 +7687,7 @@
             ],
             "flags": {},
             "order": 4,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "image",
@@ -7810,14 +7781,6 @@
             "type": "SEEDVR2_DIT"
           },
           {
-            "id": 437,
-            "origin_id": 219,
-            "origin_slot": 0,
-            "target_id": 217,
-            "target_slot": 2,
-            "type": "SEEDVR2_VAE"
-          },
-          {
             "id": 438,
             "origin_id": -10,
             "origin_slot": 0,
@@ -7842,22 +7805,6 @@
             "type": "COMBO"
           },
           {
-            "id": 443,
-            "origin_id": -10,
-            "origin_slot": 2,
-            "target_id": 219,
-            "target_slot": 1,
-            "type": "COMBO"
-          },
-          {
-            "id": 444,
-            "origin_id": -10,
-            "origin_slot": 2,
-            "target_id": 219,
-            "target_slot": 2,
-            "type": "COMBO"
-          },
-          {
             "id": 445,
             "origin_id": -10,
             "origin_slot": 3,
@@ -7879,6 +7826,22 @@
             "origin_slot": 5,
             "target_id": 217,
             "target_slot": 5,
+            "type": "COMBO"
+          },
+          {
+            "id": 448,
+            "origin_id": 220,
+            "origin_slot": 0,
+            "target_id": 217,
+            "target_slot": 2,
+            "type": "SEEDVR2_VAE"
+          },
+          {
+            "id": 449,
+            "origin_id": -10,
+            "origin_slot": 2,
+            "target_id": 220,
+            "target_slot": 1,
             "type": "COMBO"
           }
         ],
@@ -12255,10 +12218,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7247295000000041,
+      "scale": 0.6588450000000045,
       "offset": [
-        3695.1380874454603,
-        355.3626977065056
+        3147.1941716078636,
+        350.2635572972525
       ]
     },
     "frontendVersion": "1.34.9",
