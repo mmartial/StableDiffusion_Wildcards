@@ -28,3 +28,17 @@ The [Atomix-Flux_Qwen-Ollama_txt2img-V4-SDXL_upscale.json](Atomix-Flux_Qwen-Olla
 # Z Image Turbo
 
 The [Smith-ZImageTurbo-Ollama_txt2img-v4-SeedVR2.json](Smith-ZImageTurbo-Ollama_txt2img-v4-SeedVR2.json) workflow is extended from the [Z-Image Turbo - T2I Workflow + Detailer + SeedVR2 Upscaler + Color Grading v4.0](https://civitai.com/models/2174733?modelVersionId=2482034) workflow. 
+
+# Work in progress
+
+The [Gkr-SDXL_Pony_Illustrious-Ollama_txt2img-ViP.json](Gkr-SDXL_Pony_Illustrious-Ollama_txt2img-ViP.json) workflow is a Work-In-Progress combination, testing and tweaking of various elements from other workflows to generate an upscaled 16MP image as the final result while staying as close as possible to the original generation as generate CivitAI metadata for each stage of the image generation.
+
+- Stage 1: Generate the regular image, pass it to a selector (can be bypassed for batch generation)
+- Stage 2: Upscale to 4MP using HiResFix
+- Stage 3: Use Ultimate SD Upscaler (No Upscale) to redefine the components of 4MP image using the original model and loras' specific characteristics. Faces and Eyes Detailer are then used on the resulting image.
+- Stage 4: That result is sent to SeedVR2 to generate the final 16MP image.
+
+There are many nodes involved in this workflow. Because of that I made use of multiple subgraphs to keep the workflow organized and easy to navigate.
+Groups exists as organizational structure for the entire process and follow the Stage numbers.
+
+It "works for me" but it might not be the best way to do it. Feedback is welcome.
