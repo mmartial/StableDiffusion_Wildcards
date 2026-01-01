@@ -1,5 +1,5 @@
 {
-  "id": "7e780afa-fe86-49ef-93ea-04899ab259aa",
+  "id": "45663885-8839-4a60-913b-867faf91b2ff",
   "revision": 0,
   "last_node_id": 607,
   "last_link_id": 1549,
@@ -81,7 +81,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "STRING",
+          "type": "*",
           "link": null
         }
       ],
@@ -146,7 +146,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "IMAGE",
+          "type": "*",
           "link": null
         }
       ],
@@ -177,7 +177,7 @@
         540
       ],
       "size": [
-        186.45000305175782,
+        186.50000610351563,
         106
       ],
       "flags": {},
@@ -211,7 +211,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "CONDITIONING",
+          "type": "*",
           "link": null
         }
       ],
@@ -585,7 +585,7 @@
         "Node name for S&R": "ShowText|pysssss"
       },
       "widgets_values": [
-        "A young woman stands in the middle of a bustling Tokyo street, her full body illuminated by dramatic chiaroscuro that casts her light smile in deep contrast.  \nShe wears an Okinawan bingata‑dyed kimono, its vibrant stencil patterns shimmering in pale blue and sky blue hues.  \nThe kimono showcases a delicate treasure (takara‑zukushi) pattern, adding a layer of intricate detail.  \nA stiff men’s kaku obi, bound in a simple pattern, cinches her waist with disciplined elegance.  \nHer small kinchaku pouch and a drawstring bag hang casually at her side, hinting at practicality.  \nSnowflakes drift silently over the neon‑lit street, softly coating the scene in a wintry hush.  \nThe chiaroscuro accentuates the textures of the kimono fabric and the quiet contrast amid city bustle.  \nNeon signs blur in the background, amplifying the dramatic, atmospheric feel of the moment."
+        "A young woman stands in full body on a busy Tokyo street, her gentle light smile illuminated by dramatic chiaroscuro that sharpens her ಜೀವ silhouette.  \nShe wears a Yuki tsumugi (pongee) silk kimono that feels fluffy and hand‑spun, its moss‑green fabric evoking the quiet hush of winter.  \nA bamboo (take) pattern adorns the cloth, subtle green silhouettes of stalks and leaves etched in fine thread against the soft moss background.  \nHer Kaku obi features Hakata stripes that ripple across her waist, the contrast of crimson and white providing a striking focal point.  \nWhite tabi socks peek from beneath the hem, their crispness mirroring the pristine snowflakes falling on the bustling street.  \nNeon signs flicker overhead, casting layered shadows that deepen the chiaroscuro effect against the soft gray snow.  \nPassersby blur in the background, their hurried movements forming a blurred mosaic that accentuates the woman’s still presence."
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -665,7 +665,7 @@
         "Node name for S&R": "ShowText|pysssss"
       },
       "widgets_values": [
-        "A young woman stands centered in a bustling Tokyo street, her silhouette bathed in dramatic chiaroscuro that makes her gentle smile pop against the night.  \nShe wears an Okinawan bingata‑dyed kimono, its vivid stencil patterns glinting in pale and sky blue, capturing the city’s neon glow.  \nA delicate takara‑zukushi motif on the kimono adds intricate detail, reflecting light like tiny jewels.  \nA rigid men’s kaku obi, tied in a plain knot, cinches her waist with disciplined elegance, framing her figure.  \nA small kinchaku pouch and a loose drawstring bag dangle at her side, hinting at everyday practicality amid elegance.  \nSilent snowflakes drift over the neon‑lit avenue, softly coating the scene in a wintry hush that slows the city’s rush.  \nThe chiaroscuro highlights the kimono’s textures and deepens the quiet contrast between her calm presence and the frantic street.  \nBlurred neon signs in the background amplify the dramatic, atmospheric mood, making the image feel like a cinematic frame frozen in time."
+        "A young woman stands full body on a bustling Tokyo street, her gentle light smile illuminated by dramatic chiaroscuro that sharpens her silhouette against neon glare.  \nShe wears a fluffy, hand‑spun Yuki tsumugi silk kimono in moss‑green, its texture evoking the hush of a winter snowfall.  \nSubtle bamboo (take) motifs thread across the cloth, green stalks and leaves etched in fine thread that whisper through the soft moss backdrop.  \nHer Kaku obi displays striking Hakata stripes in crimson and white, rippling across her waist like a bold, living banner.  \nWhite tabi socks peek from beneath the hem, their crispness mirroring pristine snowflakes that drift among the hurried crowd.  \nLayered shadows from flickering neon signs deepen the chiaroscuro, casting a cool gray snowlit contrast over the cityscape.  \nBlurred passersby form a fleeting mosaic in the background, their hurried movements accentuating the woman’s poised, cinematic stillness."
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -1007,7 +1007,7 @@
         1270
       ],
       "size": [
-        360.51666870117185,
+        360.6000122070312,
         78
       ],
       "flags": {},
@@ -1863,7 +1863,7 @@
         "Node name for S&R": "ShowText|pysssss"
       },
       "widgets_values": [
-        "modern_anime_render, (high_detail:0.84), vivid_colors, soft_shading, dynamic_lighting, clean_lineart, atmospheric_depth, glossy_highlights, painterly_texture, masterpiece, best quality, high-resolution anime detailing, highres, 8k, aesthetic\n\nembedding:BSY_Anatomy_Positives_V1_PRO, \nembedding:BSY_General_Positives_V1_PRO, \n\n.  A young woman stands centered in a bustling Tokyo street, her silhouette bathed in dramatic chiaroscuro that makes her gentle smile pop against the night.  \nShe wears an Okinawan bingata‑dyed kimono, its vivid stencil patterns glinting in pale and sky blue, capturing the city’s neon glow.  \nA delicate takara‑zukushi motif on the kimono adds intricate detail, reflecting light like tiny jewels.  \nA rigid men’s kaku obi, tied in a plain knot, cinches her waist with disciplined elegance, framing her figure.  \nA small kinchaku pouch and a loose drawstring bag dangle at her side, hinting at everyday practicality amid elegance.  \nSilent snowflakes drift over the neon‑lit avenue, softly coating the scene in a wintry hush that slows the city’s rush.  \nThe chiaroscuro highlights the kimono’s textures and deepens the quiet contrast between her calm presence and the frantic street.  \nBlurred neon signs in the background amplify the dramatic, atmospheric mood, making the image feel like a cinematic frame frozen in time..  <lora:Modern_anime_render:1.0>"
+        "modern_anime_render, (high_detail:0.84), vivid_colors, soft_shading, dynamic_lighting, clean_lineart, atmospheric_depth, masterpiece, best quality, high-resolution anime detailing, highres, 8k, aesthetic\n\nembedding:BSY_Anatomy_Positives_V1_PRO, \nembedding:BSY_General_Positives_V1_PRO, \n\n.  A young woman stands full body on a bustling Tokyo street, her gentle light smile illuminated by dramatic chiaroscuro that sharpens her silhouette against neon glare.  \nShe wears a fluffy, hand‑spun Yuki tsumugi silk kimono in moss‑green, its texture evoking the hush of a winter snowfall.  \nSubtle bamboo (take) motifs thread across the cloth, green stalks and leaves etched in fine thread that whisper through the soft moss backdrop.  \nHer Kaku obi displays striking Hakata stripes in crimson and white, rippling across her waist like a bold, living banner.  \nWhite tabi socks peek from beneath the hem, their crispness mirroring pristine snowflakes that drift among the hurried crowd.  \nLayered shadows from flickering neon signs deepen the chiaroscuro, casting a cool gray snowlit contrast over the cityscape.  \nBlurred passersby form a fleeting mosaic in the background, their hurried movements accentuating the woman’s poised, cinematic stillness..  <lora:Modern_anime_render:1.0>"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -2088,7 +2088,7 @@
         200
       ],
       "size": [
-        455.3166564941406,
+        455.4,
         82
       ],
       "flags": {},
@@ -2393,9 +2393,8 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
-          "type": "STRING",
+          "type": "*",
           "link": null
         }
       ],
@@ -2625,7 +2624,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "STRING",
+          "type": "*",
           "link": null
         }
       ],
@@ -2732,7 +2731,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "STRING",
+          "type": "*",
           "link": null
         }
       ],
@@ -2839,7 +2838,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "INT",
+          "type": "*",
           "link": null
         }
       ],
@@ -2947,7 +2946,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "FLOAT",
+          "type": "*",
           "link": null
         }
       ],
@@ -3054,7 +3053,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "INT",
+          "type": "*",
           "link": null
         }
       ],
@@ -4470,7 +4469,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "COMBO",
+          "type": "*",
           "link": null
         }
       ],
@@ -4573,7 +4572,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "COMBO",
+          "type": "*",
           "link": null
         }
       ],
@@ -4638,7 +4637,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "COMBO",
+          "type": "*",
           "link": null
         }
       ],
@@ -4669,7 +4668,7 @@
         1530
       ],
       "size": [
-        173.95000076293945,
+        173.96667098999023,
         110
       ],
       "flags": {},
@@ -4703,7 +4702,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "CONDITIONING",
+          "type": "*",
           "link": null
         }
       ],
@@ -4734,7 +4733,7 @@
         1530
       ],
       "size": [
-        173.95000076293945,
+        173.96667098999023,
         110
       ],
       "flags": {},
@@ -4768,7 +4767,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "CONDITIONING",
+          "type": "*",
           "link": null
         }
       ],
@@ -4833,7 +4832,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "CLIP",
+          "type": "*",
           "link": null
         }
       ],
@@ -4898,7 +4897,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "VAE",
+          "type": "*",
           "link": null
         }
       ],
@@ -4963,7 +4962,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "COMBO",
+          "type": "*",
           "link": null
         }
       ],
@@ -5028,7 +5027,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "COMBO",
+          "type": "*",
           "link": null
         }
       ],
@@ -5059,7 +5058,7 @@
         1540
       ],
       "size": [
-        173.95000076293945,
+        173.96667098999023,
         110
       ],
       "flags": {},
@@ -5093,7 +5092,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "CONDITIONING",
+          "type": "*",
           "link": null
         }
       ],
@@ -5124,7 +5123,7 @@
         1540
       ],
       "size": [
-        173.95000076293945,
+        173.96667098999023,
         110
       ],
       "flags": {},
@@ -5158,7 +5157,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "CONDITIONING",
+          "type": "*",
           "link": null
         }
       ],
@@ -5223,7 +5222,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "VAE",
+          "type": "*",
           "link": null
         }
       ],
@@ -5288,7 +5287,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "MODEL",
+          "type": "*",
           "link": null
         }
       ],
@@ -5459,7 +5458,7 @@
         1280
       ],
       "size": [
-        290.5000061035156,
+        290.5333312988281,
         82
       ],
       "flags": {},
@@ -5532,44 +5531,14 @@
       "widgets_values": [
         [
           {
-            "name": "A1",
+            "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00005_.png&type=temp&subfolder=&rand=0.7665632544122492"
+            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00321_.png&type=temp&subfolder=&rand=0.4916360952826988"
           },
           {
-            "name": "A2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00006_.png&type=temp&subfolder=&rand=0.8813667730958629"
-          },
-          {
-            "name": "A3",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00007_.png&type=temp&subfolder=&rand=0.7183054632667396"
-          },
-          {
-            "name": "A4",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00008_.png&type=temp&subfolder=&rand=0.04045462650482934"
-          },
-          {
-            "name": "B1",
+            "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00009_.png&type=temp&subfolder=&rand=0.2854994866220374"
-          },
-          {
-            "name": "B2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00010_.png&type=temp&subfolder=&rand=0.23678596189853907"
-          },
-          {
-            "name": "B3",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00011_.png&type=temp&subfolder=&rand=0.2366080743019796"
-          },
-          {
-            "name": "B4",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00012_.png&type=temp&subfolder=&rand=0.8744565375533112"
+            "url": "/api/view?filename=rgthree.compare._temp_jftkl_00322_.png&type=temp&subfolder=&rand=0.7410241929018454"
           }
         ]
       ]
@@ -5612,44 +5581,14 @@
       "widgets_values": [
         [
           {
-            "name": "A1",
+            "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00005_.png&type=temp&subfolder=&rand=0.9970280650093848"
+            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00285_.png&type=temp&subfolder=&rand=0.7695164433552176"
           },
           {
-            "name": "A2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00006_.png&type=temp&subfolder=&rand=0.015579470543649387"
-          },
-          {
-            "name": "A3",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00007_.png&type=temp&subfolder=&rand=0.37589119890360434"
-          },
-          {
-            "name": "A4",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00008_.png&type=temp&subfolder=&rand=0.5345763414653393"
-          },
-          {
-            "name": "B1",
+            "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00009_.png&type=temp&subfolder=&rand=0.22848919929039746"
-          },
-          {
-            "name": "B2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00010_.png&type=temp&subfolder=&rand=0.07172804936600974"
-          },
-          {
-            "name": "B3",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00011_.png&type=temp&subfolder=&rand=0.6766047076495901"
-          },
-          {
-            "name": "B4",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00012_.png&type=temp&subfolder=&rand=0.09875151265673132"
+            "url": "/api/view?filename=rgthree.compare._temp_ceezh_00286_.png&type=temp&subfolder=&rand=0.4976276854901982"
           }
         ]
       ]
@@ -6333,7 +6272,7 @@
         -590
       ],
       "size": [
-        336.15,
+        336.1999877929687,
         70
       ],
       "flags": {},
@@ -6438,7 +6377,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "MODEL",
+          "type": "*",
           "link": null
         }
       ],
@@ -6503,7 +6442,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "CLIP",
+          "type": "*",
           "link": null
         }
       ],
@@ -6568,7 +6507,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "VAE",
+          "type": "*",
           "link": null
         }
       ],
@@ -6669,7 +6608,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "COMBO",
+          "type": "*",
           "link": null
         }
       ],
@@ -6828,7 +6767,7 @@
         "Node name for S&R": "Lora Loader (LoraManager)"
       },
       "widgets_values": [
-        "<lora:Modern_anime_render:1.00> ",
+        "<lora:Modern_anime_render:1.00>",
         [
           {
             "name": "Modern_anime_render",
@@ -6880,44 +6819,14 @@
       "widgets_values": [
         [
           {
-            "name": "A1",
+            "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00005_.png&type=temp&subfolder=&rand=0.0017079434358271417"
+            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00285_.png&type=temp&subfolder=&rand=0.6598030613592549"
           },
           {
-            "name": "A2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00006_.png&type=temp&subfolder=&rand=0.44625405332787305"
-          },
-          {
-            "name": "A3",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00007_.png&type=temp&subfolder=&rand=0.1537856004612812"
-          },
-          {
-            "name": "A4",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00008_.png&type=temp&subfolder=&rand=0.010581575082751926"
-          },
-          {
-            "name": "B1",
+            "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00009_.png&type=temp&subfolder=&rand=0.7405924873499347"
-          },
-          {
-            "name": "B2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00010_.png&type=temp&subfolder=&rand=0.530449611437664"
-          },
-          {
-            "name": "B3",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00011_.png&type=temp&subfolder=&rand=0.7277662776977545"
-          },
-          {
-            "name": "B4",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00012_.png&type=temp&subfolder=&rand=0.05937964980945731"
+            "url": "/api/view?filename=rgthree.compare._temp_gzccq_00286_.png&type=temp&subfolder=&rand=0.7790575213331996"
           }
         ]
       ]
@@ -7280,7 +7189,7 @@
         "masterpiece, best quality, high-resolution anime detailing, highres, 8k, aesthetic\n\nembedding:BSY_Anatomy_Positives_V1_PRO, \nembedding:BSY_General_Positives_V1_PRO, \n\n",
         "masterpiece, best quality, high-resolution anime detailing, highres, 8k, aesthetic\n\nembedding:BSY_Anatomy_Positives_V1_PRO, \nembedding:BSY_General_Positives_V1_PRO, \n\n",
         "populate",
-        82198220887956,
+        1113297546641910,
         "randomize",
         "Select Wildcard 🟢 Full Cache"
       ],
@@ -7295,7 +7204,7 @@
         -790
       ],
       "size": [
-        471.48334350585935,
+        471.6333374023437,
         154
       ],
       "flags": {},
@@ -7365,7 +7274,7 @@
         -480
       ],
       "size": [
-        450.8500122070312,
+        450.8666748046875,
         82
       ],
       "flags": {},
@@ -7424,9 +7333,9 @@
       },
       "widgets_values": [
         "1girl, chiaroscuro.\nlight_smile, full_body, \n\n__gkr_japan/random_kimono__.\n\nin a busy tokyo street, snowing.",
-        "1girl, chiaroscuro.\nlight_smile, full_body, \n\n(Okinawan bingata-dyed kimono:1.3), (vibrant stencil patterns:1.1), (pale blue:1.1), (sky blue:1.1), with a (treasure (takara-zukushi) pattern:1.2), wearing a (men's kaku obi:1.2), (stiff:1.1), (simple pattern:1.1), and (small kinchaku pouch:1.1), (drawstring bag:1.1).\n\nin a busy tokyo street, snowing.",
+        "1girl, chiaroscuro.\nlight_smile, full_body, \n\n(Yuki tsumugi (pongee) silk:1.4), (fluffy:1.1), (hand-spun:1.1), (moss green:1.1), with a (bamboo (take) pattern:1.1), wearing a (Kaku obi with hakata stripes:1.1), and (white tabi socks:1.1).\n\nin a busy tokyo street, snowing.",
         "populate",
-        855094905633986,
+        626790246364897,
         "randomize",
         "Select Wildcard 🟢 Full Cache"
       ],
@@ -7475,7 +7384,7 @@
         {
           "dir": 3,
           "name": "any_05",
-          "type": "MODEL",
+          "type": "*",
           "link": null
         }
       ],
@@ -7754,6 +7663,32 @@
         "showOutputText": false,
         "horizontal": false
       }
+    },
+    {
+      "id": 529,
+      "type": "MarkdownNote",
+      "pos": [
+        -3220,
+        -980
+      ],
+      "size": [
+        1090,
+        1140
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "READ ME FIRST",
+      "properties": {},
+      "widgets_values": [
+        "# Thank you for testing this \"Combined Workflow\" ❤️\n\nThis workflow is a Work-In-Progress combination, testing and tweaking various elements from other workflows to generate an upscaled 16MP image as the final result while staying as close as possible to the original and saving with CivitAI metadata (for each stage of the image generation).\n\nIn the process, I made use of SubGraphs and attempted to create the closest thing possible to \"functions\" in ComfyUI (I am **always** learning, so please do not hesitate to share methods).\nThis is a learning workflow: there are no hidden or pinned nodes.\nIt is also a Work-In-Progress workflow ... updates will be released when I am happy with the result.\n\nI experimented, selected features and extended other workflows/steps to get to this version. \nMany thanks to the work of CivitAI's AlexLai, DigitalPastel, MrSmith2025, J1B and a few Redditors for sharing their work.\n\nThere are many nodes involved in this workflow, and you might need to retrieve a few models (SAM, Ultralytics, ...).\n\nThere are also many steps and sub-steps involved in this entire process. Because of that I made use of multiple subgraphs and Groups to keep the workflow organized and hopefully easier to navigate. The \"How to use it\" section tells you a few things about it. The \"What it does\" section explains what the different stages do.\n\nGroups exist as an organizational structure for the entire process and follow the Stage numbers.\n\n**It \"works for me,\" but it might not be the best way to do it. Feedback is welcome.**\n\n## How to use it\n⬅️ Those are the fast toggles to use this workflow\n- 🔴 groups (\"02\", ➡️) specify the `KSampler` models: you can only generate one type of image at at time (LoRAs are model specific so things will break otherwise)\n  - each type of model can have its specific variables set in the selected SubGraphs: Checkpoint, VAE, CLIP (or model embedded ones for SDXL/Pony/Illustrious), `batch_size`, `steps`, `cfg`, `sampler`, `scheduler`, `clip_skip`, `seed`, `negative prompt` and `denoise`. Some of those values are set in 01c (🟢⬇️)\n  - the positive prompt is set in 01c (🟢⬇️) and the `positive conditioning` is used for the `KSampler`.\n    - the positive prompt is a concatenation of the various prompts combinations generated in the prompting group (including Ollama if available/enabled).\n  - Each 🔴 KSampler outputs all the components needed for the 🔵 groups to work independently (think of it as `functions` in programming languages, I did not want to copy/paste the Subgraphs for each model independently)\n    - This makes use of `Any Switch (rgthree)` and the logic present in `Parameters Selection`.\n    - This allows the workflow to have independent Ksampler Subgraphs and a common set of \"Stages\" (see 🔵 group)\n- 🟢 groups (\"01\", ↙️) are where prompt generation is done. \n  - Ollama is an option for transforming Wildcards prompts into narratives (01a) or help generate better narratives for prompts (01b). In 01a you can have Ollama extend the wildcards provided or convert a SDXL entry into a narrative. 01b is here to refine the content of 01a or to generate narratives based on the input provided. Modify the group's prompt to match your expectation.\n    - Ollama usage: set the `url` to match your local instance (`Reconnect` will allow you to test the connection and list the available models) and a `keep_alive` value of `0` will drop the model (and release VRAM) right after generation.\n    - When using Ollama, use an instruction tuned model (the default in the workflow is `gpt-oss:20b`, I have seen `Qwen2.5-0.5B-Instruct-GGUF` recommended for low VRAM usage if needed [untested]).\n  - Narrative prompts only works for recent models: do not use those for SDXL or Pony. Instead, use classic tags or wildcards (01c)\n  - Narrative prompts are recommended recent models (including Illustrious)\n    - The `System Prompt` used for 01a and 01b is available in each group and can be tweaked.\n  - In 01c you will be able to set LoRAs, positive (including wildcard use) and negative prompts (`trigger_words` for the LoRAs can be selected in the LoRA manager node)\n    - the final prompt (Main + Ollama + Trigger Words + LoRAs list) can be reviewed\n- 🔵 (↘️) groups are where the image processing is performed . The original image generation was done in 🔴(➡️). \n\n## What it does (the 🔵 group ↘️)\n  - Stage 1 (\"03\" group): Candidate Selection; the workflow will pause and allow us to select which images to go to later stages\n    - this can be bypassed (use the `Bypass Candidate Selection` toggle ⬅️)\n    - I usually set the `batch_size` to 2 or 4 to allow me to review candidates before sending those to later stage (modify this in the corresponding `batch_size` parameter (in 01c ⬇️) if you prefer not to do this.\n    - in this stage, a first `Image Saver` (Subgraph, 03b) is used. It will store images in folder based on Today's date, and use a file naming convention of: `%time_S1_%basemodelname_%seed` (S1 for \"Stage 1\"). \n    - CivitAI metadata is stored in the image: `model`, `sampler`, `scheduler`, `steps`, `cfg`, `clip_skip`, `seed`, full `positive_prompt` and `negative_prompt` (including LoRAs, Embeddings...). `width` and `height` are calculated based on the generated image. The workflow should also be embedded in the resulting PNG file (although CivitAI still does not show me the `Nodes` button in the generated images).\n      - later stages are named `S2`, `S3`, `S4`.\n    - it is possible to bypass specific \"Image Savers\" steps using the toggles; for example, to only keep the final (S4) image\n  - Stage 2 (\"04\"): Upscale (or not) to 3 or 4 MP using HiResFix (SubGraph)\n    - MP value can be changed. Keep 4 as a maximum as the next step are detailers and image regeneration.\n  - Stage 3 (\"05\"): Upscaled Image Regeneration (Resampler) + Faces, Eyes & Hands Detailer (SubGraph)\n    - It is possible to use \"Alternate Models\" (SDXL, Pony, Illustrious) for this step to speed up the process and reduce the VRAM usage. If doing so, make sure to 1) use a model that match the style of the image 2) the prompt will be passed to the resampler and detailler steps, if you prompt was a narrative, use Illustrious. Both can be enabled in the \"Reduce Stage 3 ...\" Muter selection  (⬅️). Likely not needed with SDXL/Pony/Illustrious base models generation (02a).\n    - Using `Ultimate SD Upscaler (No Upscale)` to regenerate the upscaled image with the **original model and LoRAs**. \n    - Faces, Eyes and Hands Detailers are then used on the resulting image (specific detailers can be bypassed ⬅️)\n      - Models are available as parameters (SAM, Ultralytics) as well as other common detection parameters.\n  - Stage 4 (\"06\"): Upscale from 12 to 16 MegaPixels using SeedVR2 and Color Matching against first upscale (SubGraph)\n    - That result is sent to SeedVR2 to generate a final 16MP image\n    - MP value can be changed (16MP works on 24GB VRAM, higher did not, adapt as needed)\n    - SeedVR2 models can be selected. Note: SeedVR2 Color correction is set to `None` to try to stay as close as possible to the original image.\n      - for art, use a `sharp` model.\n    - a \"Color Match\" step is then performed to try to match the final image against the original image\n\nThe \"comparer\" image shows the result of the first upscale against the final upscale\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     },
     {
       "id": 206,
@@ -8085,37 +8020,11 @@
         "bbox/hand_yolov8s.pt",
         512,
         10,
-        0.35,
+        0.5,
         0.8
       ],
       "color": "#2a363b",
       "bgcolor": "#3f5159"
-    },
-    {
-      "id": 529,
-      "type": "MarkdownNote",
-      "pos": [
-        -3220,
-        -980
-      ],
-      "size": [
-        1090,
-        1140
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 21,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "READ ME FIRST",
-      "properties": {},
-      "widgets_values": [
-        "# Thank you for testing this \"Combined Workflow\" ❤️\n\nThis workflow is a Work-In-Progress combination, testing and tweaking various elements from other workflows to generate an upscaled 16MP image as the final result while staying as close as possible to the original and saving with CivitAI metadata (for each stage of the image generation).\n\nIn the process, I made use of SubGraphs and attempted to create the closest thing possible to \"functions\" in ComfyUI (I am **always** learning, so please do not hesitate to share methods).\nThis is a learning workflow: there are no hidden or pinned nodes.\nIt is also a Work-In-Progress workflow ... updates will be released when I am happy with the result.\n\nI experimented, selected features and extended other workflows/steps to get to this version. \nMany thanks to the work of CivitAI's AlexLai, DigitalPastel, MrSmith2025, J1B and a few Redditors for sharing their work.\n\nThere are many nodes involved in this workflow, and you might need to retrieve a few models (SAM, Ultralytics, ...).\n\nThere are also many steps and sub-steps involved in this entire process. Because of that I made use of multiple subgraphs and Groups to keep the workflow organized and hopefully easier to navigate. The \"How to use it\" section tells you a few things about it. The \"What it does\" section explains what the different stages do.\n\nGroups exist as an organizational structure for the entire process and follow the Stage numbers.\n\n**It \"works for me,\" but it might not be the best way to do it. Feedback is welcome.**\n\n## How to use it\n⬅️ Those are the fast toggles to use this workflow\n- 🔴 groups (\"02\", ➡️) specify the `KSampler` models: you can only generate one type of image at at time (LoRAs are model specific so things will break otherwise)\n  - each type of model can have its specific variables set in the selected SubGraphs: Checkpoint, VAE, CLIP (or model embedded ones for SDXL/Pony/Illustrious), `batch_size`, `steps`, `cfg`, `sampler`, `scheduler`, `clip_skip`, `seed`, `negative prompt` and `denoise`. Some of those values are set in 01c (🟢⬇️)\n  - the positive prompt is set in 01c (🟢⬇️) and the `positive conditioning` is used for the `KSampler`.\n    - the positive prompt is a concatenation of the various prompts combinations generated in the prompting group (including Ollama if available/enabled).\n  - Each 🔴 KSampler outputs all the components needed for the 🔵 groups to work independently (think of it as `functions` in programming languages, I did not want to copy/paste the Subgraphs for each model independently)\n    - This makes use of `Any Switch (rgthree)` and the logic present in `Parameters Selection`.\n    - This allows the workflow to have independent Ksampler Subgraphs and a common set of \"Stages\" (see 🔵 group)\n- 🟢 groups (\"01\", ↙️) are where prompt generation is done. \n  - Ollama is an option for transforming Wildcards prompts into narratives (01a) or help generate better narratives for prompts (01b). In 01a you can have Ollama extend the wildcards provided or convert a SDXL entry into a narrative. 01b is here to refine the content of 01a or to generate narratives based on the input provided. Modify the group's prompt to match your expectation.\n    - Ollama usage: set the `url` to match your local instance (`Reconnect` will allow you to test the connection and list the available models) and a `keep_alive` value of `0` will drop the model (and release VRAM) right after generation.\n    - When using Ollama, use an instruction tuned model (the default in the workflow is `gpt-oss:20b`, I have seen `Qwen2.5-0.5B-Instruct-GGUF` recommended for low VRAM usage if needed [untested]).\n  - Narrative prompts only works for recent models: do not use those for SDXL or Pony. Instead, use classic tags or wildcards (01c)\n  - Narrative prompts are recommended recent models (including Illustrious)\n    - The `System Prompt` used for 01a and 01b is available in each group and can be tweaked.\n  - In 01c you will be able to set LoRAs, positive (including wildcard use) and negative prompts (`trigger_words` for the LoRAs can be selected in the LoRA manager node)\n    - the final prompt (Main + Ollama + Trigger Words + LoRAs list) can be reviewed\n- 🔵 (↘️) groups are where the image processing is performed . The original image generation was done in 🔴(➡️). \n\n## What it does (the 🔵 group ↘️)\n  - Stage 1 (\"03\" group): Candidate Selection; the workflow will pause and allow us to select which images to go to later stages\n    - this can be bypassed (use the `Bypass Candidate Selection` toggle ⬅️)\n    - I usually set the `batch_size` to 2 or 4 to allow me to review candidates before sending those to later stage (modify this in the corresponding `batch_size` parameter (in 01c ⬇️) if you prefer not to do this.\n    - in this stage, a first `Image Saver` (Subgraph, 03b) is used. It will store images in folder based on Today's date, and use a file naming convention of: `%time_S1_%basemodelname_%seed` (S1 for \"Stage 1\"). \n    - CivitAI metadata is stored in the image: `model`, `sampler`, `scheduler`, `steps`, `cfg`, `clip_skip`, `seed`, full `positive_prompt` and `negative_prompt` (including LoRAs, Embeddings...). `width` and `height` are calculated based on the generated image. The workflow should also be embedded in the resulting PNG file (although CivitAI still does not show me the `Nodes` button in the generated images).\n      - later stages are named `S2`, `S3`, `S4`.\n    - it is possible to bypass specific \"Image Savers\" steps using the toggles; for example, to only keep the final (S4) image\n  - Stage 2 (\"04\"): Upscale (or not) to 3 or 4 MP using HiResFix (SubGraph)\n    - MP value can be changed. Keep 4 as a maximum as the next step are detailers and image regeneration.\n  - Stage 3 (\"05\"): Upscaled Image Regeneration (Resampler) + Faces, Eyes & Hands Detailer (SubGraph)\n    - It is possible to use \"Alternate Models\" (SDXL, Pony, Illustrious) for this step to speed up the process and reduce the VRAM usage. If doing so, make sure to 1) use a model that match the style of the image 2) the prompt will be passed to the resampler and detailler steps, if you prompt was a narrative, use Illustrious. Both can be enabled in the \"Reduce Stage 3 ...\" Muter selection  (⬅️). Likely not needed with SDXL/Pony/Illustrious base models generation (02a).\n    - Using `Ultimate SD Upscaler (No Upscale)` to regenerate the upscaled image with the **original model and LoRAs**. \n    - Faces, Eyes and Hands Detailers are then used on the resulting image (specific detailers can be bypassed ⬅️)\n      - Models are available as parameters (SAM, Ultralytics) as well as other common detection parameters.\n  - Stage 4 (\"06\"): Upscale from 12 to 16 MegaPixels using SeedVR2 and Color Matching against first upscale (SubGraph)\n    - That result is sent to SeedVR2 to generate a final 16MP image\n    - MP value can be changed (16MP works on 24GB VRAM, higher did not, adapt as needed)\n    - SeedVR2 models can be selected. Note: SeedVR2 Color correction is set to `None` to try to stay as close as possible to the original image.\n      - for art, use a `sharp` model.\n    - a \"Color Match\" step is then performed to try to match the final image against the original image\n\nThe \"comparer\" image shows the result of the first upscale against the final upscale\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -12113,8 +12022,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 20,
-          "lastNodeId": 237,
-          "lastLinkId": 543,
+          "lastNodeId": 243,
+          "lastLinkId": 559,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -12125,7 +12034,7 @@
           "bounding": [
             -870,
             2550,
-            183.75,
+            183.76666259765625,
             600
           ]
         },
@@ -12134,7 +12043,7 @@
           "bounding": [
             2610,
             2490,
-            140.9000015258789,
+            140.86666870117188,
             80
           ]
         },
@@ -12148,7 +12057,7 @@
             ],
             "label": "SAM_model_name",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2570
             ]
           },
@@ -12162,7 +12071,7 @@
             ],
             "label": "image",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2590
             ]
           },
@@ -12175,7 +12084,7 @@
             ],
             "label": "Faces bbox model",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2610
             ]
           },
@@ -12188,7 +12097,7 @@
             ],
             "label": "Eyes bbox model",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2630
             ]
           },
@@ -12201,7 +12110,7 @@
             ],
             "label": "Resampler model",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2650
             ]
           },
@@ -12214,7 +12123,7 @@
             ],
             "label": "Resampler positive",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2670
             ]
           },
@@ -12227,7 +12136,7 @@
             ],
             "label": "Resampler negative",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2690
             ]
           },
@@ -12240,7 +12149,7 @@
             ],
             "label": "Resampler vae",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2710
             ]
           },
@@ -12253,7 +12162,7 @@
             ],
             "label": "Resampler steps",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2730
             ]
           },
@@ -12266,7 +12175,7 @@
             ],
             "label": "Resampler sampler",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2750
             ]
           },
@@ -12279,7 +12188,7 @@
             ],
             "label": "Resampler scheduler",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2770
             ]
           },
@@ -12292,7 +12201,7 @@
             ],
             "label": "Hands bbox model",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2790
             ]
           },
@@ -12305,7 +12214,7 @@
             ],
             "label": "Face: max_size",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2810
             ]
           },
@@ -12318,7 +12227,7 @@
             ],
             "label": "Eyes: max_size",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2830
             ]
           },
@@ -12331,7 +12240,7 @@
             ],
             "label": "Hands: max_size",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2850
             ]
           },
@@ -12343,7 +12252,7 @@
               470
             ],
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2870
             ]
           },
@@ -12358,7 +12267,7 @@
             ],
             "label": "detailer steps",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2890
             ]
           },
@@ -12371,7 +12280,7 @@
             ],
             "label": "Face segm model",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2910
             ]
           },
@@ -12384,7 +12293,7 @@
             ],
             "label": "Detailer model",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2930
             ]
           },
@@ -12397,7 +12306,7 @@
             ],
             "label": "Detailer CLIP",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2950
             ]
           },
@@ -12410,7 +12319,7 @@
             ],
             "label": "Detailer VAE",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2970
             ]
           },
@@ -12423,7 +12332,7 @@
             ],
             "label": "Detailer Pos Cond",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               2990
             ]
           },
@@ -12436,7 +12345,7 @@
             ],
             "label": "Detailer Neg Cond",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               3010
             ]
           },
@@ -12449,7 +12358,7 @@
             ],
             "label": "Detailer sampler",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               3030
             ]
           },
@@ -12462,7 +12371,7 @@
             ],
             "label": "Detailer Scheduler",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               3050
             ]
           },
@@ -12471,11 +12380,11 @@
             "name": "drop_size",
             "type": "INT",
             "linkIds": [
-              532
+              545
             ],
             "label": "Detailers: drop_size",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               3070
             ]
           },
@@ -12484,11 +12393,11 @@
             "name": "bbox_threshold",
             "type": "FLOAT",
             "linkIds": [
-              536
+              552
             ],
             "label": "Detailers: bbox_threshold",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               3090
             ]
           },
@@ -12497,11 +12406,11 @@
             "name": "sam_threshold",
             "type": "FLOAT",
             "linkIds": [
-              540
+              559
             ],
             "label": "Detailers: sam_threshold",
             "pos": [
-              -706.25,
+              -706.2333374023438,
               3110
             ]
           }
@@ -12544,11 +12453,11 @@
               2160
             ],
             "size": [
-              161.3499969482422,
+              161.36666717529297,
               26
             ],
             "flags": {},
-            "order": 8,
+            "order": 7,
             "mode": 0,
             "inputs": [
               {
@@ -12587,7 +12496,7 @@
               130
             ],
             "flags": {},
-            "order": 3,
+            "order": 2,
             "mode": 0,
             "inputs": [
               {
@@ -12644,11 +12553,11 @@
               2160
             ],
             "size": [
-              141.8000015258789,
+              141.83333435058594,
               26
             ],
             "flags": {},
-            "order": 9,
+            "order": 8,
             "mode": 0,
             "inputs": [
               {
@@ -12688,7 +12597,7 @@
               130
             ],
             "flags": {},
-            "order": 5,
+            "order": 4,
             "mode": 0,
             "inputs": [
               {
@@ -12750,7 +12659,7 @@
               130
             ],
             "flags": {},
-            "order": 14,
+            "order": 13,
             "mode": 0,
             "inputs": [
               {
@@ -12808,11 +12717,11 @@
               1690
             ],
             "size": [
-              161.3499969482422,
+              161.36666717529297,
               26
             ],
             "flags": {},
-            "order": 11,
+            "order": 10,
             "mode": 0,
             "inputs": [
               {
@@ -12847,11 +12756,11 @@
               1690
             ],
             "size": [
-              141.8000015258789,
+              141.83333435058594,
               26
             ],
             "flags": {},
-            "order": 12,
+            "order": 11,
             "mode": 0,
             "inputs": [
               {
@@ -12886,11 +12795,11 @@
               1690
             ],
             "size": [
-              141.8000015258789,
+              141.83333435058594,
               26
             ],
             "flags": {},
-            "order": 17,
+            "order": 16,
             "mode": 0,
             "inputs": [
               {
@@ -12925,11 +12834,11 @@
               1690
             ],
             "size": [
-              161.3499969482422,
+              161.36666717529297,
               26
             ],
             "flags": {},
-            "order": 16,
+            "order": 15,
             "mode": 0,
             "inputs": [
               {
@@ -12964,11 +12873,11 @@
               1670
             ],
             "size": [
-              161.3499969482422,
+              161.36666717529297,
               26
             ],
             "flags": {},
-            "order": 18,
+            "order": 17,
             "mode": 0,
             "inputs": [
               {
@@ -13003,11 +12912,11 @@
               1670
             ],
             "size": [
-              141.8000015258789,
+              141.83333435058594,
               26
             ],
             "flags": {},
-            "order": 19,
+            "order": 18,
             "mode": 0,
             "inputs": [
               {
@@ -13046,7 +12955,7 @@
               82
             ],
             "flags": {},
-            "order": 10,
+            "order": 9,
             "mode": 0,
             "inputs": [
               {
@@ -13088,7 +12997,7 @@
               960
             ],
             "flags": {},
-            "order": 13,
+            "order": 12,
             "mode": 0,
             "inputs": [
               {
@@ -13213,7 +13122,7 @@
                 "widget": {
                   "name": "bbox_threshold"
                 },
-                "link": 539
+                "link": 555
               },
               {
                 "localized_name": "sam_threshold",
@@ -13222,7 +13131,7 @@
                 "widget": {
                   "name": "sam_threshold"
                 },
-                "link": 543
+                "link": 558
               },
               {
                 "localized_name": "drop_size",
@@ -13231,7 +13140,7 @@
                 "widget": {
                   "name": "drop_size"
                 },
-                "link": 535
+                "link": 547
               }
             ],
             "outputs": [
@@ -13327,7 +13236,7 @@
               30
             ],
             "flags": {},
-            "order": 15,
+            "order": 14,
             "mode": 0,
             "inputs": [
               {
@@ -13365,7 +13274,7 @@
               26
             ],
             "flags": {},
-            "order": 21,
+            "order": 20,
             "mode": 0,
             "inputs": [
               {
@@ -13402,7 +13311,7 @@
               26
             ],
             "flags": {},
-            "order": 22,
+            "order": 21,
             "mode": 0,
             "inputs": [
               {
@@ -13439,7 +13348,7 @@
               26
             ],
             "flags": {},
-            "order": 23,
+            "order": 22,
             "mode": 0,
             "inputs": [
               {
@@ -13476,7 +13385,7 @@
               26
             ],
             "flags": {},
-            "order": 24,
+            "order": 23,
             "mode": 0,
             "inputs": [
               {
@@ -13513,7 +13422,7 @@
               26
             ],
             "flags": {},
-            "order": 25,
+            "order": 24,
             "mode": 0,
             "inputs": [
               {
@@ -13550,7 +13459,7 @@
               30
             ],
             "flags": {},
-            "order": 26,
+            "order": 25,
             "mode": 0,
             "inputs": [
               {
@@ -13587,7 +13496,7 @@
               30
             ],
             "flags": {},
-            "order": 27,
+            "order": 26,
             "mode": 0,
             "inputs": [
               {
@@ -13626,7 +13535,7 @@
             "flags": {
               "collapsed": false
             },
-            "order": 7,
+            "order": 6,
             "mode": 0,
             "inputs": [
               {
@@ -13679,7 +13588,7 @@
               590
             ],
             "flags": {},
-            "order": 1,
+            "order": 0,
             "mode": 0,
             "inputs": [
               {
@@ -13829,7 +13738,7 @@
               80
             ],
             "flags": {},
-            "order": 20,
+            "order": 19,
             "mode": 0,
             "inputs": [
               {
@@ -13882,7 +13791,7 @@
               90
             ],
             "flags": {},
-            "order": 2,
+            "order": 1,
             "mode": 0,
             "inputs": [
               {
@@ -13931,244 +13840,6 @@
             ]
           },
           {
-            "id": 206,
-            "type": "FaceDetailer",
-            "pos": [
-              890,
-              2170
-            ],
-            "size": [
-              400,
-              960
-            ],
-            "flags": {},
-            "order": 6,
-            "mode": 0,
-            "inputs": [
-              {
-                "localized_name": "image",
-                "name": "image",
-                "type": "IMAGE",
-                "link": 450
-              },
-              {
-                "localized_name": "model",
-                "name": "model",
-                "type": "MODEL",
-                "link": 493
-              },
-              {
-                "localized_name": "clip",
-                "name": "clip",
-                "type": "CLIP",
-                "link": 497
-              },
-              {
-                "localized_name": "vae",
-                "name": "vae",
-                "type": "VAE",
-                "link": 501
-              },
-              {
-                "localized_name": "positive",
-                "name": "positive",
-                "type": "CONDITIONING",
-                "link": 505
-              },
-              {
-                "localized_name": "negative",
-                "name": "negative",
-                "type": "CONDITIONING",
-                "link": 509
-              },
-              {
-                "localized_name": "bbox_detector",
-                "name": "bbox_detector",
-                "type": "BBOX_DETECTOR",
-                "link": 431
-              },
-              {
-                "localized_name": "sam_model_opt",
-                "name": "sam_model_opt",
-                "shape": 7,
-                "type": "SAM_MODEL",
-                "link": 432
-              },
-              {
-                "localized_name": "segm_detector_opt",
-                "name": "segm_detector_opt",
-                "shape": 7,
-                "type": "SEGM_DETECTOR",
-                "link": 492
-              },
-              {
-                "localized_name": "detailer_hook",
-                "name": "detailer_hook",
-                "shape": 7,
-                "type": "DETAILER_HOOK",
-                "link": null
-              },
-              {
-                "localized_name": "scheduler_func_opt",
-                "name": "scheduler_func_opt",
-                "shape": 7,
-                "type": "SCHEDULER_FUNC",
-                "link": null
-              },
-              {
-                "localized_name": "max_size",
-                "name": "max_size",
-                "type": "FLOAT",
-                "widget": {
-                  "name": "max_size"
-                },
-                "link": 463
-              },
-              {
-                "localized_name": "seed",
-                "name": "seed",
-                "type": "INT",
-                "widget": {
-                  "name": "seed"
-                },
-                "link": 472
-              },
-              {
-                "localized_name": "steps",
-                "name": "steps",
-                "type": "INT",
-                "widget": {
-                  "name": "steps"
-                },
-                "link": 488
-              },
-              {
-                "localized_name": "sampler_name",
-                "name": "sampler_name",
-                "type": "COMBO",
-                "widget": {
-                  "name": "sampler_name"
-                },
-                "link": 514
-              },
-              {
-                "localized_name": "scheduler",
-                "name": "scheduler",
-                "type": "COMBO",
-                "widget": {
-                  "name": "scheduler"
-                },
-                "link": 518
-              },
-              {
-                "localized_name": "bbox_threshold",
-                "name": "bbox_threshold",
-                "type": "FLOAT",
-                "widget": {
-                  "name": "bbox_threshold"
-                },
-                "link": 537
-              },
-              {
-                "localized_name": "sam_threshold",
-                "name": "sam_threshold",
-                "type": "FLOAT",
-                "widget": {
-                  "name": "sam_threshold"
-                },
-                "link": 541
-              },
-              {
-                "localized_name": "drop_size",
-                "name": "drop_size",
-                "type": "INT",
-                "widget": {
-                  "name": "drop_size"
-                },
-                "link": 533
-              }
-            ],
-            "outputs": [
-              {
-                "localized_name": "image",
-                "name": "image",
-                "type": "IMAGE",
-                "links": [
-                  477
-                ]
-              },
-              {
-                "localized_name": "cropped_refined",
-                "name": "cropped_refined",
-                "shape": 6,
-                "type": "IMAGE",
-                "links": null
-              },
-              {
-                "localized_name": "cropped_enhanced_alpha",
-                "name": "cropped_enhanced_alpha",
-                "shape": 6,
-                "type": "IMAGE",
-                "links": null
-              },
-              {
-                "localized_name": "mask",
-                "name": "mask",
-                "type": "MASK",
-                "links": null
-              },
-              {
-                "localized_name": "detailer_pipe",
-                "name": "detailer_pipe",
-                "type": "DETAILER_PIPE",
-                "links": null
-              },
-              {
-                "localized_name": "cnet_images",
-                "name": "cnet_images",
-                "shape": 6,
-                "type": "IMAGE",
-                "links": null
-              }
-            ],
-            "properties": {
-              "cnr_id": "comfyui-impact-pack",
-              "ver": "8.28.0",
-              "Node name for S&R": "FaceDetailer"
-            },
-            "widgets_values": [
-              256,
-              true,
-              512,
-              360779872843026,
-              "fixed",
-              10,
-              1,
-              "euler",
-              "simple",
-              0.25,
-              5,
-              true,
-              true,
-              0,
-              10,
-              3,
-              "center-1",
-              0,
-              0.93,
-              0,
-              0.7,
-              "False",
-              1,
-              "",
-              1,
-              false,
-              20,
-              false,
-              false
-            ]
-          },
-          {
             "id": 203,
             "type": "FaceDetailer",
             "pos": [
@@ -14180,7 +13851,7 @@
               960
             ],
             "flags": {},
-            "order": 4,
+            "order": 3,
             "mode": 0,
             "inputs": [
               {
@@ -14305,7 +13976,7 @@
                 "widget": {
                   "name": "bbox_threshold"
                 },
-                "link": 538
+                "link": 554
               },
               {
                 "localized_name": "sam_threshold",
@@ -14314,7 +13985,7 @@
                 "widget": {
                   "name": "sam_threshold"
                 },
-                "link": 542
+                "link": 557
               },
               {
                 "localized_name": "drop_size",
@@ -14323,7 +13994,7 @@
                 "widget": {
                   "name": "drop_size"
                 },
-                "link": 534
+                "link": 546
               }
             ],
             "outputs": [
@@ -14419,115 +14090,384 @@
             ]
           },
           {
-            "id": 235,
-            "type": "Reroute",
+            "id": 238,
+            "type": "PrimitiveInt",
             "pos": [
-              620,
-              2860
+              530,
+              2790
             ],
             "size": [
-              75,
-              26
+              270,
+              82
+            ],
+            "flags": {},
+            "order": 27,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "value",
+                "name": "value",
+                "type": "INT",
+                "widget": {
+                  "name": "value"
+                },
+                "link": 545
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "INT",
+                "name": "INT",
+                "type": "INT",
+                "links": [
+                  544,
+                  546,
+                  547
+                ]
+              }
+            ],
+            "title": "drop_size",
+            "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.6.0",
+              "Node name for S&R": "PrimitiveInt"
+            },
+            "widgets_values": [
+              10,
+              "fixed"
+            ]
+          },
+          {
+            "id": 206,
+            "type": "FaceDetailer",
+            "pos": [
+              890,
+              2170
+            ],
+            "size": [
+              400,
+              960
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "image",
+                "name": "image",
+                "type": "IMAGE",
+                "link": 450
+              },
+              {
+                "localized_name": "model",
+                "name": "model",
+                "type": "MODEL",
+                "link": 493
+              },
+              {
+                "localized_name": "clip",
+                "name": "clip",
+                "type": "CLIP",
+                "link": 497
+              },
+              {
+                "localized_name": "vae",
+                "name": "vae",
+                "type": "VAE",
+                "link": 501
+              },
+              {
+                "localized_name": "positive",
+                "name": "positive",
+                "type": "CONDITIONING",
+                "link": 505
+              },
+              {
+                "localized_name": "negative",
+                "name": "negative",
+                "type": "CONDITIONING",
+                "link": 509
+              },
+              {
+                "localized_name": "bbox_detector",
+                "name": "bbox_detector",
+                "type": "BBOX_DETECTOR",
+                "link": 431
+              },
+              {
+                "localized_name": "sam_model_opt",
+                "name": "sam_model_opt",
+                "shape": 7,
+                "type": "SAM_MODEL",
+                "link": 432
+              },
+              {
+                "localized_name": "segm_detector_opt",
+                "name": "segm_detector_opt",
+                "shape": 7,
+                "type": "SEGM_DETECTOR",
+                "link": 492
+              },
+              {
+                "localized_name": "detailer_hook",
+                "name": "detailer_hook",
+                "shape": 7,
+                "type": "DETAILER_HOOK",
+                "link": null
+              },
+              {
+                "localized_name": "scheduler_func_opt",
+                "name": "scheduler_func_opt",
+                "shape": 7,
+                "type": "SCHEDULER_FUNC",
+                "link": null
+              },
+              {
+                "localized_name": "max_size",
+                "name": "max_size",
+                "type": "FLOAT",
+                "widget": {
+                  "name": "max_size"
+                },
+                "link": 463
+              },
+              {
+                "localized_name": "seed",
+                "name": "seed",
+                "type": "INT",
+                "widget": {
+                  "name": "seed"
+                },
+                "link": 472
+              },
+              {
+                "localized_name": "steps",
+                "name": "steps",
+                "type": "INT",
+                "widget": {
+                  "name": "steps"
+                },
+                "link": 488
+              },
+              {
+                "localized_name": "sampler_name",
+                "name": "sampler_name",
+                "type": "COMBO",
+                "widget": {
+                  "name": "sampler_name"
+                },
+                "link": 514
+              },
+              {
+                "localized_name": "scheduler",
+                "name": "scheduler",
+                "type": "COMBO",
+                "widget": {
+                  "name": "scheduler"
+                },
+                "link": 518
+              },
+              {
+                "localized_name": "bbox_threshold",
+                "name": "bbox_threshold",
+                "type": "FLOAT",
+                "widget": {
+                  "name": "bbox_threshold"
+                },
+                "link": 553
+              },
+              {
+                "localized_name": "sam_threshold",
+                "name": "sam_threshold",
+                "type": "FLOAT",
+                "widget": {
+                  "name": "sam_threshold"
+                },
+                "link": 556
+              },
+              {
+                "localized_name": "drop_size",
+                "name": "drop_size",
+                "type": "INT",
+                "widget": {
+                  "name": "drop_size"
+                },
+                "link": 544
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "image",
+                "name": "image",
+                "type": "IMAGE",
+                "links": [
+                  477
+                ]
+              },
+              {
+                "localized_name": "cropped_refined",
+                "name": "cropped_refined",
+                "shape": 6,
+                "type": "IMAGE",
+                "links": null
+              },
+              {
+                "localized_name": "cropped_enhanced_alpha",
+                "name": "cropped_enhanced_alpha",
+                "shape": 6,
+                "type": "IMAGE",
+                "links": null
+              },
+              {
+                "localized_name": "mask",
+                "name": "mask",
+                "type": "MASK",
+                "links": null
+              },
+              {
+                "localized_name": "detailer_pipe",
+                "name": "detailer_pipe",
+                "type": "DETAILER_PIPE",
+                "links": null
+              },
+              {
+                "localized_name": "cnet_images",
+                "name": "cnet_images",
+                "shape": 6,
+                "type": "IMAGE",
+                "links": null
+              }
+            ],
+            "properties": {
+              "cnr_id": "comfyui-impact-pack",
+              "ver": "8.28.0",
+              "Node name for S&R": "FaceDetailer"
+            },
+            "widgets_values": [
+              256,
+              true,
+              512,
+              360779872843026,
+              "fixed",
+              10,
+              1,
+              "euler",
+              "simple",
+              0.25,
+              5,
+              true,
+              true,
+              0,
+              10,
+              3,
+              "center-1",
+              0,
+              0.93,
+              0,
+              0.7,
+              "False",
+              17,
+              "",
+              1,
+              false,
+              20,
+              false,
+              false
+            ]
+          },
+          {
+            "id": 242,
+            "type": "easy float",
+            "pos": [
+              530,
+              2920
+            ],
+            "size": [
+              270,
+              58
             ],
             "flags": {},
             "order": 28,
             "mode": 0,
             "inputs": [
               {
-                "name": "",
-                "type": "*",
-                "link": 532
+                "localized_name": "value",
+                "name": "value",
+                "type": "FLOAT",
+                "widget": {
+                  "name": "value"
+                },
+                "link": 552
               }
             ],
             "outputs": [
               {
-                "name": "",
-                "type": "*",
+                "localized_name": "float",
+                "name": "float",
+                "type": "FLOAT",
                 "links": [
-                  533,
-                  534,
-                  535
+                  553,
+                  554,
+                  555
                 ]
               }
             ],
+            "title": "bbox_threshold",
             "properties": {
-              "showOutputText": false,
-              "horizontal": false
-            }
+              "cnr_id": "comfyui-easy-use",
+              "ver": "1.3.5",
+              "Node name for S&R": "easy float"
+            },
+            "widgets_values": [
+              0.5
+            ]
           },
           {
-            "id": 236,
-            "type": "Reroute",
+            "id": 243,
+            "type": "easy float",
             "pos": [
-              620,
-              2920
+              530,
+              3030
             ],
             "size": [
-              75,
-              26
+              270,
+              60
             ],
             "flags": {},
             "order": 29,
             "mode": 0,
             "inputs": [
               {
-                "name": "",
-                "type": "*",
-                "link": 536
+                "localized_name": "value",
+                "name": "value",
+                "type": "FLOAT",
+                "widget": {
+                  "name": "value"
+                },
+                "link": 559
               }
             ],
             "outputs": [
               {
-                "name": "",
-                "type": "*",
+                "localized_name": "float",
+                "name": "float",
+                "type": "FLOAT",
                 "links": [
-                  537,
-                  538,
-                  539
+                  556,
+                  557,
+                  558
                 ]
               }
             ],
+            "title": "sam_threshold",
             "properties": {
-              "showOutputText": false,
-              "horizontal": false
-            }
-          },
-          {
-            "id": 237,
-            "type": "Reroute",
-            "pos": [
-              620,
-              2980
-            ],
-            "size": [
-              75,
-              26
-            ],
-            "flags": {},
-            "order": 0,
-            "mode": 0,
-            "inputs": [
-              {
-                "name": "",
-                "type": "*",
-                "link": 540
-              }
-            ],
-            "outputs": [
-              {
-                "name": "",
-                "type": "*",
-                "links": [
-                  541,
-                  542,
-                  543
-                ]
-              }
-            ],
-            "properties": {
-              "showOutputText": false,
-              "horizontal": false
-            }
+              "cnr_id": "comfyui-easy-use",
+              "ver": "1.3.5",
+              "Node name for S&R": "easy float"
+            },
+            "widgets_values": [
+              0.8
+            ]
           }
         ],
         "groups": [
@@ -15194,99 +15134,99 @@
             "type": "IMAGE"
           },
           {
-            "id": 532,
+            "id": 544,
+            "origin_id": 238,
+            "origin_slot": 0,
+            "target_id": 206,
+            "target_slot": 18,
+            "type": "INT"
+          },
+          {
+            "id": 545,
             "origin_id": -10,
             "origin_slot": 25,
-            "target_id": 235,
+            "target_id": 238,
             "target_slot": 0,
-            "type": "*"
-          },
-          {
-            "id": 533,
-            "origin_id": 235,
-            "origin_slot": 0,
-            "target_id": 206,
-            "target_slot": 18,
             "type": "INT"
           },
           {
-            "id": 534,
-            "origin_id": 235,
+            "id": 546,
+            "origin_id": 238,
             "origin_slot": 0,
             "target_id": 203,
             "target_slot": 18,
             "type": "INT"
           },
           {
-            "id": 535,
-            "origin_id": 235,
+            "id": 547,
+            "origin_id": 238,
             "origin_slot": 0,
             "target_id": 216,
             "target_slot": 18,
             "type": "INT"
           },
           {
-            "id": 536,
+            "id": 552,
             "origin_id": -10,
             "origin_slot": 26,
-            "target_id": 236,
+            "target_id": 242,
             "target_slot": 0,
-            "type": "*"
+            "type": "FLOAT"
           },
           {
-            "id": 537,
-            "origin_id": 236,
+            "id": 553,
+            "origin_id": 242,
             "origin_slot": 0,
             "target_id": 206,
             "target_slot": 16,
             "type": "FLOAT"
           },
           {
-            "id": 538,
-            "origin_id": 236,
+            "id": 554,
+            "origin_id": 242,
             "origin_slot": 0,
             "target_id": 203,
             "target_slot": 16,
             "type": "FLOAT"
           },
           {
-            "id": 539,
-            "origin_id": 236,
+            "id": 555,
+            "origin_id": 242,
             "origin_slot": 0,
             "target_id": 216,
             "target_slot": 16,
             "type": "FLOAT"
           },
           {
-            "id": 540,
+            "id": 556,
+            "origin_id": 243,
+            "origin_slot": 0,
+            "target_id": 206,
+            "target_slot": 17,
+            "type": "FLOAT"
+          },
+          {
+            "id": 557,
+            "origin_id": 243,
+            "origin_slot": 0,
+            "target_id": 203,
+            "target_slot": 17,
+            "type": "FLOAT"
+          },
+          {
+            "id": 558,
+            "origin_id": 243,
+            "origin_slot": 0,
+            "target_id": 216,
+            "target_slot": 17,
+            "type": "FLOAT"
+          },
+          {
+            "id": 559,
             "origin_id": -10,
             "origin_slot": 27,
-            "target_id": 237,
+            "target_id": 243,
             "target_slot": 0,
-            "type": "*"
-          },
-          {
-            "id": 541,
-            "origin_id": 237,
-            "origin_slot": 0,
-            "target_id": 206,
-            "target_slot": 17,
-            "type": "FLOAT"
-          },
-          {
-            "id": 542,
-            "origin_id": 237,
-            "origin_slot": 0,
-            "target_id": 203,
-            "target_slot": 17,
-            "type": "FLOAT"
-          },
-          {
-            "id": 543,
-            "origin_id": 237,
-            "origin_slot": 0,
-            "target_id": 216,
-            "target_slot": 17,
             "type": "FLOAT"
           }
         ],
@@ -15546,7 +15486,7 @@
               2360
             ],
             "size": [
-              384.4,
+              384.4333251953125,
               300
             ],
             "flags": {},
@@ -15711,7 +15651,7 @@
               }
             },
             "widgets_values": [
-              679034425,
+              2747584148,
               "randomize",
               4096,
               5400,
@@ -15845,7 +15785,7 @@
               1970
             ],
             "size": [
-              141.8000015258789,
+              141.83333435058594,
               26
             ],
             "flags": {},
@@ -15884,7 +15824,7 @@
               1970
             ],
             "size": [
-              161.3499969482422,
+              161.36666717529297,
               26
             ],
             "flags": {},
@@ -28347,13 +28287,6 @@
   },
   "config": {},
   "extra": {
-    "ds": {
-      "scale": 1.412292769524473,
-      "offset": [
-        -1748.0110059706326,
-        389.77705744962947
-      ]
-    },
     "frontendVersion": "1.35.9",
     "workflowRendererVersion": "LG",
     "ue_links": [],
@@ -28361,7 +28294,14 @@
     "VHS_latentpreview": false,
     "VHS_latentpreviewrate": 0,
     "VHS_MetadataImage": true,
-    "VHS_KeepIntermediate": true
+    "VHS_KeepIntermediate": true,
+    "ds": {
+      "scale": 0.9735509291587794,
+      "offset": [
+        -3275.4989832988617,
+        69.66430216547673
+      ]
+    }
   },
   "version": 0.4
 }
